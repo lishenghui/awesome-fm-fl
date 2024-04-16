@@ -4,15 +4,19 @@
   journal={arXiv preprint arXiv:2309.08173},
   url={https://doi.org/10.48550/arXiv.2309.08173},
   github={https://github.com/yuelinan/FedJudge},
-  tags={application, domain},
+  tags={application, domain specific},
   year={2023}
 }
 
 @article{tang2023does,
-  title={Does synthetic data generation of llms help clinical text mining?},
-  author={Tang, Ruixiang and Han, Xiaotian and Jiang, Xiaoqian and Hu, Xia},
-  journal={arXiv preprint arXiv:2303.04360},
-  year={2023}
+      title={Does Synthetic Data Generation of LLMs Help Clinical Text Mining?},
+      author={Ruixiang Tang and Xiaotian Han and Xiaoqian Jiang and Xia Hu},
+      year={2023},
+      eprint={2303.04360},
+      archivePrefix={arXiv},
+      primaryClass={cs.CL},
+      url={https://arxiv.org/abs/2303.04360}, 
+      journal={arXiv preprint arXiv:2303.04360},
 }
 
 @article{nguyen2022federated,
@@ -63,8 +67,13 @@
   year={2023},
   volume={},
   number={},
+  month={aug},
   pages={1-15},
-  doi={10.1109/TMC.2023.3302410}}
+  venue={TMC},
+  tags={efficiency, additive tuning, prompt tuning, textual-visual prompt tuning},
+  doi={10.1109/TMC.2023.3302410},
+  url={https://ieeexplore.ieee.org/abstract/document/10210127}
+}
 
 @inproceedings{NEURIPS2022_7aa320d2,
  author = {Tan, Yue and Long, Guodong and Ma, Jie and LIU, LU and Zhou, Tianyi and Jiang, Jing},
@@ -83,8 +92,12 @@
   title={FedPrompt: Communication-Efficient and Privacy-Preserving Prompt Tuning in Federated Learning},
   author={Zhao, Haodong and Du, Wei and Li, Fangqi and Li, Peixuan and Liu, Gongshen},
   booktitle={ICASSP 2023-2023 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP)},
+  url={https://ieeexplore.ieee.org/document/10095356},
   pages={1--5},
+  month={may},
   year={2023},
+  venue={ICASSP},
+  tags={efficiency, additive tuning, prompt tuning, textual prompt tuning},
   organization={IEEE}
 }
 
@@ -234,6 +247,9 @@ pages = {1877--1901},
     publisher = "Association for Computational Linguistics",
     url = "https://aclanthology.org/2023.emnlp-main.488",
     doi = "10.18653/v1/2023.emnlp-main.488",
+    github = "https://github.com/llm-eff/FedPepTAO",
+    venue = "EMNLP",
+    tags = {efficiency, additive tuning, prompt tuning, textual prompt tuning},
     pages = "7871--7888"
 }
 
@@ -242,8 +258,11 @@ pages = {1877--1901},
   author={Guo, Tao and Guo, Song and Wang, Junxiao},
   booktitle={Proceedings of the ACM Web Conference 2023},
   pages={1364--1374},
-    url = {https://doi.org/10.1145/3543507.3583518},
-    doi = {10.1145/3543507.3583518},
+  url = {https://doi.org/10.1145/3543507.3583518},
+  doi = {10.1145/3543507.3583518},
+  month={apr},
+  venue = {WWW},
+  tags = {effiency, additive tuning,  prompt tuning, vision-language models, textual-visual prompt tuning},
   year={2023}
 }
 
@@ -256,14 +275,22 @@ year={2022},
 url={https://openreview.net/forum?id=nZeVKeeFYf9}
 }
 
-@inproceedings{
-zhang2023towards,
-title={Towards Building the Federated{GPT}: Federated Instruction Tuning},
-author={Jianyi Zhang and Saeed Vahidian and Martin Kuo and Chunyuan Li and Ruiyi Zhang and Tong Yu and Guoyin Wang and Yiran Chen},
-booktitle={International Workshop on Federated Learning in the Age of Foundation Models in Conjunction with NeurIPS 2023},
-year={2023},
-url={https://openreview.net/forum?id=TaDiklyVps}
-}
+@INPROCEEDINGS{zhang2023towards,
+  author={Zhang, Jianyi and Vahidian, Saeed and Kuo, Martin and Li, Chunyuan and Zhang, Ruiyi and Yu, Tong and Wang, Guoyin and Chen, Yiran},
+  booktitle={ICASSP 2024 - 2024 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP)},
+  title={Towards Building The Federatedgpt: Federated Instruction Tuning},
+  year={2024},
+  volume={},
+  number={},
+  pages={6915-6919},
+  venue={ICASSP},
+  month={mar},
+  github={https://github.com/JayZhang42/FederatedGPT-Shepherd},
+  tags={efficiency, LoRA, reparameterization-based},
+  url={https://ieeexplore.ieee.org/document/10447454},
+  keywords={Training;Performance evaluation;Costs;Sensitivity;Instruction sets;Oral communication;Signal processing},
+  doi={10.1109/ICASSP48485.2024.10447454}}
+
 
 @inproceedings{li2021prefix,
     title = "Prefix-Tuning: Optimizing Continuous Prompts for Generation",
@@ -359,16 +386,18 @@ url={https://openreview.net/forum?id=ESCL5T3EgV}
                   Xixu Hu and
                   Jindong Wang and
                   Xing Xie},
-  title        = {FedCLIP: Fast Generalization and Personalization for {CLIP} in Federated
-                  Learning},
+  title        = {FedCLIP: Fast Generalization and Personalization for {CLIP} in Federated Learning},
   journal      = {{IEEE} Data Eng. Bull.},
   volume       = {46},
+  venue        = {IEEE DEB},
   number       = {1},
   pages        = {52--66},
   year         = {2023},
+  tags={efficiency, additive tuning, adapter tuning, adaptability, client-centric adaptation},
   url          = {http://sites.computer.org/debull/A23mar/p52.pdf},
   timestamp    = {Tue, 13 Jun 2023 16:59:20 +0200},
   biburl       = {https://dblp.org/rec/journals/debu/LuH0023.bib},
+  github      = {https://github.com/microsoft/PersonalizedFL},
   bibsource    = {dblp computer science bibliography, https://dblp.org}
 }
 
@@ -381,8 +410,17 @@ url={https://openreview.net/forum?id=ESCL5T3EgV}
 }
 
 
-@article{chen2023feddat, title={FedDAT: An Approach for Foundation Model Finetuning in Multi-Modal Heterogeneous Federated Learning}, volume={38}, url={https://ojs.aaai.org/index.php/AAAI/article/view/29007}, DOI={10.1609/aaai.v38i10.29007},
-number={10}, journal={Proceedings of the AAAI Conference on Artificial Intelligence}, author={Chen, Haokun and Zhang, Yao and Krompass, Denis and Gu, Jindong and Tresp, Volker}, year={2024}, month={Mar.}, pages={11285-11293} }
+@article{chen2023feddat,
+    title={FedDAT: An Approach for Foundation Model Finetuning in Multi-Modal Heterogeneous Federated Learning},
+    volume={38},
+    url={https://ojs.aaai.org/index.php/AAAI/article/view/29007},
+    DOI={10.1609/aaai.v38i10.29007},
+    number={10},
+    journal={Proceedings of the AAAI Conference on Artificial Intelligence},
+    author={Chen, Haokun and Zhang, Yao and Krompass, Denis and Gu, Jindong and Tresp, Volker},
+    year={2024}, month={Mar.},
+    pages={11285-11293}
+}
 
 @inproceedings{kimetal2023client,
     title = "Client-Customized Adaptation for Parameter-Efficient Federated Learning",
@@ -420,6 +458,7 @@ number={10}, journal={Proceedings of the AAAI Conference on Artificial Intellige
       eprint={2310.13283},
       archivePrefix={arXiv},
       primaryClass={cs.LG},
+      tags={efficiency, reparameterization-based, LoRA, heterogeneous resource, personalization},
       url={https://arxiv.org/abs/2310.13283},
       journal={arXiv preprint arXiv:2310.13283},
 }
@@ -471,20 +510,14 @@ url={https://openreview.net/forum?id=rkpACe1lx}
 }
 
 @inproceedings{
-cho2023heterogeneous,
-title={Heterogeneous Lo{RA} for Federated Fine-tuning of On-device Foundation Models},
-author={Yae Jee Cho and Luyang Liu and Zheng Xu and Aldi Fahrezi and Matt Barnes and Gauri Joshi},
-booktitle={International Workshop on Federated Learning in the Age of Foundation Models in Conjunction with NeurIPS 2023},
-year={2023},
-url={https://openreview.net/forum?id=EmV9sGpZ7q}
-}
-
-@inproceedings{
 tamirisa2023fedselect,
 title={FedSelect: Customized Selection of Parameters for Fine-Tuning during Personalized Federated Learning},
 author={Rishub Tamirisa and John Won and Chengjun Lu and Ron Arel and Andy Zhou},
 booktitle={Federated Learning and Analytics in Practice: Algorithms, Systems, Applications, and Opportunities},
-year={2023},
+year={2024},
+venue={CVPR},
+month={jun},
+tags={efficiency, selective tuning, adaptability, client-centric adaptation},
 url={https://openreview.net/forum?id=TXtRWPZIZ0}
 }
 
@@ -527,6 +560,9 @@ title={{SL}o{RA}: Federated Parameter Efficient Fine-Tuning of Language Models},
 author={Sara Babakniya and Ahmed Elkordy and Yahya Ezzeldin and Qingfeng Liu and Kee-Bong Song and MOSTAFA EL-Khamy and Salman Avestimehr},
 booktitle={International Workshop on Federated Learning in the Age of Foundation Models in Conjunction with NeurIPS 2023},
 year={2023},
+venue={FL\@FM-NeurIPS},
+month={dec},
+tags={efficiency, reparameterization-based, LoRA, sparsification},
 url={https://openreview.net/forum?id=06quMTmtRV}
 }
 
@@ -594,17 +630,12 @@ year={2022},
 url={https://openreview.net/forum?id=6Bo1vhoHolh}
 }
 
-@article{sun2023fedbpt,
-  title={FedBPT: Efficient Federated Black-box Prompt Tuning for Large Language Models},
-  author={Sun, Jingwei and Xu, Ziyue and Yin, Hongxu and Yang, Dong and Xu, Daguang and Chen, Yiran and Roth, Holger R},
-  journal={arXiv preprint arXiv:2310.01467},
-  doi={https://doi.org/10.48550/arXiv.2310.01467},
-  year={2023}
-}
 
 @article{su2023fedra,
   title={FedRA: A Random Allocation Strategy for Federated Tuning to Unleash the Power of Heterogeneous Clients},
   author={Su, Shangchao and Li, Bin and Xue, Xiangyang},
+  github={https://github.com/leondada/FedRA},
+  tags={efficiency, reparameterization-based, LoRA, heterogeneous resource},
   journal={arXiv preprint arXiv:2311.11227},
   url={https://doi.org/10.48550/arXiv.2311.11227},
   year={2023}
@@ -615,6 +646,7 @@ url={https://openreview.net/forum?id=6Bo1vhoHolh}
   author={Lu, Wang and Yu, Hao and Wang, Jindong and Teney, Damien and Wang, Haohan and Chen, Yiqiang and Yang, Qiang and Xie, Xing and Ji, Xiangyang},
   journal={arXiv preprint arXiv:2310.05143},
   url={https://doi.org/10.48550/arXiv.2310.05143},
+  tags={efficiency, trustworthiness, ip protection, black-box tuning, zeroth-order optimization},
   year={2023}
 }
 
@@ -626,8 +658,7 @@ url={https://openreview.net/forum?id=6Bo1vhoHolh}
                   Lifu Huang and
                   Li Shen and
                   Dacheng Tao},
-  title        = {Efficient Federated Prompt Tuning for Black-box Large Pre-trained
-                  Models},
+  title        = {Efficient Federated Prompt Tuning for Black-box Large Pre-trained Models},
   journal      = {CoRR},
   volume       = {abs/2310.03123},
   year         = {2023},
@@ -637,6 +668,7 @@ url={https://openreview.net/forum?id=6Bo1vhoHolh}
   eprint       = {2310.03123},
   timestamp    = {Fri, 10 Nov 2023 21:09:25 +0100},
   biburl       = {https://dblp.org/rec/journals/corr/abs-2310-03123.bib},
+  tags         = {efficiency, trustworthiness, ip protection, prompt tuning, black-box tuning, zeroth-order optimization, additive tuning, textual prompt tuning},
   bibsource    = {dblp computer science bibliography, https://dblp.org}
 }
 
@@ -657,12 +689,28 @@ year={2023},
 url={https://openreview.net/forum?id=CcsdvOOzMp}
 }
 
-@article{qin2023federated,
+@InProceedings{qin2023federated,
   title={Federated Full-Parameter Tuning of Billion-Sized Language Models with Communication Cost under 18 Kilobytes},
   author={Qin, Zhen and Chen, Daoyuan and Qian, Bingchen and Ding, Bolin and Li, Yaliang and Deng, Shuiguang},
-  journal={arXiv preprint arXiv:2312.06353},
+  booktitle = {Proceedings of the 41th International Conference on Machine Learning},
+  venue={ICML},
+  month={jul},
   url={https://doi.org/10.48550/arXiv.2312.06353},
-  year={2023}
+  github={https://github.com/alibaba/FederatedScope/tree/FedKSeed},
+  tags={efficiency, zeroth-order optimization},
+  year={2024}
+}
+
+@InProceedings{sun2023fedbpt,
+  title={FedBPT: Efficient Federated Black-box Prompt Tuning for Large Language Models},
+  author={Sun, Jingwei and Xu, Ziyue and Yin, Hongxu and Yang, Dong and Xu, Daguang and Chen, Yiran and Roth, Holger R},
+  booktitle = 	 {Proceedings of the 41th International Conference on Machine Learning},
+  doi={https://doi.org/10.48550/arXiv.2310.01467},
+  url={https://doi.org/10.48550/arXiv.2310.01467},
+  tags={efficiency, trustworthiness, ip protection, , prompt tuning, black-box tuning, additive tuning, textual prompt tuning, zeroth-order optimization},
+  venue={ICML},
+  month={jul},
+  year={2024}
 }
 
 @ARTICLE{9917343,
@@ -684,8 +732,8 @@ url={https://openreview.net/forum?id=CcsdvOOzMp}
   volume={},
   number={},
   pages={1-6},
-  doi={10.1109/WCSP52459.2021.9613620}
-  }
+  doi={10.1109/WCSP52459.2021.9613620},
+}
 
 
 @INPROCEEDINGS{yang2023efficient,
@@ -696,18 +744,13 @@ url={https://openreview.net/forum?id=CcsdvOOzMp}
   volume={},
   number={},
   pages={19102-19111},
-  doi={10.1109/ICCV51070.2023.01755}
-  }
-
-
-
-@article{xu2023federated,
-  title={Federated fine-tuning of billion-sized language models across mobile devices},
-  author={Xu, Mengwei and Wu, Yaozong and Cai, Dongqi and Li, Xiang and Wang, Shangguang},
-  journal={arXiv preprint arXiv:2308.13894},
-  url={https://doi.org/10.48550/arXiv.2308.13894},
-  year={2023}
+  venue={ICCV},
+  month={oct},
+  tags={efficiency, additive tuning, prompt tuning, visual prompt tuning},
+  url={https://ieeexplore.ieee.org/document/10377922},
+  doi={10.1109/ICCV51070.2023.01755},
 }
+
 
 @inproceedings{
 charles2023towards,
@@ -821,7 +864,7 @@ url={https://openreview.net/forum?id=Skep6TVYDB}
     pages = "3492--3507",
     github = "https://github.com/SMILELab-FL/FedLegal",
     venue = "ACL",
-    tags = {application, domain}
+    tags = {application, domain specific}
 }
 
 @inproceedings{shin-etal-2023-fedtherapist,
@@ -844,6 +887,8 @@ url={https://openreview.net/forum?id=Skep6TVYDB}
     url = "https://aclanthology.org/2023.emnlp-main.734",
     doi = "10.18653/v1/2023.emnlp-main.734",
     pages = "11971--11988",
+    venue = "EMNLP",
+    tags = {application, domain specific},
 }
 
 @inproceedings{liu-etal-2023-communication,
@@ -1007,7 +1052,9 @@ url={https://openreview.net/forum?id=gACRiXPGmM},
   volume={},
   number={},
   pages={3170-3181},
-  doi={10.1109/ICCV51070.2023.00296}}
+  venue={ICCV},
+  doi={10.1109/ICCV51070.2023.00296}
+ }
 
 @article{chen2023large,
       title={When Large Language Models Meet Personalization: Perspectives of Challenges and Opportunities},
@@ -1055,24 +1102,6 @@ url={https://openreview.net/forum?id=gACRiXPGmM},
   doi={10.1109/MCOM.001.2300550}}
 
 
-@article{nagy2023privacy,
-  title={Privacy-preserving Federated Learning and its application to natural language processing},
-  author={Nagy, Bal{\'a}zs and Heged{\H{u}}s, Istv{\'a}n and S{\'a}ndor, No{\'e}mi and Egedi, Bal{\'a}zs and Mehmood, Haaris and Saravanan, Karthikeyan and L{\'o}ki, G{\'a}bor and Kiss, {\'A}kos},
-  journal={Knowledge-Based Systems},
-  volume={268},
-  pages={110475},
-  year={2023},
-  publisher={Elsevier}
-}
-
-@inproceedings{
-sun2024improving,
-title={Improving Lo{RA} in Privacy-preserving Federated Learning},
-author={Youbang Sun and Zitao Li and Yaliang Li and Bolin Ding},
-booktitle={The Twelfth International Conference on Learning Representations},
-year={2024},
-url={https://openreview.net/forum?id=NLPzL6HWNl}
-}
 
 @article{woisetschlager2024survey,
   title={A Survey on Efficient Federated Learning Methods for Foundation Model Training},
@@ -1121,7 +1150,11 @@ li2023visual,
 title={Visual Prompt Based Personalized Federated Learning},
 author={Li, Guanghao and Wu, Wansen and Sun, Yan and Shen, Li and Wu, Baoyuan and Tao, Dacheng},
 journal={Transactions on Machine Learning Research},
-year={2023},
+year={2024},
+month={feb},
+venue={TMLR},
+tags = {efficiency, additive tuning, prompt tuning, visual prompt tuning},
+github={https://github.com/hkgdifyu/pFedPT},
 url={https://openreview.net/forum?id=dUVejidXO7},
 }
 
@@ -1131,10 +1164,16 @@ url={https://openreview.net/forum?id=dUVejidXO7},
   booktitle={2023 IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)},
   title={Learning Federated Visual Prompt in Null Space for MRI Reconstruction},
   year={2023},
+  month={jun},
   volume={},
+  venue={CVPR},
   number={},
   pages={8064-8073},
-  doi={10.1109/CVPR52729.2023.00779}}
+  doi={10.1109/CVPR52729.2023.00779},
+  url = {https://ieeexplore.ieee.org/document/10205077},
+  tags={efficiency, additive tuning, application, domain specific, healthcare, MRI Reconstruction, prompt tuning, visual prompt tuning},
+  github={https://github.com/chunmeifeng/FedPR}
+  }
 
 @article{yang2023exploring,
   title={Exploring One-shot Semi-supervised Federated Learning with A Pre-trained Diffusion Model},
@@ -1315,10 +1354,13 @@ keywords = {prompting, Pre-trained language models}
 
 @inproceedings{
 qiu2024textdriven,
-title={Text-driven Prompt Generation for Vision-Language Models in Federated Learning},
+title={Federated Text-driven Prompt Generation for Vision-Language Models},
 author={Chen Qiu and Xingyu Li and Chaithanya Kumar Mummadi and Madan Ravi Ganesh and Zhenzhen Li and Lu Peng and Wan-Yi Lin},
 booktitle={The Twelfth International Conference on Learning Representations},
 year={2024},
+month={may},
+venue={ICLR},
+tags={efficiency, additive tuning, prompt tuning, textual-visual prompt tuning},
 url={https://openreview.net/forum?id=NW31gAylIm}
 }
 
@@ -1327,18 +1369,45 @@ zhao2024breaking,
 title={Breaking Physical and Linguistic Borders: Multilingual Federated Prompt Tuning for Low-Resource Languages},
 author={Wanru Zhao and Yihong Chen and Royson Lee and Xinchi Qiu and Yan Gao and Hongxiang Fan and Nicholas Donald Lane},
 booktitle={The Twelfth International Conference on Learning Representations},
-month={jan},
+month={may},
 year={2024},
 tags={application, Multilingualism},
 venue={ICLR},
-url={https://openreview.net/forum?id=zzqn5G9fjn}
+url={https://openreview.net/forum?id=zzqn5G9fjn},
+tags = {efficiency, additive tuning,  prompt tuning, textual prompt tuning, application, low resource languages, Multilingualism},
+github = {https://github.com/Ryan0v0/multilingual_borders},
 }
 
 
-@article{su2023federated, title={Federated Adaptive Prompt Tuning for Multi-Domain Collaborative Learning}, volume={38}, url={https://ojs.aaai.org/index.php/AAAI/article/view/29434}, DOI={10.1609/aaai.v38i13.29434},
+@article{su2023federated,
+title={Federated Adaptive Prompt Tuning for Multi-Domain Collaborative Learning},
+volume={38},
+url={https://ojs.aaai.org/index.php/AAAI/article/view/29434},
+DOI={10.1609/aaai.v38i13.29434},
 number={13},
 journal={Proceedings of the AAAI Conference on Artificial Intelligence},
-author={Su, Shangchao and Yang, Mingzhao and Li, Bin and Xue, Xiangyang}, year={2024}, month={Mar.}, pages={15117-15125} }
+author={Su, Shangchao and Yang, Mingzhao and Li, Bin and Xue, Xiangyang},
+year={2024},
+month={mar},
+venue={AAAI},
+github={https://github.com/leondada/FedAPT},
+tags={efficiency, additive tuning, prompt tuning, textual-visual prompt tuning, adaptability, domain-centric adaptation, multi-domain adaptation},
+pages={15117-15125},
+}
+
+
+@article{feng2023adapterbased,
+      title={Adapter-based Selective Knowledge Distillation for Federated Multi-domain Meeting Summarization},
+      author={Xiachong Feng and Xiaocheng Feng and Xiyuan Du and Min-Yen Kan and Bing Qin},
+      year={2023},
+      eprint={2308.03275},
+      archivePrefix={arXiv},
+      tags={efficiency, additive tuning, adapter tuning, adaptability, domain-centric adaptation, multi-domain adaptation},
+      primaryClass={cs.CL},
+      url={https://arxiv.org/abs/2308.03275}, 
+      journal={arXiv preprint arXiv:2308.03275}
+}
+
 
 @article{nguyen2024efficient,
       title={Towards Efficient Communication Federated Recommendation System via Low-rank Training},
@@ -1369,6 +1438,8 @@ author={Su, Shangchao and Yang, Mingzhao and Li, Bin and Xue, Xiangyang}, year={
     url = "https://aclanthology.org/2023.findings-emnlp.976",
     doi = "10.18653/v1/2023.findings-emnlp.976",
     pages = "14665--14675",
+    tags = {efficiency, additive tuning, prompt tuning, textual prompt tuning},
+    venue = "EMNLP",
     github = "https://github.com/alibaba/FederatedScope/tree/fedsp/federatedscope/nlp/fedsp"
 }
 
@@ -1379,6 +1450,7 @@ author={Su, Shangchao and Yang, Mingzhao and Li, Bin and Xue, Xiangyang}, year={
       eprint={2312.15926},
       archivePrefix={arXiv},
       primaryClass={cs.LG},
+      tags={efficiency, reparameterization-based, LoRA},
       url={https://arxiv.org/abs/2312.15926},
       journal={arXiv preprint arXiv:2312.15926},
 }
@@ -1420,22 +1492,45 @@ series = {ACM MobiCom '23}
   year={2023},
   volume={},
   number={},
+  venue={ASRU},
+  month={dec},
   pages={1-8},
+  url={https://ieeexplore.ieee.org/document/10389738},
   keywords={Degradation;Training;Performance evaluation;Adaptation models;Federated learning;Conferences;Inference algorithms;Federated Learning;Personalization},
+  tags={personalization, ASR, efficiency, adapter tuning, application, speech},
   doi={10.1109/ASRU57964.2023.10389738}
 }
 
-
-@article{du2024communicationefficient,
-      title={Communication-Efficient Personalized Federated Learning for Speech-to-Text Tasks},
-      author={Yichao Du and Zhirui Zhang and Linan Yue and Xu Huang and Yuqing Zhang and Tong Xu and Linli Xu and Enhong Chen},
-      year={2024},
-      eprint={2401.10070},
-      archivePrefix={arXiv},
-      primaryClass={cs.CL},
-      url={https://arxiv.org/abs/2401.10070},
-      journal={arXiv preprint arXiv:2401.10070},
+@INPROCEEDINGS{10389620,
+  author={Azam, Sheikh Shams and Likhomanenko, Tatiana and Pelikan, Martin and Silovsky, Jan “Honza”},
+  booktitle={2023 IEEE Automatic Speech Recognition and Understanding Workshop (ASRU)},
+  title={Importance of Smoothness Induced by Optimizers in Fl4Asr: Towards Understanding Federated Learning for End-To-End ASR},
+  year={2023},
+  volume={},
+  number={},
+  pages={1-8},
+  venue={ASRU},
+  month={dec},
+  tags={personalization, ASR, application, speech},
+  url={https://ieeexplore.ieee.org/document/10389620},
+  doi={10.1109/ASRU57964.2023.10389620}
 }
+
+@INPROCEEDINGS{du2024communicationefficient,
+  author={Du, Yichao and Zhang, Zhirui and Yue, Linan and Huang, Xu and Zhang, Yuqing and Xu, Tong and Xu, Linli and Chen, Enhong},
+  booktitle={ICASSP 2024 - 2024 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP)},
+  title={Communication-Efficient Personalized Federated Learning for Speech-to-Text Tasks},
+  year={2024},
+  venue={ICASSP},
+  volume={},
+  url={https://ieeexplore.ieee.org/document/10447662},
+  number={},
+  tags={efficiency, personalization, speech, ASR, reparameterization-based, LoRA, application, speech},
+  month={mar},
+  pages={10001-10005},
+  doi={10.1109/ICASSP48485.2024.10447662},
+}
+
 
 
 @article{cho2024heterogeneous,
@@ -1445,8 +1540,19 @@ series = {ACM MobiCom '23}
       eprint={2401.06432},
       archivePrefix={arXiv},
       primaryClass={cs.LG},
+        tags={efficiency, reparameterization-based, LoRA, heterogeneous resource},
       url={https://arxiv.org/abs/2401.06432},
       journal={arXiv preprint arXiv:2401.06432},
+}
+
+
+@inproceedings{
+cho2023heterogeneous,
+title={Heterogeneous Lo{RA} for Federated Fine-tuning of On-device Foundation Models},
+author={Yae Jee Cho and Luyang Liu and Zheng Xu and Aldi Fahrezi and Matt Barnes and Gauri Joshi},
+booktitle={International Workshop on Federated Learning in the Age of Foundation Models in Conjunction with NeurIPS 2023},
+year={2023},
+url={https://openreview.net/forum?id=EmV9sGpZ7q}
 }
 
 @article{jiang2023lowparameter,
@@ -1455,6 +1561,7 @@ series = {ACM MobiCom '23}
       year={2023},
       eprint={2307.13896},
       archivePrefix={arXiv},
+      tags={efficiency, reparameterization-based, LoRA},
       primaryClass={cs.DC},
       url={https://arxiv.org/abs/2307.13896},
       journal={arXiv preprint arXiv:2307.13896},
@@ -1504,28 +1611,7 @@ url={https://openreview.net/forum?id=TNkPBBYFkXg}
   doi={10.1109/TNNLS.2022.3166101}}
 
 
-@inproceedings{xu-etal-2023-federated,
-    title = {Federated Learning of Gboard Language Models with Differential Privacy},
-    author = "Xu, Zheng  and
-      Zhang, Yanxiang  and
-      Andrew, Galen  and
-      Choquette, Christopher  and
-      Kairouz, Peter  and
-      Mcmahan, Brendan  and
-      Rosenstock, Jesse  and
-      Zhang, Yuanbo",
-    editor = "Sitaram, Sunayana  and
-      Beigman Klebanov, Beata  and
-      Williams, Jason D",
-    booktitle = "Proceedings of the 61st Annual Meeting of the Association for Computational Linguistics (Volume 5: Industry Track)",
-    month = jul,
-    year = "2023",
-    address = "Toronto, Canada",
-    publisher = "Association for Computational Linguistics",
-    url = "https://aclanthology.org/2023.acl-industry.60",
-    doi = "10.18653/v1/2023.acl-industry.60",
-    pages = "629--639",
-}
+
 
 @article{bubeck2023sparks,
       title={Sparks of Artificial General Intelligence: Early experiments with GPT-4},
@@ -1585,7 +1671,20 @@ url={https://openreview.net/forum?id=TNkPBBYFkXg}
       journal={arXiv preprint arXiv:2310.19852},
 }
 
-@article{Ezzeldin_Yan_He_Ferrara_Avestimehr_2023, title={FairFed: Enabling Group Fairness in Federated Learning}, volume={37}, url={https://ojs.aaai.org/index.php/AAAI/article/view/25911}, DOI={10.1609/aaai.v37i6.25911}, number={6}, journal={Proceedings of the AAAI Conference on Artificial Intelligence}, author={Ezzeldin, Yahya H. and Yan, Shen and He, Chaoyang and Ferrara, Emilio and Avestimehr, A. Salman}, year={2023}, month={Jun.}, pages={7494-7502} }
+@article{
+    Ezzeldin_Yan_He_Ferrara_Avestimehr_2023,
+    title={FairFed: Enabling Group Fairness in Federated Learning},
+    volume={37},
+    url={https://ojs.aaai.org/index.php/AAAI/article/view/25911},
+    DOI={10.1609/aaai.v37i6.25911},
+    number={6},
+    journal={Proceedings of the AAAI Conference on Artificial Intelligence},
+    author={Ezzeldin, Yahya H. and Yan, Shen and He, Chaoyang and Ferrara, Emilio and Avestimehr, A. Salman},
+    year={2023},
+    month={Jun.},
+}
+
+
 
 @article{xu2024fwdllm,
       title={FwdLLM: Efficient FedLLM using Forward Gradient},
@@ -1594,7 +1693,9 @@ url={https://openreview.net/forum?id=TNkPBBYFkXg}
       eprint={2308.13894},
       archivePrefix={arXiv},
       primaryClass={cs.AI},
+      github={https://github.com/UbiquitousLearning/FwdLLM},
       url={https://arxiv.org/abs/2308.13894},
+      tags={efficiency, zeroth-order optimization},
       journal={arXiv preprint arXiv:2308.13894},
 }
 
@@ -1605,8 +1706,10 @@ url={https://openreview.net/forum?id=TNkPBBYFkXg}
       eprint={2402.05926},
       archivePrefix={arXiv},
       primaryClass={cs.LG},
+      tags={efficiency, zeroth-order optimization},
       url={https://arxiv.org/abs/2402.05926},
       journal={arXiv preprint arXiv:2402.05926},
+      github={https://github.com/alibaba/FederatedScope/tree/FedMeZO}
 }
 
 @article{feng2023does,
@@ -1639,16 +1742,7 @@ year={2023},
 url={https://openreview.net/forum?id=46x3zvYCyQ}
 }
 
-@INPROCEEDINGS{9892845,
-  author={Lit, Zhengyang and Sit, Shijing and Wang, Jianzong and Xiao, Jing},
-  booktitle={2022 International Joint Conference on Neural Networks (IJCNN)},
-  title={Federated Split BERT for Heterogeneous Text Classification},
-  year={2022},
-  volume={},
-  number={},
-  pages={1-8},
-  keywords={Data privacy;Costs;Quantization (signal);Federated learning;Bit error rate;Text categorization;Natural language processing;Federated Learning;BERT;Data Heterogeneity;Quantization;Text Classification},
-  doi={10.1109/IJCNN55064.2022.9892845}}
+
 
 @ARTICLE{10041745,
   author={Wang, Zhousheng and Yang, Geng and Dai, Hua and Rong, Chunming},
@@ -1714,6 +1808,8 @@ keywords = {Federated learning, pre-training, BERT, NLP}
     url = "https://aclanthology.org/2023.findings-acl.470",
     doi = "10.18653/v1/2023.findings-acl.470",
     pages = "7449--7463",
+    venue = "ACL",
+    tags={adaptability, domain-centric adaptation},
 }
 
 @article{tsouvalas2023federated,
@@ -1754,14 +1850,20 @@ url={https://openreview.net/forum?id=lvevdX6bxm},
 note={}
 }
 
-@misc{
+@InProceedings{
 anonymous-acl24-arr,
-title={Personalized Federated Learning for Text Classification
-with Gradient-Free Prompt Tuning},
-author = {Anonymous},
-year={2023},
+title={Personalized Federated Learning for Text Classification with Gradient-Free Prompt Tuning},
+author = {Rui, Wang and Tong, Yu and Ruiyi, Zhang and Sungchul, Kim and Ryan A., Rossi and Handong, Zhao
+ and Junda, Wu and Subrata, Mitra and Lina, Yao and Ricardo, Henao},
+booktitle = "Proceedings of the 2024 Conference of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies",
+year={2024},
+venue={NAACL},
+month={jun},
+tags={efficiency, additive tuning, prompt tuning, trustworthiness, ip protection, black-box tuning, textual prompt tuning, zeroth-order optimization},
 url={https://openreview.net/pdf?id=bpUgtLeSAp}
 }
+
+
 
 @article{10.1145/3494834.3500240,
 author = {Bonawitz, Kallista and Kairouz, Peter and McMahan, Brendan and Ramage, Daniel},
@@ -1832,14 +1934,6 @@ numpages = {28}
   keywords={Servers;Training;Robustness;Federated learning;Optimization;Computational modeling;Performance evaluation;Byzantine attacks;distributed learning;federated learning;neural networks;robustness},
   doi={10.1109/TBDATA.2023.3237397}}
 
-@inproceedings{
-li2023backdoor,
-title={Backdoor Threats from Compromised Foundation Models to Federated Learning},
-author={Xi Li and Songhe Wang and Chen Wu and Hao Zhou and Jiaqi Wang},
-booktitle={International Workshop on Federated Learning in the Age of Foundation Models in Conjunction with NeurIPS 2023},
-year={2023},
-url={https://openreview.net/forum?id=BrcHuO2BVc}
-}
 
 @article{li2023unveiling,
       title={Unveiling Backdoor Risks Brought by Foundation Models in Heterogeneous Federated Learning},
@@ -1917,8 +2011,112 @@ url={https://openreview.net/forum?id=qhP1aHHyeA}
  title = {Recovering Private Text in Federated Learning of Language Models},
  url = {https://proceedings.neurips.cc/paper_files/paper/2022/file/35b5c175e139bff5f22a5361270fce87-Paper-Conference.pdf},
  volume = {35},
+ venue = {NeurIPS},
+ month = {nov},
+ tags = {trustworthiness, differential privacy, privacy preservation, privacy attack},
+ github = {https://github.com/Princeton-SysML/FILM},
  year = {2022}
 }
+
+
+@InProceedings{pmlr-v238-vu24a,
+  title = 	 { Analysis of Privacy Leakage in Federated Large Language Models },
+  author =       {Vu, Minh and Nguyen, Truc and Jeter, Tre' and T. Thai, My},
+  booktitle = 	 {Proceedings of The 27th International Conference on Artificial Intelligence and Statistics},
+  pages = 	 {1423--1431},
+  year = 	 {2024},
+  editor = 	 {Dasgupta, Sanjoy and Mandt, Stephan and Li, Yingzhen},
+  volume = 	 {238},
+  series = 	 {Proceedings of Machine Learning Research},
+  month = 	 {may},
+  venue = {AISTATS},
+  github = {https://github.com/vunhatminh/FL_Attacks},
+  publisher =    {PMLR},
+ tags = {trustworthiness, differential privacy, privacy preservation, privacy attack},
+  pdf = 	 {https://proceedings.mlr.press/v238/vu24a/vu24a.pdf},
+  url = 	 {https://proceedings.mlr.press/v238/vu24a.html},
+}
+
+@inproceedings{xu-etal-2023-federated,
+    title = {Federated Learning of Gboard Language Models with Differential Privacy},
+    author = "Xu, Zheng  and
+      Zhang, Yanxiang  and
+      Andrew, Galen  and
+      Choquette, Christopher  and
+      Kairouz, Peter  and
+      Mcmahan, Brendan  and
+      Rosenstock, Jesse  and
+      Zhang, Yuanbo",
+    editor = "Sitaram, Sunayana  and
+      Beigman Klebanov, Beata  and
+      Williams, Jason D",
+    booktitle = "Proceedings of the 61st Annual Meeting of the Association for Computational Linguistics (Volume 5: Industry Track)",
+    month = jul,
+    year = "2023",
+    venue = "ACL",
+    tags = {trustworthiness, differential privacy, privacy preservation, privacy-preserving techniques},
+    address = "Toronto, Canada",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2023.acl-industry.60",
+    doi = "10.18653/v1/2023.acl-industry.60",
+    pages = "629--639",
+}
+
+
+@inproceedings{
+    sun2024improving,
+    title={Improving Lo{RA} in Privacy-preserving Federated Learning},
+    author={Youbang Sun and Zitao Li and Yaliang Li and Bolin Ding},
+    booktitle={The Twelfth International Conference on Learning Representations},
+    venue={ICLR},
+    year={2024},
+    month={may},
+    tags={efficiency, LoRA, reparameterization-based, trustworthiness, differential privacy, privacy preservation, privacy-preserving techniques},
+    url={https://openreview.net/forum?id=NLPzL6HWNl}
+}
+
+
+@article{liu2023differentially,
+    title={Differentially Private Low-Rank Adaptation of Large Language Model Using Federated Learning},
+    author={Xiao-Yang Liu and Rongyi Zhu and Daochen Zha and Jiechao Gao and Shan Zhong and Meikang Qiu},
+    year={2023},
+    eprint={2312.17493},
+    archivePrefix={arXiv},
+    primaryClass={cs.LG},
+    url={https://arxiv.org/abs/2312.17493},
+    tags={efficiency, LoRA, reparameterization-based, trustworthiness, differential privacy, privacy preservation, privacy-preserving techniques},
+    journal={arXiv preprint arXiv:2312.17493}
+}
+
+@article{nagy2023privacy,
+  title={Privacy-preserving Federated Learning and its application to natural language processing},
+  author={Nagy, Bal{\'a}zs and Heged{\H{u}}s, Istv{\'a}n and S{\'a}ndor, No{\'e}mi and Egedi, Bal{\'a}zs and Mehmood, Haaris and Saravanan, Karthikeyan and L{\'o}ki, G{\'a}bor and Kiss, {\'A}kos},
+  journal={Knowledge-Based Systems},
+  volume={268},
+  pages={110475},
+  year={2023},
+  publisher={Elsevier}
+}
+
+@article{10.1145/3460427,
+author = {Yin, Xuefei and Zhu, Yanming and Hu, Jiankun},
+title = {A Comprehensive Survey of Privacy-preserving Federated Learning: A Taxonomy, Review, and Future Directions},
+year = {2021},
+issue_date = {July 2022},
+publisher = {Association for Computing Machinery},
+address = {New York, NY, USA},
+volume = {54},
+number = {6},
+issn = {0360-0300},
+url = {https://doi.org/10.1145/3460427},
+doi = {10.1145/3460427},
+journal = {ACM Comput. Surv.},
+month = {jul},
+articleno = {131},
+numpages = {36},
+keywords = {Privacy-preserving federated learning, anonymization techniques, cryptographic encryption, data privacy, federated transfer learning, horizontal federated learning, perturbation techniques, vertical federated learning}
+}
+
 
 @article{
 babakniya2023revisiting,
@@ -1931,16 +2129,6 @@ url={https://openreview.net/forum?id=iHyhdpsnyi},
 note={}
 }
 
-@article{liu2023differentially,
-      title={Differentially Private Low-Rank Adaptation of Large Language Model Using Federated Learning},
-      author={Xiao-Yang Liu and Rongyi Zhu and Daochen Zha and Jiechao Gao and Shan Zhong and Meikang Qiu},
-      year={2023},
-      eprint={2312.17493},
-      archivePrefix={arXiv},
-      primaryClass={cs.LG},
-      url={https://arxiv.org/abs/2312.17493},
-      journal={arXiv preprint arXiv:2312.17493},
-}
 
 @ARTICLE{9069945,
   author={Wei, Kang and Li, Jun and Ding, Ming and Ma, Chuan and Yang, Howard H. and Farokhi, Farhad and Jin, Shi and Quek, Tony Q. S. and Vincent Poor, H.},
@@ -2039,24 +2227,6 @@ url={https://openreview.net/forum?id=B7v4QMR6Z9w}
       journal={arXiv preprint arXiv:2304.06632},
 }
 
-@article{10.1145/3460427,
-author = {Yin, Xuefei and Zhu, Yanming and Hu, Jiankun},
-title = {A Comprehensive Survey of Privacy-preserving Federated Learning: A Taxonomy, Review, and Future Directions},
-year = {2021},
-issue_date = {July 2022},
-publisher = {Association for Computing Machinery},
-address = {New York, NY, USA},
-volume = {54},
-number = {6},
-issn = {0360-0300},
-url = {https://doi.org/10.1145/3460427},
-doi = {10.1145/3460427},
-journal = {ACM Comput. Surv.},
-month = {jul},
-articleno = {131},
-numpages = {36},
-keywords = {Privacy-preserving federated learning, anonymization techniques, cryptographic encryption, data privacy, federated transfer learning, horizontal federated learning, perturbation techniques, vertical federated learning}
-}
 
 @ARTICLE{10398474,
   author={Xu, Minrui and Du, Hongyang and Niyato, Dusit and Kang, Jiawen and Xiong, Zehui and Mao, Shiwen and Han, Zhu and Jamalipour, Abbas and Kim, Dong In and Shen, Xuemin and Leung, Victor C. M. and Poor, H. Vincent},
@@ -2100,6 +2270,7 @@ keywords = {Privacy-preserving federated learning, anonymization techniques, cry
       primaryClass={cs.LG},
       url={https://arxiv.org/abs/2402.06954},
       journal={arXiv preprint arXiv:2402.06954},
+      tags={resource, code, library},
 }
 
 @article{kuang2023federatedscopellm,
@@ -2113,16 +2284,6 @@ keywords = {Privacy-preserving federated learning, anonymization techniques, cry
       journal={arXiv preprint arXiv:2309.00363},
 }
 
-@article{zhang2023building,
-      title={Towards Building the Federated GPT: Federated Instruction Tuning},
-      author={Jianyi Zhang and Saeed Vahidian and Martin Kuo and Chunyuan Li and Ruiyi Zhang and Guoyin Wang and Yiran Chen},
-      year={2023},
-      eprint={2305.05644},
-      archivePrefix={arXiv},
-      primaryClass={cs.CL},
-      url={https://arxiv.org/abs/2305.05644},
-      journal={arXiv preprint arXiv:2305.05644},
-}
 
 @article{fan2023fatellm,
       title={FATE-LLM: A Industrial Grade Federated Learning Framework for Large Language Models},
@@ -2153,6 +2314,13 @@ keywords = {Privacy-preserving federated learning, anonymization techniques, cry
       url={https://blog.fedml.ai/releasing-fedllm-build-your-own-large-language-models-on-proprietary-data-using-the-fedml-platform/},
 }
 
+@misc{Alpaca-LoRA,
+      title={Alpaca-LoRA},
+      author={Eric Wang},
+      year={2023},
+      url={https://github.com/tloen/alpaca-lora},
+}
+
 @article{collins2023profit,
       title={Profit: Benchmarking Personalization and Robustness Trade-off in Federated Prompt Tuning},
       author={Liam Collins and Shanshan Wu and Sewoong Oh and Khe Chai Sim},
@@ -2172,9 +2340,21 @@ keywords = {Privacy-preserving federated learning, anonymization techniques, cry
       eprint={2402.09959},
       archivePrefix={arXiv},
       primaryClass={cs.IR},
-      url={https://arxiv.org/abs/2402.09959}, 
+      url={https://arxiv.org/abs/2402.09959},
       journal={arXiv preprint arXiv:2402.09959},
-      tags={applications, Recommendation Systems}
+      tags={application, Recommendation Systems}
+}
+
+@article{li2024navigating,
+      title={Navigating the Future of Federated Recommendation Systems with Foundation Models},
+      author={Zhiwei Li and Guodong Long},
+      year={2024},
+      eprint={2406.00004},
+      archivePrefix={arXiv},
+      primaryClass={cs.IR},
+      tags={application, Recommendation Systems},
+      url={https://arxiv.org/abs/2406.00004},
+      journal={arXiv preprint arXiv:2406.00004},
 }
 
 @article{zhang2024transfr,
@@ -2184,9 +2364,9 @@ keywords = {Privacy-preserving federated learning, anonymization techniques, cry
       eprint={2402.01124},
       archivePrefix={arXiv},
       primaryClass={cs.IR},
-      url={https://arxiv.org/abs/2402.01124}, 
+      url={https://arxiv.org/abs/2402.01124},
       journal={arXiv preprint arXiv:2402.01124},
-      tags={applications, Recommendation Systems}
+      tags={application, Recommendation Systems}
 }
 
 @article{roth2024empowering,
@@ -2196,7 +2376,7 @@ keywords = {Privacy-preserving federated learning, anonymization techniques, cry
       eprint={2402.07792},
       archivePrefix={arXiv},
       primaryClass={cs.LG},
-      url={https://arxiv.org/abs/2402.07792}, 
+      url={https://arxiv.org/abs/2402.07792},
       journal={arXiv preprint arXiv:2402.07792},
 }
 
@@ -2207,7 +2387,7 @@ keywords = {Privacy-preserving federated learning, anonymization techniques, cry
       eprint={2304.03347},
       archivePrefix={arXiv},
       primaryClass={cs.CL},
-      url={https://arxiv.org/abs/2304.03347}, 
+      url={https://arxiv.org/abs/2304.03347},
       journal={arXiv preprint arXiv:2304.03347},
 }
 
@@ -2232,7 +2412,7 @@ eprint = {https://www.science.org/doi/pdf/10.1126/sciadv.adg7865},
       eprint={2402.01730},
       archivePrefix={arXiv},
       primaryClass={cs.CL},
-      url={https://arxiv.org/abs/2402.01730}, 
+      url={https://arxiv.org/abs/2402.01730},
       journal={arXiv preprint arXiv:2402.01730},
 }
 
@@ -2243,33 +2423,43 @@ eprint = {https://www.science.org/doi/pdf/10.1126/sciadv.adg7865},
       eprint={2307.08925},
       archivePrefix={arXiv},
       primaryClass={cs.LG},
-      url={https://arxiv.org/abs/2307.08925}, 
+      url={https://arxiv.org/abs/2307.08925},
       journal={arXiv preprint arXiv:2307.08925},
 }
 
-@INPROCEEDINGS{10389620,
-  author={Azam, Sheikh Shams and Likhomanenko, Tatiana and Pelikan, Martin and Silovsky, Jan “Honza”},
-  booktitle={2023 IEEE Automatic Speech Recognition and Understanding Workshop (ASRU)},
-  title={Importance of Smoothness Induced by Optimizers in Fl4Asr: Towards Understanding Federated Learning for End-To-End ASR},
-  year={2023},
-  volume={},
-  number={},
-  pages={1-8},
-  keywords={Training;Adaptation models;Federated learning;Error analysis;Conferences;Market research;Data models;practical guide;federated learning;end-to-end;automatic speech recognition;CTC-AED},
-  doi={10.1109/ASRU57964.2023.10389620}}
 
-
-@article{chu2024send,
-      title={Only Send What You Need: Learning to Communicate Efficiently in Federated Multilingual Machine Translation},
-      author={Yun-Wei Chu and Dong-Jun Han and Christopher G. Brinton},
-      year={2024},
-      eprint={2401.07456},
-      archivePrefix={arXiv},
-      primaryClass={cs.CL},
-      url={https://arxiv.org/abs/2401.07456}, 
-      journal={arXiv preprint arXiv:2401.07456},
-      tags={Application, Machine Translation, Multilingualism}
+@inproceedings{chu2024send,
+author = {Chu, Yun-Wei and Han, Dong-Jun and Brinton, Christopher G.},
+title = {Only Send What You Need: Learning to Communicate Efficiently in Federated Multilingual Machine Translation},
+year = {2024},
+month = {may},
+isbn = {9798400701726},
+publisher = {Association for Computing Machinery},
+address = {New York, NY, USA},
+url = {https://doi.org/10.1145/3589335.3651931},
+doi = {10.1145/3589335.3651931},
+booktitle = {Companion Proceedings of the ACM on Web Conference 2024},
+pages = {1548–1557},
+numpages = {10},
+keywords = {federated learning, machine translation},
+location = {<conf-loc>, <city>Singapore</city>, <country>Singapore</country>, </conf-loc>},
+venue = {WWW},
+tags={Application, Machine Translation, Multilingualism, efficiency, selective tuning}
 }
+
+
+@InProceedings{
+anonymous-naacl24-arr,
+title={Generalizable Multilingual Hate Speech Detection on Low Resource Indian Languages using Fair Selection in Federated Learning},
+author = {Akshay, Singh and Rahul, Thakur},
+booktitle = "Proceedings of the 2024 Conference of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies",
+year={2024},
+venue={NAACL},
+month={jun},
+url={https://2024.naacl.org/program/accepted_papers/},
+tags={Application, Multilingualism}
+}
+
 
 @inproceedings{NEURIPS2020_92d1e1eb,
  author = {Baevski, Alexei and Zhou, Yuhao and Mohamed, Abdelrahman and Auli, Michael},
@@ -2318,9 +2508,9 @@ eprint = {https://www.science.org/doi/pdf/10.1126/sciadv.adg7865},
       eprint={2403.04256},
       archivePrefix={arXiv},
       primaryClass={cs.IR},
-      url={https://arxiv.org/abs/2403.04256}, 
+      url={https://arxiv.org/abs/2403.04256},
       journal={arXiv preprint arXiv:2403.04256},
-      tags={applications, Recommendation Systems},
+      tags={application, Recommendation Systems},
       github={https://github.com/huiminzeng/GPT-FedRec},
 }
 
@@ -2339,12 +2529,12 @@ keywords = {Recommender systems, Collaborative filtering, Similarity measures, E
 
 @article{ammaduddin2019federated,
       title={Federated Collaborative Filtering for Privacy-Preserving Personalized Recommendation System},
-      author={Muhammad Ammad-ud-din and Elena Ivannikova and Suleiman A. Khan and Were Oyomno and Qiang Fu and Kuan Eeik Tan and Adrian Flanagan},
+      author={Muhammad Ammad-Ud-Din and Elena Ivannikova and Suleiman A. Khan and Were Oyomno and Qiang Fu and Kuan Eeik Tan and Adrian Flanagan},
       year={2019},
       eprint={1901.09888},
       archivePrefix={arXiv},
       primaryClass={cs.IR},
-      url={https://arxiv.org/abs/1901.09888}, 
+      url={https://arxiv.org/abs/1901.09888},
       journal={arXiv preprint arXiv:1901.09888},
 }
 
@@ -2375,7 +2565,7 @@ keywords = {Federated recommender system, matrix factorization, privacy preserva
       eprint={2303.14524},
       archivePrefix={arXiv},
       primaryClass={cs.IR},
-      url={https://arxiv.org/abs/2303.14524}, 
+      url={https://arxiv.org/abs/2303.14524},
       journal={arXiv preprint arXiv:2303.14524},
 }
 
@@ -2386,7 +2576,7 @@ keywords = {Federated recommender system, matrix factorization, privacy preserva
       eprint={2305.19860},
       archivePrefix={arXiv},
       primaryClass={cs.IR},
-      url={https://arxiv.org/abs/2305.19860}, 
+      url={https://arxiv.org/abs/2305.19860},
       journal={arXiv preprint arXiv:2305.19860},
 }
 
@@ -2397,7 +2587,7 @@ keywords = {Federated recommender system, matrix factorization, privacy preserva
       eprint={2305.07001},
       archivePrefix={arXiv},
       primaryClass={cs.IR},
-      url={https://arxiv.org/abs/2305.07001}, 
+      url={https://arxiv.org/abs/2305.07001},
       journal={arXiv preprint arXiv:2305.07001},
 }
 
@@ -2468,15 +2658,21 @@ url={https://openreview.net/forum?id=Hnk1WRMAYqg}
       eprint={2402.11505},
       archivePrefix={arXiv},
       primaryClass={cs.CL},
+      github={https://github.com/alibaba/FederatedScope/tree/FlexLoRA},
+      tags={efficiency, LoRA, reparameterization-based, heterogeneous resource},
       url={https://arxiv.org/abs/2402.11505},
       journal={arXiv preprint arXiv:2402.11505},
 }
 
 @article{anil2023palm,
-  title={Palm 2 technical report},
-  author={Anil, Rohan and Dai, Andrew M and Firat, Orhan and Johnson, Melvin and Lepikhin, Dmitry and Passos, Alexandre and Shakeri, Siamak and Taropa, Emanuel and Bailey, Paige and Chen, Zhifeng and others},
-  journal={arXiv preprint arXiv:2305.10403},
-  year={2023}
+      title={PaLM 2 Technical Report},
+      year={2023},
+      author={Anil, Rohan and Dai, Andrew M and Firat, Orhan and Johnson, Melvin and Lepikhin, Dmitry and Passos, Alexandre and Shakeri, Siamak and Taropa, Emanuel and Bailey, Paige and Chen, Zhifeng and others},
+      eprint={2305.10403},
+      archivePrefix={arXiv},
+      primaryClass={cs.CL},
+      url={https://arxiv.org/abs/2305.10403},
+      journal={arXiv preprint arXiv:2305.10403},
 }
 
 @article{wu2020visual,
@@ -2528,6 +2724,7 @@ url={https://openreview.net/forum?id=Hnk1WRMAYqg}
   title={Rewon child, david luan, dario amodei, and ilya sutskever. 2019},
   author={Radford, Alec and Wu, Jeffrey},
   journal={Language models are unsupervised multitask learners. OpenAI blog},
+  url = {https://d4mucfpksywv.cloudfront.net/better-language-models/language_models_are_unsupervised_multitask_learners.pdf},
   volume={1},
   number={8},
   pages={9},
@@ -2580,6 +2777,28 @@ url={https://openreview.net/forum?id=Hnk1WRMAYqg}
     tags = {Application, Multilingualism},
     pages = "1413--1421",
 }
+
+
+@inproceedings{guo-etal-2024-fedlfc,
+    title = "{F}ed{LFC}: Towards Efficient Federated Multilingual Modeling with {L}o{RA}-based Language Family Clustering",
+    author = "Guo, Zhihan  and
+      Zhang, Yifei  and
+      Zhang, Zhuo  and
+      Xu, Zenglin  and
+      King, Irwin",
+    editor = "Duh, Kevin  and
+      Gomez, Helena  and
+      Bethard, Steven",
+    booktitle = "Findings of the Association for Computational Linguistics: NAACL 2024",
+    month = jun,
+    year = "2024",
+    address = "Mexico City, Mexico",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2024.findings-naacl.98",
+    pages = "1519--1528",
+}
+
+
 
 @inproceedings{devlin-etal-2019-bert,
     title = "{BERT}: Pre-training of Deep Bidirectional Transformers for Language Understanding",
@@ -2677,7 +2896,787 @@ url={https://openreview.net/forum?id=Hnk1WRMAYqg}
   publisher =    {PMLR},
   pdf = 	 {https://proceedings.mlr.press/v209/manoel23a/manoel23a.pdf},
   url = 	 {https://proceedings.mlr.press/v209/manoel23a.html},
-  tags = {Application, Multilingualism, Healthcare},
+  tags = {Application, Multilingualism, Domain, Domain Specific, Healthcare},
   venue = {CHIL},
+}
+
+@article{yang2024dualpersonalizing,
+      title={Dual-Personalizing Adapter for Federated Foundation Models},
+      author={Yiyuan Yang and Guodong Long and Tao Shen and Jing Jiang and Michael Blumenstein},
+      year={2024},
+      eprint={2403.19211},
+      archivePrefix={arXiv},
+      primaryClass={cs.LG},
+      url={https://arxiv.org/abs/2403.19211},
+      tags={efficiency, reparameterization-based, personalization},
+      journal={arXiv preprint arXiv:2403.19211},
+}
+
+@article{10.1162/tacl_a_00065,
+    author = {Johnson, Melvin and Schuster, Mike and Le, Quoc
+                            V. and Krikun, Maxim and Wu, Yonghui and Chen, Zhifeng and Thorat, Nikhil and Viégas, Fernanda and Wattenberg, Martin and Corrado, Greg and Hughes, Macduff and Dean, Jeffrey},
+    title = "{Google’s Multilingual Neural Machine Translation System: Enabling
+                    Zero-Shot Translation}",
+    journal = {Transactions of the Association for Computational Linguistics},
+    volume = {5},
+    pages = {339-351},
+    year = {2017},
+    month = {10},
+    issn = {2307-387X},
+    doi = {10.1162/tacl_a_00065},
+    url = {https://doi.org/10.1162/tacl\_a\_00065},
+    eprint = {https://direct.mit.edu/tacl/article-pdf/doi/10.1162/tacl\_a\_00065/1567476/tacl\_a\_00065.pdf},
+}
+
+@article{bai2024diprompt,
+      title={DiPrompT: Disentangled Prompt Tuning for Multiple Latent Domain Generalization in Federated Learning},
+      author={Sikai Bai and Jie Zhang and Shuaicheng Li and Song Guo and Jingcai Guo and Jun Hou and Tao Han and Xiaocheng Lu},
+      year={2024},
+      venue={CVPR},
+      month={jun},
+      url={https://arxiv.org/abs/2403.08506},
+      journal={arXiv preprint arXiv:2403.08506},
+      tags={efficiency, additive tuning, prompt tuning, textual-visual prompt tuning, adaptability, domain-centric adaptation, multi-domain adaptation},
+}
+
+@article{liu2024fedfms,
+      title={FedFMS: Exploring Federated Foundation Models for Medical Image Segmentation},
+      author={Yuxi Liu and Guibo Luo and Yuesheng Zhu},
+      year={2024},
+      eprint={2403.05408},
+      archivePrefix={arXiv},
+      primaryClass={eess.IV},
+      github={https://github.com/LIU-YUXI/FedFMS},
+      url={https://arxiv.org/abs/2403.05408},
+      journal={arXiv preprint arXiv:2403.05408},
+      tags={application, domain specific, healthcare},
+}
+
+@article{wei2024dual,
+      title={Dual Prompt Tuning for Domain-Aware Federated Learning},
+      author={Guoyizhe Wei and Feng Wang and Anshul Shah and Rama Chellappa},
+      year={2024},
+      eprint={2310.03103},
+      archivePrefix={arXiv},
+      tags={efficiency, additive tuning, prompt tuning, textual-visual prompt tuning, domain-awareness, adaptability, domain-centric adaptation},
+      primaryClass={cs.LG},
+      url={https://arxiv.org/abs/2310.03103},
+      journal={arXiv preprint arXiv:2310.03103},
+}
+
+@article{deng2023unlocking,
+  title={Unlocking the Potential of Prompt-Tuning in Bridging Generalized and Personalized Federated Learning},
+  author={Deng, Wenlong and Thrampoulidis, Christos and Li, Xiaoxiao},
+  journal={CVPR},
+  pages={},
+  venue={CVPR},
+  month={jun},
+  github={https://github.com/ubc-tea/SGPT},
+  tags={efficiency, additive tuning,  prompt tuning, visual prompt tuning},
+  url={https://arxiv.org/abs/2310.18285},
+  year={2024}
+}
+
+@article{li2024global,
+  title={Global and Local Prompts Cooperation via Optimal Transport for Federated Learning},
+  author={Li, Hongxia and Huang, Wei and Wang, Jingya and Shi, Ye},
+  journal={CVPR},
+  venue={CVPR},
+  url={https://arxiv.org/abs/2403.00041},
+  github={https://github.com/HongxiaLee/FedOTP},
+  tags={efficiency, additive tuning, prompt tuning, textual-visual prompt tuning},
+  month={jun},
+  year={2024}
+}
+
+@inproceedings{
+dai2024enhancing,
+title={Enhancing One-Shot Federated Learning Through Data and Ensemble Co-Boosting},
+author={Rong Dai and Yonggang Zhang and Ang Li and Tongliang Liu and Xun Yang and Bo Han},
+booktitle={The Twelfth International Conference on Learning Representations},
+year={2024},
+month={may},
+venue={ICLR},
+github={https://github.com/rong-dai/Co-Boosting},
+url={https://openreview.net/forum?id=tm8s3696Ox},
+tags={adaptation, data level}
+}
+
+@article{beitollahi2024parametric,
+      title={Parametric Feature Transfer: One-shot Federated Learning with Foundation Models},
+      author={Mahdi Beitollahi and Alex Bie and Sobhan Hemati and Leo Maxime Brunswic and Xu Li and Xi Chen and Guojun Zhang},
+      year={2024},
+      eprint={2402.01862},
+      archivePrefix={arXiv},
+      tags={adaptation, data level},
+      primaryClass={cs.LG},
+      url={https://arxiv.org/abs/2402.01862},
+      journal={arXiv preprint arXiv:2402.01862},
+}
+
+@article{Ma_Yin_Tan_Chen_Huang_Wang_Xue_Ban_2024,
+    title={FedST: Federated Style Transfer Learning for Non-IID Image Segmentation},
+    volume={38},
+    url={https://ojs.aaai.org/index.php/AAAI/article/view/28199},
+    DOI={10.1609/aaai.v38i5.28199},
+    number={5},
+    journal={Proceedings of the AAAI Conference on Artificial Intelligence},
+    author={Ma, Boyuan and Yin, Xiang and Tan, Jing and Chen, Yongfeng and Huang, Haiyou and Wang, Hao and Xue, Weihua and Ban, Xiaojuan},
+    year={2024},
+    venue={AAAI},
+    month={mar},
+    pages={4053-4061},
+    tags={adaptation, data level},
+    github={https://github.com/YoferChen/FedST},
+}
+
+@article{zhang2024fedpit,
+      title={FedPIT: Towards Privacy-preserving and Few-shot Federated Instruction Tuning},
+      author={Zhuo Zhang and Jingyuan Zhang and Jintao Huang and Lizhen Qu and Hongzhi Zhang and Zenglin Xu},
+      year={2024},
+      eprint={2403.06131},
+      archivePrefix={arXiv},
+      primaryClass={cs.CR},
+      tags={adaptation, data level, LoRA, reparameterization-based},
+      url={https://arxiv.org/abs/2403.06131},
+      journal={arXiv preprint arXiv:2403.06131},
+}
+
+@article{Yang_Su_Li_Xue_2024,
+    title={Exploring One-Shot Semi-supervised Federated Learning with Pre-trained Diffusion Models},
+    volume={38},
+    url={https://ojs.aaai.org/index.php/AAAI/article/view/29568},
+    DOI={10.1609/aaai.v38i15.29568},
+     author={Yang, Mingzhao and Su, Shangchao and Li, Bin and Xue, Xiangyang},
+     year={2024},
+     venue={AAAI},
+     tags={adaptation, data level},
+     month={mar},
+     github={https://github.com/MingzhaoYang/FedDISC},
+     pages={16325-16333}
+}
+
+
+@inproceedings{
+    ping2024fltac,
+    title={{FL}-{TAC}: Enhanced Fine-Tuning in Federated Learning via Low-Rank, Task-Specific Adapter Clustering},
+    author={Siqi Ping and Yuzhu Mao and Yang Liu and Xiao-Ping Zhang and Wenbo Ding},
+    booktitle={ICLR 2024 Workshop on Large Language Model (LLM) Agents},
+    year={2024},
+    month={may},
+    venue={LLMAgents\@ICLR},
+    tags={efficiency, LoRA, reparameterization-based},
+    url={https://openreview.net/forum?id=JDmAymuFFQ},
+}
+
+@article{nguyen2024flora,
+      title={FLoRA: Enhancing Vision-Language Models with Parameter-Efficient Federated Learning},
+      author={Duy Phuong Nguyen and J. Pablo Munoz and Ali Jannesari},
+      year={2024},
+      eprint={2404.15182},
+      archivePrefix={arXiv},
+      tags={efficiency, LoRA, reparameterization-based},
+      primaryClass={cs.LG},
+      url={https://arxiv.org/abs/2404.15182},
+      journal={arXiv preprint arXiv:2404.15182},
+}
+
+@article{singh2019detailed,
+      title={Detailed comparison of communication efficiency of split learning and federated learning},
+      author={Abhishek Singh and Praneeth Vepakomma and Otkrist Gupta and Ramesh Raskar},
+      year={2019},
+      eprint={1909.09145},
+      archivePrefix={arXiv},
+      primaryClass={cs.LG},
+      url={https://arxiv.org/abs/1909.09145},
+      journal={arXiv preprint arXiv:1909.09145},
+}
+
+@inproceedings{10.24963/ijcai.2023/519,
+author = {Zheng, Fei and Chen, Chaochao and Lyu, Lingjuan and Yao, Binhui},
+title = {Reducing communication for split learning by randomized top-k sparsification},
+year = {2023},
+isbn = {978-1-956792-03-4},
+url = {https://doi.org/10.24963/ijcai.2023/519},
+doi = {10.24963/ijcai.2023/519},
+booktitle = {Proceedings of the Thirty-Second International Joint Conference on Artificial Intelligence},
+articleno = {519},
+numpages = {9},
+location = {<conf-loc>, <city>Macao</city>, <country>P.R.China</country>, </conf-loc>},
+series = {IJCAI '23},
+venue = {IJCAI}
+}
+
+@article{deng2023mutual,
+      title={Mutual Enhancement of Large and Small Language Models with Cross-Silo Knowledge Transfer},
+      author={Yongheng Deng and Ziqing Qiao and Ju Ren and Yang Liu and Yaoxue Zhang},
+      year={2023},
+      eprint={2312.05842},
+      archivePrefix={arXiv},
+      primaryClass={cs.AI},
+      tags={adaptation, data level},
+      url={https://arxiv.org/abs/2312.05842},
+      journal={arXiv preprint arXiv:2312.05842},
+}
+
+
+
+
+@article{liu2024foundation,
+  title={Foundation models matter: federated learning for multi-center tuberculosis diagnosis via adaptive regularization and model-contrastive learning},
+  author={Liu, Chang and Luo, Yong and Xu, Yongchao and Du, Bo},
+  journal={World Wide Web},
+  volume={27},
+  number={3},
+  month={may},
+  pages={1--17},
+  venue={WWW},
+  url={https://link.springer.com/article/10.1007/s11280-024-01266-3},
+  tags={application, healthcare, domain specific},
+  year={2024},
+  publisher={Springer}
+}
+
+@ARTICLE{spall1992multivariate,
+  author={Spall, J.C.},
+  journal={IEEE Transactions on Automatic Control},
+  title={Multivariate stochastic approximation using a simultaneous perturbation gradient approximation},
+  year={1992},
+  volume={37},
+  number={3},
+  pages={332-341},
+  url={https://ieeexplore.ieee.org/document/119632}
+ }
+
+ @ARTICLE{9186148,
+  author={Liu, Sijia and Chen, Pin-Yu and Kailkhura, Bhavya and Zhang, Gaoyuan and Hero III, Alfred O. and Varshney, Pramod K.},
+  journal={IEEE Signal Processing Magazine},
+  title={A Primer on Zeroth-Order Optimization in Signal Processing and Machine Learning: Principals, Recent Advances, and Applications},
+  year={2020},
+  volume={37},
+  number={5},
+  url={https://ieeexplore.ieee.org/abstract/document/9186148},
+  pages={43-54},
+  keywords={Optimization;Estimation;Signal processing algorithms;Linear programming;Signal processing;Convergence;Approximation error},
+  doi={10.1109/MSP.2020.3003837}
+ }
+
+@article{duchi2015optimal,
+  title={Optimal rates for zero-order convex optimization: The power of two function evaluations},
+  author={Duchi, John C and Jordan, Michael I and Wainwright, Martin J and Wibisono, Andre},
+  journal={IEEE Transactions on Information Theory},
+  volume={61},
+  number={5},
+  pages={2788--2806},
+  year={2015},
+  publisher={IEEE}
+}
+
+@article{shi2024heterogeneous,
+      title={Heterogeneous Federated Learning with Splited Language Model},
+      author={Yifan Shi and Yuhui Zhang and Ziyue Huang and Xiaofeng Yang and Li Shen and Wei Chen and Xueqian Wang},
+      year={2024},
+      eprint={2403.16050},
+      archivePrefix={arXiv},
+      primaryClass={cs.CV},
+      url={https://arxiv.org/abs/2403.16050},
+      journal={arXiv preprint arXiv:2403.16050},
+      tags={efficiency, split learning, heterogeneous resource},
+}
+
+@INPROCEEDINGS{9892845,
+  author={Lit, Zhengyang and Sit, Shijing and Wang, Jianzong and Xiao, Jing},
+  booktitle={2022 International Joint Conference on Neural Networks (IJCNN)},
+  title={Federated Split BERT for Heterogeneous Text Classification},
+  year={2022},
+  volume={},
+  number={},
+  pages={1-8},
+  venue={IJCNN},
+  doi={10.1109/IJCNN55064.2022.9892845},
+  url={https://ieeexplore.ieee.org/document/9892845},
+  tags={efficiency, split learning, heterogeneous resource},
+  }
+
+@inproceedings{sun-etal-2022-bbtv2,
+    title = "{BBT}v2: Towards a Gradient-Free Future with Large Language Models",
+    author = "Sun, Tianxiang  and
+      He, Zhengfu  and
+      Qian, Hong  and
+      Zhou, Yunhua  and
+      Huang, Xuanjing  and
+      Qiu, Xipeng",
+    editor = "Goldberg, Yoav  and
+      Kozareva, Zornitsa  and
+      Zhang, Yue",
+    booktitle = "Proceedings of the 2022 Conference on Empirical Methods in Natural Language Processing",
+    month = dec,
+    year = "2022",
+    address = "Abu Dhabi, United Arab Emirates",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2022.emnlp-main.259",
+    doi = "10.18653/v1/2022.emnlp-main.259",
+    pages = "3916--3930",
+}
+
+@inproceedings{NaseriHC22,
+  author       = {Mohammad Naseri and
+                  Jamie Hayes and
+                  Emiliano De Cristofaro},
+  title        = {Local and Central Differential Privacy for Robustness and Privacy
+                  in Federated Learning},
+  booktitle    = {29th Annual Network and Distributed System Security Symposium, {NDSS}
+                  2022, San Diego, California, USA, April 24-28, 2022},
+  publisher    = {The Internet Society},
+  year         = {2022},
+  url          = {https://www.ndss-symposium.org/ndss-paper/auto-draft-204/},
+  timestamp    = {Thu, 15 Jun 2023 16:53:21 +0200},
+  biburl       = {https://dblp.org/rec/conf/ndss/NaseriHC22.bib},
+  bibsource    = {dblp computer science bibliography, https://dblp.org}
+}
+
+@inproceedings{10.1145/3589335.3651933,
+author = {Guo, Zhihan and Zhang, Yifei and Zhang, Zhuo and Xu, Zenglin and King, Irwin},
+title = {FedHLT: Efficient Federated Low-Rank Adaption with Hierarchical Language Tree for Multilingual Modeling},
+year = {2024},
+isbn = {9798400701726},
+publisher = {Association for Computing Machinery},
+address = {New York, NY, USA},
+url = {https://doi.org/10.1145/3589335.3651933},
+doi = {10.1145/3589335.3651933},
+booktitle = {Companion Proceedings of the ACM on Web Conference 2024},
+pages = {1558–1567},
+numpages = {10},
+keywords = {federated multilingual modeling, hierarchical federated learning, low-rank adaption},
+location = {<conf-loc>, <city>Singapore</city>, <country>Singapore</country>, </conf-loc>},
+series = {WWW '24},
+venue = {WWW},
+month = {may},
+tags={efficiency, LoRA, reparameterization-based, application, multilingualism}
+}
+
+@inproceedings{10.1145/3589334.3645337,
+    author = {Guo, Lei and Lu, Ziang and Yu, Junliang and Nguyen, Quoc Viet Hung and Yin, Hongzhi},
+    title = {Prompt-enhanced Federated Content Representation Learning for Cross-domain Recommendation},
+    year = {2024},
+    isbn = {9798400701719},
+    publisher = {Association for Computing Machinery},
+    address = {New York, NY, USA},
+    url = {https://doi.org/10.1145/3589334.3645337},
+    doi = {10.1145/3589334.3645337},
+    booktitle = {Proceedings of the ACM on Web Conference 2024},
+    pages = {3139–3149},
+    numpages = {11},
+    venue = {WWW},
+    month = {may},
+    github={https://github.com/Ckano/PFCR},
+    tags={application, Recommendation Systems, adaptability, domain-centric adaptation},
+    keywords = {content representation, cross-domain recommendation, federated learning},
+    location = {<conf-loc>, <city>Singapore</city>, <country>Singapore</country>, </conf-loc>},
+    series = {WWW '24}
+}
+
+@inproceedings{
+azam2023federated,
+title={Federated Learning for Speech Recognition: Revisiting Current Trends Towards Large-Scale {ASR}},
+author={Sheikh Shams Azam and Martin Pelikan and Vitaly Feldman and Kunal Talwar and Jan Silovsky and Tatiana Likhomanenko},
+booktitle={International Workshop on Federated Learning in the Age of Foundation Models in Conjunction with NeurIPS 2023},
+year={2023},
+venue={FL\@FM-NeurIPS},
+month={dec},
+tags={application, speech},
+url={https://openreview.net/forum?id=ozN92d7CHX}
+}
+
+@article{10.1145/3571732,
+author = {Madan, Chetan and Diddee, Harshita and Kumar, Deepika and Mittal, Mamta},
+title = {CodeFed: Federated Speech Recognition for Low-Resource Code-Switching Detection},
+year = {2024},
+issue_date = {January 2024},
+publisher = {Association for Computing Machinery},
+address = {New York, NY, USA},
+volume = {23},
+number = {1},
+issn = {2375-4699},
+url = {https://doi.org/10.1145/3571732},
+doi = {10.1145/3571732},
+journal = {ACM Trans. Asian Low-Resour. Lang. Inf. Process.},
+month = {jan},
+articleno = {2},
+numpages = {14},
+keywords = {mobile computing, federated learning, speech processing, low resource Indian languages, Code-switching}
+}
+
+@INPROCEEDINGS{10195024,
+  author={Peng, Danni and Wang, Yuan and Fu, Huazhu and Wei, Qingsong and Liu, Yong and Goh, Rick Siow Mong},
+  booktitle={2023 IEEE Conference on Artificial Intelligence (CAI)},
+  title={Learning Task-Specific Initialization for Effective Federated Continual Fine-Tuning of Foundation Model Adapters},
+  year={2024},
+  venue={IEEE CAI},
+  month={jun},
+  url={https://danni9594.github.io/publications/CAI24_FedCAF.pdf},
+  tags={adaptability, domain-centric adaptation, efficiency, additive tuning, adapter tuning},
+  doi={10.1109/CAI54212.2023.00013}
+}
+
+@inproceedings{zhang-etal-2024-revisiting-data,
+    title = "Revisiting Data Reconstruction Attacks on Real-world Dataset for Federated Natural Language Understanding",
+    author = "Zhang, Zhuo  and
+      Huang, Jintao  and
+      Hu, Xiangjing  and
+      Zhang, Jingyuan  and
+      Zhang, Yating  and
+      Wang, Hui  and
+      Yu, Yue  and
+      Wang, Qifan  and
+      Qu, Lizhen  and
+      Xu, Zenglin",
+    editor = "Calzolari, Nicoletta  and
+      Kan, Min-Yen  and
+      Hoste, Veronique  and
+      Lenci, Alessandro  and
+      Sakti, Sakriani  and
+      Xue, Nianwen",
+    booktitle = "Proceedings of the 2024 Joint International Conference on Computational Linguistics, Language Resources and Evaluation (LREC-COLING 2024)",
+    month = may,
+    year = "2024",
+    address = "Torino, Italia",
+    publisher = "ELRA and ICCL",
+    url = "https://aclanthology.org/2024.lrec-main.1227",
+    pages = "14080--14091",
+}
+
+@InProceedings{10.1007/978-981-97-2259-4_13,
+    author="Li, Xi
+    and Wu, Chen
+    and Wang, Jiaqi",
+    editor="Yang, De-Nian
+    and Xie, Xing
+    and Tseng, Vincent S.
+    and Pei, Jian
+    and Huang, Jen-Wei
+    and Lin, Jerry Chun-Wei",
+    title="Unveiling Backdoor Risks Brought by Foundation Models in Heterogeneous Federated Learning",
+    booktitle="Advances in Knowledge Discovery and Data Mining",
+    year="2024",
+    month={apr},
+    url={https://link.springer.com/chapter/10.1007/978-981-97-2259-4_13},
+    venue={PAKDD},
+    publisher="Springer Nature Singapore",
+    address="Singapore",
+    pages="168--181",
+    tags={trustworthiness, security, attack robustness, poisoning attack},
+    github={https://github.com/lixi1994/backdoor_FM_hete_FL},
+    isbn="978-981-97-2259-4"
+}
+
+@inproceedings{
+li2023backdoor,
+title={Backdoor Threats from Compromised Foundation Models to Federated Learning},
+author={Xi Li and Songhe Wang and Chen Wu and Hao Zhou and Jiaqi Wang},
+booktitle={International Workshop on Federated Learning in the Age of Foundation Models in Conjunction with NeurIPS 2023},
+year={2023},
+venue={FL\@FM-NeurIPS},
+month={oct},
+tags={trustworthiness, security, attack robustness, poisoning attack},
+url={https://openreview.net/forum?id=BrcHuO2BVc}
+}
+
+
+@ARTICLE{9945997,
+  author={Lyu, Lingjuan and Yu, Han and Ma, Xingjun and Chen, Chen and Sun, Lichao and Zhao, Jun and Yang, Qiang and Yu, Philip S.},
+  journal={IEEE Transactions on Neural Networks and Learning Systems},
+  title={Privacy and Robustness in Federated Learning: Attacks and Defenses},
+  year={2022},
+  volume={},
+  number={},
+  pages={1-21},
+  keywords={Training;Data models;Robustness;Privacy;Servers;Computational modeling;Predictive models;Attacks;defenses;federated learning (FL);privacy;robustness},
+  doi={10.1109/TNNLS.2022.3216981}
+}
+
+@article{rodriguez2023survey,
+  title={Survey on federated learning threats: Concepts, taxonomy on attacks and defences, experimental study and challenges},
+  author={Rodr{\'\i}guez-Barroso, Nuria and Jim{\'e}nez-L{\'o}pez, Daniel and Luz{\'o}n, M Victoria and Herrera, Francisco and Mart{\'\i}nez-C{\'a}mara, Eugenio},
+  journal={Information Fusion},
+  volume={90},
+  pages={148--173},
+  year={2023},
+  url={https://www.sciencedirect.com/science/article/abs/pii/S1566253522001439},
+  publisher={Elsevier}
+}
+
+@article{jere2020taxonomy,
+  title     = {A taxonomy of attacks on federated learning},
+  author    = {Jere, Malhar S and Farnan, Tyler and Koushanfar, Farinaz},
+  journal   = {IEEE Security \& Privacy},
+  volume    = {19},
+  number    = {2},
+  year      = {2020},
+  publisher = {IEEE}
+}
+
+@inproceedings{
+    xie2019dba,
+    title={DBA: Distributed Backdoor Attacks against Federated Learning},
+    author={Chulin Xie and Keli Huang and Pin-Yu Chen and Bo Li},
+    booktitle={International Conference on Learning Representations},
+    year={2020}
+}
+
+
+@inproceedings{fang2020local,
+  title     = {Local model poisoning attacks to byzantine-robust federated learning},
+  author    = {Fang, Minghong and Cao, Xiaoyu and Jia, Jinyuan and Gong, Neil},
+  booktitle = {29th USENIX Security Symposium (USENIX Security 20)},
+  pages     = {1605--1622},
+  url       = {https://www.usenix.org/system/files/sec20summer_fang_prepub.pdf},
+  year      = {2020}
+}
+
+@inproceedings{bagdasaryan2020backdoor,
+  title        = {How to backdoor federated learning},
+  author       = {Bagdasaryan, Eugene and Veit, Andreas and Hua, Yiqing and Estrin, Deborah and Shmatikov, Vitaly},
+  booktitle    = {International Conference on Artificial Intelligence and Statistics},
+  pages        = {2938--2948},
+  url          = {https://proceedings.mlr.press/v108/bagdasaryan20a.html},
+  year         = {2020},
+  organization = {PMLR}
+}
+
+@inproceedings{li2024blades,
+  title={Blades: A Unified Benchmark Suite for Byzantine Attacks and Defenses in Federated Learning},
+  author={Li, Shenghui and Ngai, Edith and Ye, Fanghua and Ju, Li and Zhang, Tianru and Voigt, Thiemo},
+  booktitle={2024 IEEE/ACM Ninth International Conference on Internet-of-Things Design and Implementation (IoTDI)},
+  year={2024}
+}
+
+@inproceedings{Shen_2021,
+   series={CCS ’21},
+   title={Backdoor Pre-trained Models Can Transfer to All},
+   url={http://dx.doi.org/10.1145/3460120.3485370},
+   DOI={10.1145/3460120.3485370},
+   booktitle={Proceedings of the 2021 ACM SIGSAC Conference on Computer and Communications Security},
+   publisher={ACM},
+   author={Shen, Lujia and Ji, Shouling and Zhang, Xuhong and Li, Jinfeng and Chen, Jing and Shi, Jie and Fang, Chengfang and Yin, Jianwei and Wang, Ting},
+   year={2021},
+   month=nov, collection={CCS ’21} }
+
+@inproceedings{blanchard2017machine,
+  title     = {Machine learning with adversaries: Byzantine tolerant gradient descent},
+  author    = {Blanchard, Peva and El Mhamdi, El Mahdi and Guerraoui, Rachid and Stainer, Julien},
+  booktitle = {Proceedings of the 31st International Conference on Neural Information Processing Systems},
+  year      = {2017}
+}
+
+@article{chen2017distributed,
+  title     = {Distributed statistical machine learning in adversarial settings: Byzantine gradient descent},
+  author    = {Chen, Yudong and Su, Lili and Xu, Jiaming},
+  journal   = {Proceedings of the ACM on Measurement and Analysis of Computing Systems},
+  year      = {2017},
+  publisher = {ACM New York, NY, USA}
+}
+
+
+@ARTICLE{li2021byzantine,
+  author={Li, Shenghui and Ngai, Edith and Voigt, Thiemo},
+  journal={IEEE Transactions on Industrial Informatics},
+  title={Byzantine-Robust Aggregation in Federated Learning Empowered Industrial IoT},
+  year={2023},
+  volume={19},
+  number={2},
+  pages={1165-1175},
+  doi={10.1109/TII.2021.3128164}
+  }
+
+
+@inproceedings{yin2018byzantine,
+  title        = {Byzantine-robust distributed learning: Towards optimal statistical rates},
+  author       = {Yin, Dong and Chen, Yudong and Kannan, Ramchandran and Bartlett, Peter},
+  booktitle    = {International Conference on Machine Learning},
+  year         = {2018},
+  organization = {PMLR}
+}
+
+@inproceedings{
+gorbunov2023variance,
+title={Variance Reduction is an Antidote to Byzantines: Better Rates, Weaker Assumptions and Communication Compression as a Cherry on the Top},
+author={Eduard Gorbunov and Samuel Horv{\'a}th and Peter Richt{\'a}rik and Gauthier Gidel},
+booktitle={International Conference on Learning Representations},
+year={2023},
+}
+
+@ARTICLE{9153949,
+  author={Wu, Zhaoxian and Ling, Qing and Chen, Tianyi and Giannakis, Georgios B.},
+  journal={IEEE Transactions on Signal Processing},
+  title={Federated Variance-Reduced Stochastic Gradient Descent With Robustness to Byzantine Attacks},
+  year={2020},
+  volume={68},
+  number={},
+  pages={4583-4596},
+  doi={10.1109/TSP.2020.3012952}
+}
+
+@inproceedings{cao2021fltrust,
+  title={FLTrust: Byzantine-robust Federated Learning via Trust Bootstrapping},
+  author={Cao, Xiaoyu and Fang, Minghong and Liu, Jia and Gong, Neil Zhenqiang},
+  booktitle={ISOC Network and Distributed System Security Symposium (NDSS)},
+  year={2021}
+}
+
+@ARTICLE{9887909,
+  author={Xu, Chang and Jia, Yu and Zhu, Liehuang and Zhang, Chuan and Jin, Guoxie and Sharif, Kashif},
+  journal={IEEE Transactions on Parallel and Distributed Systems},
+  title={TDFL: Truth Discovery Based Byzantine Robust Federated Learning},
+  year={2022},
+  volume={33},
+  number={12},
+  doi={10.1109/TPDS.2022.3205714}
+}
+
+@inproceedings{sageflow,
+ author = {Park, Jungwuk and Han, Dong-Jun and Choi, Minseok and Moon, Jaekyun},
+ booktitle = {Advances in Neural Information Processing Systems},
+ editor = {M. Ranzato and A. Beygelzimer and Y. Dauphin and P.S. Liang and J. Wortman Vaughan},
+ pages = {840--851},
+ publisher = {Curran Associates, Inc.},
+ title = {Sageflow: Robust Federated Learning against Both Stragglers and Adversaries},
+ volume = {34},
+ year = {2021}
+}
+
+
+@inproceedings{zhu-etal-2020-empirical,
+    title = "Empirical Studies of Institutional Federated Learning For Natural Language Processing",
+    author = "Zhu, Xinghua  and
+      Wang, Jianzong  and
+      Hong, Zhenhou  and
+      Xiao, Jing",
+    editor = "Cohn, Trevor  and
+      He, Yulan  and
+      Liu, Yang",
+    booktitle = "Findings of the Association for Computational Linguistics: EMNLP 2020",
+    month = nov,
+    year = "2020",
+    address = "Online",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2020.findings-emnlp.55",
+    doi = "10.18653/v1/2020.findings-emnlp.55",
+    pages = "625--634",
+}
+
+@article{ren2024advances,
+      title={Advances and Open Challenges in Federated Learning with Foundation Models},
+      author={Chao Ren and Han Yu and Hongyi Peng and Xiaoli Tang and Anran Li and Yulan Gao and Alysa Ziying Tan and Bo Zhao and Xiaoxiao Li and Zengxiang Li and Qiang Yang},
+      year={2024},
+      eprint={2404.15381},
+      archivePrefix={arXiv},
+      url={https://arxiv.org/abs/2404.15381},
+      journal={arXiv preprint arXiv:2404.15381},
+}
+
+@inproceedings {254465,
+author = {Chengliang Zhang and Suyi Li and Junzhe Xia and Wei Wang and Feng Yan and Yang Liu},
+title = {{BatchCrypt}: Efficient Homomorphic Encryption for {Cross-Silo} Federated Learning},
+booktitle = {2020 USENIX Annual Technical Conference (USENIX ATC 20)},
+year = {2020},
+isbn = {978-1-939133-14-4},
+pages = {493--506},
+url = {https://www.usenix.org/conference/atc20/presentation/zhang-chengliang},
+publisher = {USENIX Association},
+month = jul
+}
+
+@inproceedings{mugunthan2019smpai,
+  title={Smpai: Secure multi-party computation for federated learning},
+  author={Mugunthan, Vaikkunth and Polychroniadou, Antigoni and Byrd, David and Balch, Tucker Hybinette},
+  booktitle={Proceedings of the NeurIPS 2019 Workshop on Robust AI in Financial Services},
+  volume={21},
+  year={2019},
+  organization={MIT Press Cambridge, MA, USA}
+}
+
+
+@inproceedings{NEURIPS2023_a6278101,
+ author = {Malladi, Sadhika and Gao, Tianyu and Nichani, Eshaan and Damian, Alex and Lee, Jason D and Chen, Danqi and Arora, Sanjeev},
+ booktitle = {Advances in Neural Information Processing Systems},
+ editor = {A. Oh and T. Naumann and A. Globerson and K. Saenko and M. Hardt and S. Levine},
+ pages = {53038--53075},
+ publisher = {Curran Associates, Inc.},
+ title = {Fine-Tuning Language Models with Just Forward Passes},
+ url = {https://proceedings.neurips.cc/paper_files/paper/2023/file/a627810151be4d13f907ac898ff7e948-Paper-Conference.pdf},
+ volume = {36},
+ year = {2023}
+}
+
+@article{jeblick2024chatgpt,
+  title={ChatGPT makes medicine easy to swallow: an exploratory case study on simplified radiology reports},
+  author={Jeblick, Katharina and Schachtner, Balthasar and Dexl, Jakob and Mittermeier, Andreas and St{\"u}ber, Anna Theresa and Topalis, Johanna and Weber, Tobias and Wesp, Philipp and Sabel, Bastian Oliver and Ricke, Jens and others},
+  journal={European radiology},
+  volume={34},
+  number={5},
+  pages={2817--2825},
+  year={2024},
+  publisher={Springer}
+}
+
+
+@article{brunete2021smart,
+  title={Smart assistive architecture for the integration of IoT devices, robotic systems, and multimodal interfaces in healthcare environments},
+  author={Brunete, Alberto and Gambao, Ernesto and Hernando, Miguel and Cedazo, Raquel},
+  journal={Sensors},
+  volume={21},
+  number={6},
+  pages={2212},
+  url={https://www.mdpi.com/1424-8220/21/6/2212},
+  year={2021},
+  publisher={MDPI}
+}
+
+
+@article{10.14778/3579075.3579081,
+    author = {Xie, Yuexiang and Wang, Zhen and Gao, Dawei and Chen, Daoyuan and Yao, Liuyi and Kuang, Weirui and Li, Yaliang and Ding, Bolin and Zhou, Jingren},
+    title = {FederatedScope: A Flexible Federated Learning Platform for Heterogeneity},
+    year = {2023},
+    issue_date = {January 2023},
+    publisher = {VLDB Endowment},
+    volume = {16},
+    number = {5},
+    issn = {2150-8097},
+    url = {https://doi.org/10.14778/3579075.3579081},
+    doi = {10.14778/3579075.3579081},
+    journal = {Proc. VLDB Endow.},
+    month = {jan},
+    pages = {1059–1072},
+    numpages = {14}
+}
+
+@article{he2020fedml,
+      title={FedML: A Research Library and Benchmark for Federated Machine Learning},
+      author={Chaoyang He and Songze Li and Jinhyun So and Xiao Zeng and Mi Zhang and Hongyi Wang and Xiaoyang Wang and Praneeth Vepakomma and Abhishek Singh and Hang Qiu and Xinghua Zhu and Jianzong Wang and Li Shen and Peilin Zhao and Yan Kang and Yang Liu and Ramesh Raskar and Qiang Yang and Murali Annavaram and Salman Avestimehr},
+      year={2020},
+      eprint={2007.13518},
+      archivePrefix={arXiv},
+      url={https://arxiv.org/abs/2007.13518},
+      journal={arXiv preprint arXiv:2007.13518},
+}
+
+@Misc{peft,
+  title =        {PEFT: State-of-the-art Parameter-Efficient Fine-Tuning methods},
+  author =       {Sourab Mangrulkar and Sylvain Gugger and Lysandre Debut and Younes Belkada and Sayak Paul and Benjamin Bossan},
+  howpublished = {\url{https://github.com/huggingface/peft}},
+  year =         {2022}
+}
+
+@inproceedings{NEURIPS2023_c39578c8,
+ author = {Zhang, Zhiyuan and Chen, Deli and Zhou, Hao and Meng, Fandong and Zhou, Jie and Sun, Xu},
+ booktitle = {Advances in Neural Information Processing Systems},
+ editor = {A. Oh and T. Naumann and A. Globerson and K. Saenko and M. Hardt and S. Levine},
+ pages = {62006--62031},
+ publisher = {Curran Associates, Inc.},
+ title = {Fed-FA: Theoretically Modeling Client Data Divergence for Federated Language Backdoor Defense},
+ url = {https://proceedings.neurips.cc/paper_files/paper/2023/file/c39578c86423df5f9e8834ce1cd456e4-Paper-Conference.pdf},
+ volume = {36},
+ year = {2023}
 }
 

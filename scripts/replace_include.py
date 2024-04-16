@@ -21,7 +21,6 @@ def replace_includes(file_path):
                 include_path = (Path(file_path).parent / include_file).resolve()
 
                 if include_path.exists() and include_path.is_file():
-                    # 递归替换包含文件中的包含指令
                     included_content = replace_includes(include_path)
                     new_lines.extend(included_content)
                 else:

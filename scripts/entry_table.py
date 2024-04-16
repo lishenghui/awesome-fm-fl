@@ -21,12 +21,12 @@ class PaperInfo:
     title: str
     url: str
     year: str
-    venue: str
+    venue: str = None
     month: str = None
     github: str = "-"
 
     def __post_init__(self):
-        if "arxiv" in self.url.lower():
+        if not self.venue and "arxiv" in self.url.lower():
             self.venue = "arXiv"
             if "doi.org" in self.url:
                 year_month = self.url.split("/")[-1][6:10]
@@ -44,7 +44,7 @@ class PaperInfo:
             if github == "-":
                 return f"     - -"
             if "github" in github:
-                splits = github.split("/")[-2:]
+                splits = github.split("/")[3:5]
                 github = (f"     - .. image:: "
                           f"https://img.shields.io/github/stars/{splits[0]}/"
                           f"{splits[1]} \n"
@@ -69,16 +69,18 @@ class PaperTable:
     category: str
     papers: List[PaperInfo] = None
 
+    def __post_init__(self):
+        self.category = self.category.replace("_", " ").title()
     def add_paper(self, paper: PaperInfo):
         if self.papers is None:
             self.papers = []
         self.papers.append(paper)
 
-    def to_rst_table(self):
-
+    def to_rst_table(self, header="="):
+        assert self.papers is not None, f"No papers added to the table, category: {self.category}"
         self.papers.sort(key=lambda x: (x.year, x.month if x.month else "01"),
                          reverse=True)
-        application_papers = f"{self.category} \n--------------------------\n\n"
+        application_papers = f"{self.category} \n{header * len(self.category)} \n\n"
         application_papers += """
 .. list-table::
    :widths: 70 10 10 20
@@ -96,16 +98,20 @@ def convert_entry(match, filter_tags=None) -> PaperInfo:
     tags = re.search(r'tags.*?\n|tags.*,\n', entry)
 
     def parse_feild(field):
-        return re.search(rf'{field}\s*=\s*(.*?)(?:,|\r?\n)', entry).group(
+        return re.search(rf'\b{field}\s*=\s*(.*?)(?:,|\r?\n)', entry).group(
             1).strip("\"").strip("{").strip("}")
 
+    paper_info = None
     if tags:
         tags = tags.group(0)
+        tags = tags.lower().replace("}", "").replace("{", "")
+        tags = tags.split("=")[1].strip().strip("{").strip("}").strip().split(",")
+        tags = [tag.strip().strip("\"").strip().lower() for tag in tags]
         # Convert to lowercase
-        tags = tags.lower()
         for tag in filter_tags:
+            tag = tag.lower().replace("_", " ")
             if tag not in tags:
-                return None
+                return paper_info
         # if "application" in tags and "recommendation systems" in tags:
         title = parse_feild("title")
         title = title.replace("{", "").replace("}", "")
@@ -120,43 +126,11 @@ def convert_entry(match, filter_tags=None) -> PaperInfo:
         try:
             venue = parse_feild("venue").strip("\"")
         except AttributeError:
-            venue = "-"
+            venue = None
         try:
             month = parse_feild("month")
         except AttributeError:
             month = None
         paper_info = PaperInfo(title, url, year, venue, month=month, github=github)
 
-        return paper_info
-    return None
-
-
-def convert_bibtex(input_file, output_file):
-    with open(input_file, 'r') as file:
-        content = file.read()
-
-    rs_table = PaperTable("Recommendation Systems")
-
-    blocks = re.findall(r'@.*?({.*?(?:}\n}|,\n}|\"\n}|}}\n))', content, flags=re.DOTALL)
-    for block in blocks:
-        paper_item = convert_entry(block, filter_tags=["application", "recommendation systems"])
-        if paper_item:
-            rs_table.add_paper(paper_item)
-
-
-    ml_table = PaperTable("Multilingualism")
-    for block in blocks:
-        paper_item = convert_entry(block, filter_tags=["application",
-                                                       "multilingualism"])
-        if paper_item:
-            ml_table.add_paper(paper_item)
-
-    with open(output_file, 'w') as file:
-        file.write(ml_table.to_rst_table())
-        file.write("\n\n")
-        file.write(rs_table.to_rst_table())
-
-input_file = '../bibs/references.bib'  # 替换为你的输入文件路径
-output_file = '../docs/applications.rst'  # 替换为你期望的输出文件路径
-
-convert_bibtex(input_file, output_file)
+    return paper_info
