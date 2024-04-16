@@ -1,0 +1,11 @@
+repos:
+  - repo: local
+    hooks:
+      - id: custom-script
+        name: "Custom Script"
+        entry: ./hooks/my-custom-script.sh
+        language: script
+        # 可以指定要在哪些文件上运行
+        files: \.py$
+        # 或者指定排除的文件
+        exclude: \.test\.py$

@@ -25,7 +25,6 @@ def convert_bibtex(input_file, output_file):
     with open(output_file, 'w') as file:
         file.write(converted_content)
 
-input_file = 'references.bib'  # 替换为你的输入文件路径
-output_file = 'output.bib'  # 替换为你期望的输出文件路径
+file = '../bibs/references.bib'  # 替换为你的输入文件路径
 
-convert_bibtex(input_file, output_file)
+convert_bibtex(file, file)
