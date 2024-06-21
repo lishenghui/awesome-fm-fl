@@ -36,7 +36,7 @@ This repository is primarily based on our survey paper:
        </div>
        <div>
            <a href="https://scholar.google.com/citations?hl=en&user=9dJZ9RQAAAAJ">Yun-Hin Chan</a>,
-           <a href="https://www.eee.hku.hk/people/echngai/">Edith C.-H. Ngai</a>,  
+           <a href="https://www.eee.hku.hk/people/echngai/">Edith C.-H. Ngai</a>,
            <a href="https://scholar.google.se/citations?user=xSXvpjEAAAAJ">Thiemo Voigt</a>
         </div>
         <div style="margin-bottom: 20px;"></div>
@@ -54,7 +54,7 @@ If you find this survey useful for your research, please consider citing:
 
 ::
 
-    @article{li2024synergizing,
+    @misc{li2024synergizing,
           title={Synergizing Foundation Models and Federated Learning: A Survey},
           author={Shenghui Li and Fanghua Ye and Meng Fang and Jiaxu Zhao and Yun-Hin Chan and Edith C. -H. Ngai and Thiemo Voigt},
           year={2024},
@@ -63,7 +63,7 @@ If you find this survey useful for your research, please consider citing:
     }
 
 
-.. contents:: **Table of Contents**
+.. contents:: Table of Contents
     :depth: 4
     :local:
     :class: collapsible
@@ -108,6 +108,12 @@ Multi-Domain Adaptation
      - GitHub
    * - .. raw:: html
 
+          <strong><a href="https://ieeexplore.ieee.org/document/10557150">Adapter-based Selective Knowledge Distillation for Federated Multi-domain Meeting Summarization</a></strong> 
+     - TASLP
+     - 2024-06
+     - -
+   * - .. raw:: html
+
           <strong><a href="https://arxiv.org/abs/2403.08506">DiPrompT: Disentangled Prompt Tuning for Multiple Latent Domain Generalization in Federated Learning</a></strong> 
      - CVPR
      - 2024-06
@@ -120,12 +126,6 @@ Multi-Domain Adaptation
      - .. image:: https://img.shields.io/github/stars/leondada/FedAPT 
           :target: https://github.com/leondada/FedAPT 
           :alt: GitHub Repo stars
-   * - .. raw:: html
-
-          <strong><a href="https://arxiv.org/abs/2308.03275">Adapter-based Selective Knowledge Distillation for Federated Multi-domain Meeting Summarization</a></strong> 
-     - arXiv
-     - 2023-08
-     - -
 Client-Centric Adaptation 
 ************************* 
 
@@ -156,6 +156,26 @@ Client-Centric Adaptation
 Efficiency
 ###########
 
+Knowledge Distillation 
+********************** 
+
+
+.. list-table::
+   :widths: 70 10 10 20
+   :header-rows: 1
+
+   * - Title
+     - Venue
+     - Year
+     - GitHub
+   * - .. raw:: html
+
+          <strong><a href="https://doi.org/10.48550/arXiv.2404.11536">FedPFT: Federated Proxy Fine-Tuning of Foundation Models</a></strong> 
+     - IJCAI
+     - 2024-08
+     - .. image:: https://img.shields.io/github/stars/pzp-dzd/FedPFT 
+          :target: https://github.com/pzp-dzd/FedPFT 
+          :alt: GitHub Repo stars
 Selective Tuning 
 **************** 
 
@@ -168,6 +188,14 @@ Selective Tuning
      - Venue
      - Year
      - GitHub
+   * - .. raw:: html
+
+          <strong><a href="https://doi.org/10.48550/arXiv.2404.11536">FedPFT: Federated Proxy Fine-Tuning of Foundation Models</a></strong> 
+     - IJCAI
+     - 2024-08
+     - .. image:: https://img.shields.io/github/stars/pzp-dzd/FedPFT 
+          :target: https://github.com/pzp-dzd/FedPFT 
+          :alt: GitHub Repo stars
    * - .. raw:: html
 
           <strong><a href="https://openreview.net/forum?id=TXtRWPZIZ0">FedSelect: Customized Selection of Parameters for Fine-Tuning during Personalized Federated Learning</a></strong> 
@@ -198,15 +226,23 @@ Adapter Tuning
      - GitHub
    * - .. raw:: html
 
-          <strong><a href="https://danni9594.github.io/publications/CAI24_FedCAF.pdf">Learning Task-Specific Initialization for Effective Federated Continual Fine-Tuning of Foundation Model Adapters</a></strong> 
-     - IEEE CAI
+          <strong><a href="https://doi.org/10.48550/arXiv.2404.11536">Federated Adaptation for Foundation Model-based Recommendations</a></strong> 
+     - IJCAI
+     - 2024-08
+     - .. image:: https://img.shields.io/github/stars/Zhangcx19/IJCAI-24-FedPA 
+          :target: https://github.com/Zhangcx19/IJCAI-24-FedPA 
+          :alt: GitHub Repo stars
+   * - .. raw:: html
+
+          <strong><a href="https://ieeexplore.ieee.org/document/10557150">Adapter-based Selective Knowledge Distillation for Federated Multi-domain Meeting Summarization</a></strong> 
+     - TASLP
      - 2024-06
      - -
    * - .. raw:: html
 
-          <strong><a href="https://arxiv.org/abs/2308.03275">Adapter-based Selective Knowledge Distillation for Federated Multi-domain Meeting Summarization</a></strong> 
-     - arXiv
-     - 2023-08
+          <strong><a href="https://danni9594.github.io/publications/CAI24_FedCAF.pdf">Learning Task-Specific Initialization for Effective Federated Continual Fine-Tuning of Foundation Model Adapters</a></strong> 
+     - IEEE CAI
+     - 2024-06
      - -
    * - .. raw:: html
 
@@ -876,6 +912,14 @@ Recommendation Systems
      - GitHub
    * - .. raw:: html
 
+          <strong><a href="https://doi.org/10.48550/arXiv.2404.11536">Federated Adaptation for Foundation Model-based Recommendations</a></strong> 
+     - IJCAI
+     - 2024-08
+     - .. image:: https://img.shields.io/github/stars/Zhangcx19/IJCAI-24-FedPA 
+          :target: https://github.com/Zhangcx19/IJCAI-24-FedPA 
+          :alt: GitHub Repo stars
+   * - .. raw:: html
+
           <strong><a href="https://arxiv.org/abs/2406.00004">Navigating the Future of Federated Recommendation Systems with Foundation Models</a></strong> 
      - arXiv
      - 2024-06
@@ -922,6 +966,14 @@ Domain Specific
      - GitHub
    * - .. raw:: html
 
+          <strong><a href="https://doi.org/10.48550/arXiv.2404.11536">Federated Prompt Learning for Weather Foundation Models on Devices</a></strong> 
+     - IJCAI
+     - 2024-08
+     - .. image:: https://img.shields.io/github/stars/shengchaochen82/FedPoD 
+          :target: https://github.com/shengchaochen82/FedPoD 
+          :alt: GitHub Repo stars
+   * - .. raw:: html
+
           <strong><a href="https://link.springer.com/article/10.1007/s11280-024-01266-3">Foundation models matter: federated learning for multi-center tuberculosis diagnosis via adaptive regularization and model-contrastive learning</a></strong> 
      - WWW
      - 2024-05
@@ -929,11 +981,17 @@ Domain Specific
    * - .. raw:: html
 
           <strong><a href="https://arxiv.org/abs/2403.05408">FedFMS: Exploring Federated Foundation Models for Medical Image Segmentation</a></strong> 
-     - arXiv
-     - 2024-03
+     - MICCAI
+     - 2024
      - .. image:: https://img.shields.io/github/stars/LIU-YUXI/FedFMS 
           :target: https://github.com/LIU-YUXI/FedFMS 
           :alt: GitHub Repo stars
+   * - .. raw:: html
+
+          <strong><a href="https://doi.org/10.24963/ijcai.2023/393">Prompt Federated Learning for Weather Forecasting: Toward Foundation Models on Meteorological Data</a></strong> 
+     - IJCAI
+     - 2023-8
+     - -
    * - .. raw:: html
 
           <strong><a href="https://aclanthology.org/2023.emnlp-main.734">FedTherapist: Mental Health Monitoring with User-Generated Linguistic Expressions on Smartphones via Federated Learning</a></strong> 

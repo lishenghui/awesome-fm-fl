@@ -815,22 +815,6 @@ year={2020},
 url={https://openreview.net/forum?id=Skep6TVYDB}
 }
 
-@inproceedings{chen2023prompt,
-  title     = {Prompt Federated Learning for Weather Forecasting: Toward Foundation Models on Meteorological Data},
-  author    = {Chen, Shengchao and Long, Guodong and Shen, Tao and Jiang, Jing},
-  booktitle = {Proceedings of the Thirty-Second International Joint Conference on
-               Artificial Intelligence, {IJCAI-23}},
-  publisher = {International Joint Conferences on Artificial Intelligence Organization},
-  editor    = {Edith Elkind},
-  pages     = {3532--3540},
-  year      = {2023},
-  month     = {8},
-  note      = {Main Track},
-  doi       = {10.24963/ijcai.2023/393},
-  url       = {https://doi.org/10.24963/ijcai.2023/393},
-}
-
-
 @ARTICLE{10288131,
   author={Chaddad, Ahmad and Wu, Yihang and Desrosiers, Christian},
   journal={IEEE Internet of Things Journal},
@@ -1395,18 +1379,22 @@ tags={efficiency, additive tuning, prompt tuning, textual-visual prompt tuning, 
 pages={15117-15125},
 }
 
-
-@article{feng2023adapterbased,
-      title={Adapter-based Selective Knowledge Distillation for Federated Multi-domain Meeting Summarization},
-      author={Xiachong Feng and Xiaocheng Feng and Xiyuan Du and Min-Yen Kan and Bing Qin},
-      year={2023},
-      eprint={2308.03275},
-      archivePrefix={arXiv},
-      tags={efficiency, additive tuning, adapter tuning, adaptability, domain-centric adaptation, multi-domain adaptation},
-      primaryClass={cs.CL},
-      url={https://arxiv.org/abs/2308.03275}, 
-      journal={arXiv preprint arXiv:2308.03275}
+@ARTICLE{feng2023adapterbased,
+  author={Feng, Xiachong and Feng, Xiaocheng and Du, Xiyuan and Kan, Min-Yen and Qin, Bing},
+  journal={IEEE/ACM Transactions on Audio, Speech, and Language Processing},
+  title={Adapter-based Selective Knowledge Distillation for Federated Multi-domain Meeting Summarization},
+  year={2024},
+  volume={},
+  url={https://ieeexplore.ieee.org/document/10557150},
+  number={},
+  venue={TASLP},
+  month={jun},
+  pages={1-15},
+  tags={efficiency, additive tuning, adapter tuning, adaptability, domain-centric adaptation, multi-domain adaptation},
+  keywords={Adaptation models;Servers;Federated learning;Data models;Task analysis;Training;Optimization;Meeting Summarization;Federated Learning;Knowledge Distillation;Parameter-efficient Fine-tuning},
+  doi={10.1109/TASLP.2024.3414313}
 }
+
 
 
 @article{nguyen2024efficient,
@@ -2945,6 +2933,7 @@ url={https://openreview.net/forum?id=Hnk1WRMAYqg}
       year={2024},
       eprint={2403.05408},
       archivePrefix={arXiv},
+      venue={MICCAI},
       primaryClass={eess.IV},
       github={https://github.com/LIU-YUXI/FedFMS},
       url={https://arxiv.org/abs/2403.05408},
@@ -3678,5 +3667,66 @@ month = jul
  url = {https://proceedings.neurips.cc/paper_files/paper/2023/file/c39578c86423df5f9e8834ce1cd456e4-Paper-Conference.pdf},
  volume = {36},
  year = {2023}
+}
+
+
+@inproceedings{peng2024fedpft,
+  title     = {FedPFT: Federated Proxy Fine-Tuning of Foundation Models},
+  author={Zhaopeng, Peng and Xiaoliang, Fan and Yufan, Chen and Zheng, Wang and Shirui, Pan and Chenglu, Wen and Ruisheng, Zhang and Cheng, Wang},
+  booktitle = {Proceedings of the Thirty-Second International Joint Conference on
+               Artificial Intelligence, {IJCAI-24}},
+  publisher = {International Joint Conferences on Artificial Intelligence Organization},
+  year      = {2024},
+  month     = {aug},
+  venue     = {IJCAI},
+  github    = {https://github.com/pzp-dzd/FedPFT},
+  tags      =  {efficiency, knowledge distillation, selective tuning},
+  url       = {https://doi.org/10.48550/arXiv.2404.11536},
+}
+
+@inproceedings{zhang2024federated,
+  title     = {Federated Adaptation for Foundation Model-based Recommendations},
+  author={Chunxu Zhang and Guodong Long and Hongkuan Guo and Xiao Fang and Yang Song and Zhaojie Liu and Guorui Zhou and Zijian Zhang and Yang Liu and Bo Yang},
+  booktitle = {Proceedings of the Thirty-Second International Joint Conference on
+               Artificial Intelligence, {IJCAI-24}},
+  publisher = {International Joint Conferences on Artificial Intelligence Organization},
+  year      = {2024},
+  month     = {aug},
+  venue     = {IJCAI},
+  github    = {https://github.com/Zhangcx19/IJCAI-24-FedPA},
+  tags      =  {application, Recommendation Systems, efficiency, additive tuning, adapter tuning},
+  url       = {https://doi.org/10.48550/arXiv.2404.11536},
+}
+
+
+@inproceedings{chen2023prompt,
+  title     = {Prompt Federated Learning for Weather Forecasting: Toward Foundation Models on Meteorological Data},
+  author    = {Chen, Shengchao and Long, Guodong and Shen, Tao and Jiang, Jing},
+  booktitle = {Proceedings of the Thirty-Second International Joint Conference on
+               Artificial Intelligence, {IJCAI-23}},
+  publisher = {International Joint Conferences on Artificial Intelligence Organization},
+  editor    = {Edith Elkind},
+  pages     = {3532--3540},
+  year      = {2023},
+  month     = {8},
+  venue     = {IJCAI},
+  note      = {Main Track},
+  tags      = {application, domain specific},
+  doi       = {10.24963/ijcai.2023/393},
+  url       = {https://doi.org/10.24963/ijcai.2023/393},
+}
+
+@inproceedings{chen2024federated,
+  title     = {Federated Prompt Learning for Weather Foundation Models on Devices},
+  author    = {Shengchao Chen and Guodong Long and Tao Shen and Jing Jiang and Chengqi Zhang},
+  booktitle = {Proceedings of the Thirty-Second International Joint Conference on
+               Artificial Intelligence, {IJCAI-24}},
+  publisher = {International Joint Conferences on Artificial Intelligence Organization},
+  year      = {2024},
+  month     = {aug},
+  venue     = {IJCAI},
+  github    = {https://github.com/shengchaochen82/FedPoD},
+  tags      =  {application, domain specific},
+  url       = {https://doi.org/10.48550/arXiv.2404.11536},
 }
 

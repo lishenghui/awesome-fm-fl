@@ -3,12 +3,14 @@
 Awesome-Foundation-Models-and-Federated-Learning
 =================================================
 
-
 .. raw:: html
 
-   <div style="text-align: center;">
+   <div align="center">
    <a href="https://arxiv.org/pdf/2406.12844.pdf">
        <img alt="Tests Status" src="https://img.shields.io/badge/arXiv-2406.12844-red?logo=arxiv&style=flat-square&link=https%3A%2F%2Farxiv.org%2Fpdf%2F2206.05359.pdf"/>
+   </a>
+   <a href="https://arxiv.org/pdf/2406.12844.pdf">
+       <img alt="awesome" src="https://awesome.re/badge-flat.svg"/>
    </a>
    <a href="https://github.com/lishenghui/awesome-fm-fl">
        <img alt="Build Status" src="https://img.shields.io/github/last-commit/lishenghui/awesome-fm-fl"/>
@@ -21,25 +23,33 @@ Awesome-Foundation-Models-and-Federated-Learning
 
 This repository is primarily based on our survey paper:
 
+
 .. raw:: html
 
-    <div style="text-align: center;">
-        <strong><a href="https://arxiv.org/abs/2406.12844">Synergizing Foundation Models and Federated Learning</a></strong>
+   <div align="center">
+        <strong><a href="https://arxiv.org/abs/2406.12844">Synergizing Foundation Models and Federated Learning: A Survey</a></strong>
         <div>
             <a href="https://lishenghui.github.io/">Shenghui Li</a>,
             <a href="https://www.fanghuaye.xyz/">Fanghua Ye</a>,
             <a href="https://mengf1.github.io/">Meng Fang</a>,
             <a href="https://scholar.google.com/citations?user=ozQfDTkAAAAJ&hl=en">Jiaxu Zhao</a>,
-        </div>
-        <div>
-        <a href="https://scholar.google.com/citations?hl=en&user=9dJZ9RQAAAAJ">Yun-Hin Chan</a>,
-        <a href="https://www.eee.hku.hk/people/echngai/">Edith C.-H. Ngai</a>,
-        <a href="https://scholar.google.se/citations?user=xSXvpjEAAAAJ">Thiemo Voigt</a>,
+       </div>
+       <div>
+           <a href="https://scholar.google.com/citations?hl=en&user=9dJZ9RQAAAAJ">Yun-Hin Chan</a>,
+           <a href="https://www.eee.hku.hk/people/echngai/">Edith C.-H. Ngai</a>,
+           <a href="https://scholar.google.se/citations?user=xSXvpjEAAAAJ">Thiemo Voigt</a>
         </div>
         <div style="margin-bottom: 20px;"></div>
     </div>
 
 
+.. raw:: html
+
+   <p align=center>
+        <img src="https://github.com/lishenghui/awesome-fm-fl/blob/main/docs/images/fmfltaxonomy.png" width="1000" alt="Taxonomy">
+   </p>
+
+|
 If you find this survey useful for your research, please consider citing:
 
 ::
