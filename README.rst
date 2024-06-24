@@ -1,6 +1,6 @@
 
 
-Awesome-Foundation-Models-and-Federated-Learning
+Awesome-Foundation-Models-with-Federated-Learning
 =================================================
 
 .. raw:: html
