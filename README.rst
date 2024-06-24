@@ -568,6 +568,14 @@ Split Learning
      - GitHub
    * - .. raw:: html
 
+          <strong><a href="https://icml.cc/virtual/2024/poster/34071">Enhancing Storage and Computational Efficiency in Federated Multimodal Learning for Large-Scale Models</a></strong> 
+     - ICML
+     - 2024-07
+     - .. image:: https://img.shields.io/github/stars/M2FedSA/M-2FedSA 
+          :target: https://github.com/M2FedSA/M-2FedSA 
+          :alt: GitHub Repo stars
+   * - .. raw:: html
+
           <strong><a href="https://arxiv.org/abs/2403.16050">Heterogeneous Federated Learning with Splited Language Model</a></strong> 
      - arXiv
      - 2024-03
