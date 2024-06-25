@@ -148,7 +148,7 @@ Client-Centric Adaptation
 
           <strong><a href="http://sites.computer.org/debull/A23mar/p52.pdf">FedCLIP: Fast Generalization and Personalization for CLIP in Federated Learning</a></strong> 
      - IEEE DEB
-     - 2023
+     - 2023-03
      - .. image:: https://img.shields.io/github/stars/microsoft/PersonalizedFL 
           :target: https://github.com/microsoft/PersonalizedFL 
           :alt: GitHub Repo stars
@@ -170,19 +170,19 @@ Knowledge Distillation
      - GitHub
    * - .. raw:: html
 
-          <strong><a href="https://ojs.aaai.org/index.php/AAAI/article/view/29007">FedDAT: An Approach for Foundation Model Finetuning in Multi-Modal Heterogeneous Federated Learning</a></strong> 
-     - AAAI
-     - 2024-Mar.
-     - .. image:: https://img.shields.io/github/stars/HaokunChen245/FedDAT 
-          :target: https://github.com/HaokunChen245/FedDAT 
-          :alt: GitHub Repo stars
-   * - .. raw:: html
-
           <strong><a href="https://doi.org/10.48550/arXiv.2404.11536">FedPFT: Federated Proxy Fine-Tuning of Foundation Models</a></strong> 
      - IJCAI
      - 2024-08
      - .. image:: https://img.shields.io/github/stars/pzp-dzd/FedPFT 
           :target: https://github.com/pzp-dzd/FedPFT 
+          :alt: GitHub Repo stars
+   * - .. raw:: html
+
+          <strong><a href="https://ojs.aaai.org/index.php/AAAI/article/view/29007">FedDAT: An Approach for Foundation Model Finetuning in Multi-Modal Heterogeneous Federated Learning</a></strong> 
+     - AAAI
+     - 2024-03
+     - .. image:: https://img.shields.io/github/stars/HaokunChen245/FedDAT 
+          :target: https://github.com/HaokunChen245/FedDAT 
           :alt: GitHub Repo stars
 Selective Tuning 
 **************** 
@@ -256,7 +256,7 @@ Adapter Tuning
 
           <strong><a href="http://sites.computer.org/debull/A23mar/p52.pdf">FedCLIP: Fast Generalization and Personalization for CLIP in Federated Learning</a></strong> 
      - IEEE DEB
-     - 2023
+     - 2023-03
      - .. image:: https://img.shields.io/github/stars/microsoft/PersonalizedFL 
           :target: https://github.com/microsoft/PersonalizedFL 
           :alt: GitHub Repo stars
