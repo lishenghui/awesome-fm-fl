@@ -49,11 +49,12 @@ class PaperInfo:
             if "github" in github:
                 splits = github.split("/")[3:5]
                 github = (
-                    f"     - .. image:: "
-                    f"https://img.shields.io/github/stars/{splits[0]}/"
-                    f"{splits[1]} \n"
-                    f"          :target: {github} \n"
-                    f"          :alt: GitHub Repo stars"
+                    f"     - .. raw:: html\n\n"
+                    f"          <img "
+                    f'src="https://img.shields.io/github/stars/{splits[0]}/'
+                    f"{splits[1]}"
+                    f'" alt="GitHub Repo stars" style="vertical-align: '
+                    f'middle; width: auto; height: auto;"/>\n'
                 )
             return github
 
@@ -146,9 +147,10 @@ def convert_entry(match, filter_tags=None) -> PaperInfo:
 
     def parse_feild(field):
         return (
-            re.search(rf"\b{field}\s*=\s*(.*?)(?:,|\r?\n)", entry)
+            re.search(rf"\b{field}\s*=\s*(.*?)(?:,\r|\r?\n)", entry)
             .group(1)
             .strip('"')
+            .strip("},")
             .strip("{")
             .strip("}")
         )
