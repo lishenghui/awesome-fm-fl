@@ -401,6 +401,18 @@
   bibsource = {dblp computer science bibliography, https://dblp.org}
 }
 
+
+@misc{wu2024clientpreferencellmfinetuning,
+  title         = {On the Client Preference of LLM Fine-tuning in Federated Learning},
+  author        = {Feijie Wu and Xiaoze Liu and Haoyu Wang and Xingchen Wang and Jing Gao},
+  year          = {2024},
+  eprint        = {2407.03038},
+  archiveprefix = {arXiv},
+  primaryclass  = {cs.CL},
+  tags          = {adaptability, client-centric adaptation},
+  url           = {https://arxiv.org/abs/2407.03038}
+}
+
 @article{chua2023fedpeat,
   title   = {FedPEAT: Convergence of Federated Learning, Parameter-Efficient Fine Tuning, and Emulator Assisted Tuning for Artificial Intelligence Foundation Models with Mobile Edge Computing},
   author  = {Chua, Terence Jie and Yu, Wenhan and Zhao, Jun and Lam, Kwok-Yan},
@@ -618,7 +630,9 @@
   tags    = {efficiency, reparameterization-based, LoRA, heterogeneous resource},
   journal = {arXiv preprint arXiv:2311.11227},
   url     = {https://doi.org/10.48550/arXiv.2311.11227},
-  year    = {2023}
+  venue   = {ECCV},
+  month   = {oct},
+  year    = {2024}
 }
 
 @article{lu2023zoopfl,
@@ -871,7 +885,7 @@
   doi       = {10.18653/v1/2023.findings-acl.327},
   pages     = {5315--5328},
   name      = {Fed-MNMT},
-  tags      = {application, Multilingualism},
+  tags      = {efficiency, additive tuning, adapter tuning, application, Multilingualism},
   venue     = {ACL},
   github    = {https://github.com/lancopku/FedMNMT}
 }
@@ -1461,7 +1475,7 @@
   pages     = {1-8},
   url       = {https://ieeexplore.ieee.org/document/10389738},
   keywords  = {Degradation;Training;Performance evaluation;Adaptation models;Federated learning;Conferences;Inference algorithms;Federated Learning;Personalization},
-  tags      = {personalization, ASR, efficiency, adapter tuning, application, speech},
+  tags      = {personalization, ASR, efficiency, additive tuning,  adapter tuning, application, speech},
   doi       = {10.1109/ASRU57964.2023.10389738}
 }
 
@@ -1703,20 +1717,6 @@
   booktitle = {Thirty-seventh Conference on Neural Information Processing Systems},
   year      = {2023},
   url       = {https://openreview.net/forum?id=46x3zvYCyQ}
-}
-
-
-
-@article{10041745,
-  author   = {Wang, Zhousheng and Yang, Geng and Dai, Hua and Rong, Chunming},
-  journal  = {IEEE Transactions on Information Forensics and Security},
-  title    = {Privacy-Preserving Split Learning for Large-Scaled Vision Pre-Training},
-  year     = {2023},
-  volume   = {18},
-  number   = {},
-  pages    = {1539-1553},
-  keywords = {Computational modeling;Training;Federated learning;Privacy;Data models;Transformers;Task analysis;Split learning;self pre-training;differential privacy;masked autoencoder},
-  doi      = {10.1109/TIFS.2023.3243490}
 }
 
 
@@ -3167,6 +3167,33 @@
   tags          = {efficiency, split learning, heterogeneous resource}
 }
 
+@article{10041745,
+  author   = {Wang, Zhousheng and Yang, Geng and Dai, Hua and Rong, Chunming},
+  journal  = {IEEE Transactions on Information Forensics and Security},
+  title    = {Privacy-Preserving Split Learning for Large-Scaled Vision Pre-Training},
+  year     = {2023},
+  volume   = {18},
+  month    = {feb},
+  venue    = {TIFS},
+  url      = {https://ieeexplore.ieee.org/document/10041745},
+  pages    = {1539-1553},
+  tags     = {efficiency, split learning, heterogeneous resource},
+  keywords = {Computational modeling;Training;Federated learning;Privacy;Data models;Transformers;Task analysis;Split learning;self pre-training;differential privacy;masked autoencoder},
+  doi      = {10.1109/TIFS.2023.3243490}
+}
+
+@misc{zheng2024safelylearningprivatedata,
+  title         = {Safely Learning with Private Data: A Federated Learning Framework for Large Language Model},
+  author        = {JiaYing Zheng and HaiNan Zhang and LingXiang Wang and WangJie Qiu and HongWei Zheng and ZhiMing Zheng},
+  year          = {2024},
+  eprint        = {2406.14898},
+  archiveprefix = {arXiv},
+  primaryclass  = {cs.CR},
+  tags          = {efficiency, split learning, heterogeneous resource},
+  url           = {https://arxiv.org/abs/2406.14898}
+}
+
+
 @inproceedings{9892845,
   author    = {Lit, Zhengyang and Sit, Shijing and Wang, Jianzong and Xiao, Jing},
   booktitle = {2022 International Joint Conference on Neural Networks (IJCNN)},
@@ -3739,7 +3766,7 @@
   month   = {mar},
   venue   = {AAAI},
   github  = {https://github.com/HaokunChen245/FedDAT},
-  tags    = {efficiency, knowledge distillation, adapter tuning},
+  tags    = {efficiency, knowledge distillation, additive tuning, adapter tuning},
   pages   = {11285-11293}
 }
 
@@ -3752,35 +3779,35 @@
   archiveprefix = {arXiv},
   primaryclass  = {cs.CL},
   url           = {https://arxiv.org/abs/2406.10630}
-},
-      url={https://arxiv.org/abs/2406.10630},
-      journal={arXiv preprint arXiv:2406.10630},
+}
 
 @article{beutel2020flower,
-  title   = {Flower: A friendly federated learning research framework},
-  author  = {Beutel, Daniel J and Topal, Taner and Mathur, Akhil and Qiu, Xinchi and Fernandez-Marques, Javier and Gao, Yan and Sani, Lorenzo and Li, Kwing Hei and Parcollet, Titouan and de Gusm{\~a}o, Pedro Porto Buarque and others},
-  journal = {arXiv preprint arXiv:2007.14390},
-  github  = {https://github.com/adap/flower},
-  url     = {https://flower.ai/},
-  venue   = {Arxiv},
-  developer = {Flower},
-  developer logo = {data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA0MDAgNDAxIj48c3R5bGU+LmEsLmJ7ZmlsbC1ydWxlOmV2ZW5vZGQ7Y2xpcC1ydWxlOmV2ZW5vZGR9LmF7ZmlsbDojMmMyZDM0fS5ie2ZpbGw6I2ZmZn0uY3tmaWxsOiMyMzFmMjB9PC9zdHlsZT48cGF0aCBjbGFzcz0iYSIgZD0ibTI5IDE5Mi0xNy0zMiAyOC02MiAzNi0zIDEzLTMwIDQ1LTIwIDMyIDEwIDE2LTIxaDYwbDE5IDIxIDI4LTcgNTEgMzIgMiAyOSAzMCA5IDE4IDYxLTE5IDI5IDEzIDMyLTIzIDU3LTM0IDQtNiAzMi01OCAyMi0yMi04LTIyIDIwaC02N2wtMTktMjItMjMgNy01NC0yOS0xLTM2LTM1LTE0LTktNTV6Ii8+PHBhdGggY2xhc3M9ImIiIGQ9Im02OSAxOTItMjEtMzQgMTUtMjkgMzctMyAxNC0zNiAyMi0xMCAzOSAxNCAyNC0yOGgyNmwyNCAyNSAzNC04IDI0IDE0IDQgMzggMzMgOSAxMCAzMC0yMSAzMSAxNSAzNy05IDI0LTQwIDctNiAzNS0zNCAxNC0zMC05LTIzIDIxaC0zOGwtMjQtMjctMzEgOS0yNS0xNnYtMzZsLTM3LTE1LTQtMjR6Ii8+PHBhdGggY2xhc3M9ImMiIGQ9Im0yNTIgMTM4IDI5IDI5LTEgNTEtMjkgMjgtODIgMS0yOS0yOC0xLTUyIDI5LTI5eiIvPjxwYXRoIGZpbGw9IiNmZmYiIGQ9Im0xODMgMjE0LTEwLTEwdi0yNGwxMC0xMGg1NWwxMCAxMHYyNGwtMTAgOXoiLz48L3N2Zz4=},
-  tags    = {resources, frameworks},
-  year    = {2020}
+  title         = {Flower: A friendly federated learning research framework},
+  author        = {Beutel, Daniel J and Topal, Taner and Mathur, Akhil and Qiu, Xinchi and Fernandez-Marques, Javier and Gao, Yan and Sani, Lorenzo and Li, Kwing Hei and Parcollet, Titouan and de Gusm{\~a}o, Pedro Porto Buarque and others},
+  journal       = {arXiv preprint arXiv:2007.14390},
+  github        = {https://github.com/adap/flower},
+  url           = {https://flower.ai/},
+  venue         = {Arxiv},
+  developer     = {Flower},
+  developerlogo = {data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA0MDAgNDAxIj48c3R5bGU+LmEsLmJ7ZmlsbC1ydWxlOmV2ZW5vZGQ7Y2xpcC1ydWxlOmV2ZW5vZGR9LmF7ZmlsbDojMmMyZDM0fS5ie2ZpbGw6I2ZmZn0uY3tmaWxsOiMyMzFmMjB9PC9zdHlsZT48cGF0aCBjbGFzcz0iYSIgZD0ibTI5IDE5Mi0xNy0zMiAyOC02MiAzNi0zIDEzLTMwIDQ1LTIwIDMyIDEwIDE2LTIxaDYwbDE5IDIxIDI4LTcgNTEgMzIgMiAyOSAzMCA5IDE4IDYxLTE5IDI5IDEzIDMyLTIzIDU3LTM0IDQtNiAzMi01OCAyMi0yMi04LTIyIDIwaC02N2wtMTktMjItMjMgNy01NC0yOS0xLTM2LTM1LTE0LTktNTV6Ii8+PHBhdGggY2xhc3M9ImIiIGQ9Im02OSAxOTItMjEtMzQgMTUtMjkgMzctMyAxNC0zNiAyMi0xMCAzOSAxNCAyNC0yOGgyNmwyNCAyNSAzNC04IDI0IDE0IDQgMzggMzMgOSAxMCAzMC0yMSAzMSAxNSAzNy05IDI0LTQwIDctNiAzNS0zNCAxNC0zMC05LTIzIDIxaC0zOGwtMjQtMjctMzEgOS0yNS0xNnYtMzZsLTM3LTE1LTQtMjR6Ii8+PHBhdGggY2xhc3M9ImMiIGQ9Im0yNTIgMTM4IDI5IDI5LTEgNTEtMjkgMjgtODIgMS0yOS0yOC0xLTUyIDI5LTI5eiIvPjxwYXRoIGZpbGw9IiNmZmYiIGQ9Im0xODMgMjE0LTEwLTEwdi0yNGwxMC0xMGg1NWwxMCAxMHYyNGwtMTAgOXoiLz48L3N2Zz4=},
+  tags          = {resources, frameworks},
+  year          = {2020},
+  month         = {jul}
 }
 
 
 @inproceedings{roth2022nvidia,
-  title     = {{NVIDIA} {FLARE}: Federated Learning from Simulation to Real-World},
-  author    = {Holger R Roth and Yan Cheng and Yuhong Wen and Isaac Yang and Ziyue Xu and YuanTing Hsieh and Kristopher Kersten and Ahmed Harouni and Can Zhao and Kevin Lu and Zhihong Zhang and Wenqi Li and Andriy Myronenko and Dong Yang and Sean Yang and Nicola Rieke and Abood Quraini and Chester Chen and Daguang Xu and Nic Ma and Prerna Dogra and Mona G Flores and Andrew Feng},
-  booktitle = {Workshop on Federated Learning: Recent Advances and New Challenges (in Conjunction with NeurIPS 2022)},
-  year      = {2022},
-  developer = {Nvidia},
-  developer logo = {nvidia},
-  venue     = {FL\@NeurIPS},
-  github    = {https://github.com/NVIDIA/NVFlare},
-  tags      = {resources, frameworks},
-  url       = {https://openreview.net/forum?id=hD9QaIQTL_f}
+  title         = {{NVIDIA} {FLARE}: Federated Learning from Simulation to Real-World},
+  author        = {Holger R Roth and Yan Cheng and Yuhong Wen and Isaac Yang and Ziyue Xu and YuanTing Hsieh and Kristopher Kersten and Ahmed Harouni and Can Zhao and Kevin Lu and Zhihong Zhang and Wenqi Li and Andriy Myronenko and Dong Yang and Sean Yang and Nicola Rieke and Abood Quraini and Chester Chen and Daguang Xu and Nic Ma and Prerna Dogra and Mona G Flores and Andrew Feng},
+  booktitle     = {Workshop on Federated Learning: Recent Advances and New Challenges (in Conjunction with NeurIPS 2022)},
+  year          = {2022},
+  developer     = {Nvidia},
+  developerlogo = {nvidia},
+  month         = {jul},
+  venue         = {FL\@NeurIPS},
+  github        = {https://github.com/NVIDIA/NVFlare},
+  tags          = {resources, frameworks},
+  url           = {https://openreview.net/forum?id=hD9QaIQTL_f}
 }
 
 
@@ -3788,11 +3815,12 @@
   title         = {FedML: A Research Library and Benchmark for Federated Machine Learning},
   author        = {Chaoyang He and Songze Li and Jinhyun So and Xiao Zeng and Mi Zhang and Hongyi Wang and Xiaoyang Wang and Praneeth Vepakomma and Abhishek Singh and Hang Qiu and Xinghua Zhu and Jianzong Wang and Li Shen and Peilin Zhao and Yan Kang and Yang Liu and Ramesh Raskar and Qiang Yang and Murali Annavaram and Salman Avestimehr},
   year          = {2020},
+  month         = {jul},
   eprint        = {2007.13518},
   archiveprefix = {arXiv},
   venue         = {SpicyFL},
-  developer    = {FedML},
-  developer logo = {data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbDpzcGFjZT0icHJlc2VydmUiIG92ZXJmbG93PSJoaWRkZW4iIHZpZXdCb3g9IjAgMCA1NTAgNTQ2Ij48ZyB0cmFuc2Zvcm09InRyYW5zbGF0ZSgtMTU4NSAtNDk5KSI+PGc+PGc+PGc+PGc+PHBhdGggZD0iTTE4NjEgNzEwLjczczg1LjkzNy04NS40MzQgODUuOTM3LTEyMy43ODJjMC0zMy40OTQtMzguNS02MC42NzctODUuOTM3LTYwLjY3Ny00Ny40MzggMC04NS45MzggMjcuMTgzLTg1LjkzOCA2MC42NzcgMCAzOC41OTEgODUuOTM4IDEyMy43ODEgODUuOTM4IDEyMy43ODEiIGZpbGw9IiM2RTYzQTQiLz48L2c+PC9nPjwvZz48Zz48Zz48Zz48cGF0aCBkPSJNMTc5Ni42MjUgNzg1cy04NS44LTg1LjkzNy0xMjQuMzEyLTg1LjkzN2MtMzMuNjM4IDAtNjAuOTM4IDM4LjUtNjAuOTM4IDg1LjkzN3MyNy4zIDg1LjkzNyA2MC45MzggODUuOTM3YzM4Ljc1NiAwIDEyNC4zMTItODUuOTM3IDEyNC4zMTItODUuOTM3IiBmaWxsPSIjRTA2NzVDIi8+PC9nPjwvZz48L2c+PGc+PGc+PGc+PHBhdGggZD0iTTE4NjEgODMzLjM3NXMtODUuOTM3IDg1LjgtODUuOTM3IDEyNC4zMTNjMCAzMy42MzcgMzguNSA2MC45MzcgODUuOTM3IDYwLjkzNyA0Ny40MzkgMCA4NS45MzktMjcuMyA4NS45MzktNjAuOTM3IDAtMzguNzU3LTg1LjkzOS0xMjQuMzEzLTg1LjkzOS0xMjQuMzEzIiBmaWxsPSIjRURCOTUwIi8+PC9nPjwvZz48L2c+PGc+PGc+PGc+PHBhdGggZD0iTTE5MjUuMzc1IDc4NXM4NS44IDg1LjkzNyAxMjQuMzEzIDg1LjkzN2MzMy42MzcgMCA2MC45MzctMzguNSA2MC45MzctODUuOTM3IDAtNDcuNDM5LTI3LjMtODUuOTM5LTYwLjkzNy04NS45MzktMzguNzU3IDAtMTI0LjMxMyA4NS45MzktMTI0LjMxMyA4NS45MzkiIGZpbGw9IiM2MUI4NTIiLz48L2c+PC9nPjwvZz48L2c+PC9nPjwvc3ZnPg==},
+  developer     = {FedML},
+  developerlogo = {data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1NTAgNTQ2Ij48c3R5bGU+LnMwe2ZpbGw6IzZlNjNhNH0uczF7ZmlsbDojZTA2NzVjfS5zMntmaWxsOiNlZGI5NTB9LnMze2ZpbGw6IzYxYjg1Mn08L3N0eWxlPjxwYXRoIGNsYXNzPSJzMCIgZD0iTTI3NiAyMTJzODYtODUgODYtMTI0YzAtMzQtMzktNjEtODYtNjFzLTg2IDI3LTg2IDYxYzAgMzkgODYgMTI0IDg2IDEyNCIvPjxwYXRoIGNsYXNzPSJzMSIgZD0iTTIxMiAyODZzLTg2LTg2LTEyNC04NmMtMzQgMC02MSAzOS02MSA4NnMyNyA4NiA2MSA4NmMzOSAwIDEyNC04NiAxMjQtODYiLz48cGF0aCBjbGFzcz0iczIiIGQ9Ik0yNzYgMzM0cy04NiA4Ni04NiAxMjRjMCAzNCAzOSA2MSA4NiA2MXM4Ni0yNyA4Ni02MWMwLTM5LTg2LTEyNC04Ni0xMjQiLz48cGF0aCBjbGFzcz0iczMiIGQ9Ik0zNDAgMjg2czg2IDg2IDEyNCA4NmMzNCAwIDYxLTM5IDYxLTg2cy0yNy04Ni02MS04NmMtMzkgMC0xMjQgODYtMTI0IDg2Ii8+PC9zdmc+},
   url           = {https://arxiv.org/abs/2007.13518},
   tags          = {resources, frameworks},
   github        = {https://github.com/FedML-AI/FedML},
@@ -3802,118 +3830,138 @@
   title         = {FLUTE: A Scalable Extensible Framework for High-Performance Federated Learning Simulations},
   author        = {Mirian Hipolito Garcia and Andre Manoel and Daniel Madrigal Diaz and Fatemehsadat Mireshghallah and Robert Sim and Dimitrios Dimitriadis},
   year          = {2022},
+  month         = {mar},
   eprint        = {2203.13789},
   tags          = {resources, frameworks},
   github        = {https://github.com/microsoft/msrflute},
   archiveprefix = {arXiv},
-  developer = {Microsoft},
-  developer logo = {data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyMyAyMyI+PHBhdGggZmlsbD0iI2YzZjNmMyIgZD0iTTAgMGgyM3YyM0gweiIvPjxwYXRoIGZpbGw9IiNmMzUzMjUiIGQ9Ik0xIDFoMTB2MTBIMXoiLz48cGF0aCBmaWxsPSIjODFiYzA2IiBkPSJNMTIgMWgxMHYxMEgxMnoiLz48cGF0aCBmaWxsPSIjMDVhNmYwIiBkPSJNMSAxMmgxMHYxMEgxeiIvPjxwYXRoIGZpbGw9IiNmZmJhMDgiIGQ9Ik0xMiAxMmgxMHYxMEgxMnoiLz48L3N2Zz4=},
+  developer     = {Microsoft},
+  developerlogo = {data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyMyAyMyI+PHBhdGggZmlsbD0iI2YzZjNmMyIgZD0iTTAgMGgyM3YyM0gweiIvPjxwYXRoIGZpbGw9IiNmMzUzMjUiIGQ9Ik0xIDFoMTB2MTBIMXoiLz48cGF0aCBmaWxsPSIjODFiYzA2IiBkPSJNMTIgMWgxMHYxMEgxMnoiLz48cGF0aCBmaWxsPSIjMDVhNmYwIiBkPSJNMSAxMmgxMHYxMEgxeiIvPjxwYXRoIGZpbGw9IiNmZmJhMDgiIGQ9Ik0xMiAxMmgxMHYxMEgxMnoiLz48L3N2Zz4=},
   venue         = {FL\@NeurIPS},
   primaryclass  = {cs.LG},
   url           = {https://arxiv.org/abs/2203.13789}
 }
 
 @inproceedings{9826069,
-  author    = {Ekmefjord, Morgan and Ait-Mlouk, Addi and Alawadi, Sadi and Åkesson, Mattias and Singh, Prashant and Spjuth, Ola and Toor, Salman and Hellander, Andreas},
-  booktitle = {2022 22nd IEEE International Symposium on Cluster, Cloud and Internet Computing (CCGrid)},
-  title     = {Scalable federated machine learning with FEDn},
-  year      = {2022},
-  volume    = {},
-  developer = {Scaleout},
-  developer logo = {data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA0MDAgMjM2Ij48c3R5bGU+LmF7ZmlsbDojMWIxYjFiO2ZpbGwtcnVsZTpldmVub2RkfTwvc3R5bGU+PHBhdGggY2xhc3M9ImEiIGQ9Ik0xMDMgODRjLTE0IDUtMjMgMTctMjUgMjktMyAyMiAxNiA0MiAzNCA0NSAxNiAyIDI4LTEwIDUyLTMzIDgxLTc3IDkxLTgzIDEwNC04NiAyOS02IDY5IDQgOTAgMzQgMjYgMzggNiA4MyA1IDg2LTIwIDMxLTUyIDQ4LTg0IDQ0LTI1LTMtNDEtMTctNDgtMjMtMyAzLTUgNi04IDEwIDMgMyA0MSAzNiA5MCAyNCA0Mi0xMSA2OC01MCA3MS04NiAxLTcgMy0zMS0xMi01Ni0yMS0zNS02NC01Mi05OS00Ni0yNiA0LTQ5IDI2LTk2IDcxLTM4IDM2LTUxIDUzLTY2IDQ5LTE0LTQtMjUtMjUtMTgtMzggNi0xMCAyNC0xNSA0Mi03IDItMiA0LTUgNi03LTEwLTEwLTI1LTE0LTM4LTEwbTMyIDgzYzQ2LTE3IDY0LTc4IDEzNC0xMTIgMjEtMTAgNTIgMSA3MCAyMCAxNSAxNiAxNyAzNiAxNyA0NCAxIDI1LTE1IDUyLTQyIDYzLTI0IDEwLTUyIDQtNzEtMTQgMy0zIDUtNiA3LTkgNSAzIDIyIDE2IDQ0IDEyIDMxLTUgNTUtNDAgNDgtNjctNi0yNC0zNy00NS02Mi0zOC00NiAxMy01NyA1OC0xMjYgMTA5LTE2IDEyLTI5IDE1LTQzIDE0LTMxLTMtNjQtMzktNjEtNzcgMC00IDMtMzAgMjYtNDYgMjQtMTcgNTktMTYgODcgNGwtMTAgMTFjLTI3LTIyLTY0LTE3LTgwIDQtMjEgMjctNCA3MSAyNCA4MyAxNSA3IDMxIDIgMzgtMW0xMzEtNzljNS0zIDE3LTkgMjktNiAxNiA0IDMzIDIwIDMxIDQxLTEgMTMtOSAyNS0yMiAzMS0xNCA2LTMxIDMtNDItOCAyLTIgNS01IDctOCAxIDEgMTMgMTEgMjcgNiAxMy01IDIxLTIwIDE2LTM3LTItNC02LTEwLTEzLTEyLTExLTQtMjMgMS0zMiA4LTQ1IDM0LTczIDkzLTEyOSAxMTAtNDEgMTMtMTAyLTIwLTExNi03M0M5IDk0IDQxIDM3IDkwIDI5YzUwLTkgODkgMTkgOTMgMjItMyA0LTcgNy0xMCAxMS0zOS0zMC05MC0yNy0xMTkgMi0yMCAyMC0yNyA1Mi0xOSA3OSAxMSAzNyA0OCA2MyA5MSA2MSA1NS04IDk1LTg3IDE0MC0xMTYiLz48L3N2Zz4=},
-  number    = {},
-  venue     = {CCGrid},
-  pages     = {555-564},
-  tags      = {resources, frameworks},
-  url       = {https://ieeexplore.ieee.org/abstract/document/9826069},
-  github    = {https://github.com/scaleoutsystems/fedn},
-  keywords  = {Training;Analytical models;Computational modeling;Scalability;Machine learning;Production;Collaborative work;Federated machine learning;artificial intelligence;privacy},
-  doi       = {10.1109/CCGrid54584.2022.00065}
+  author        = {Ekmefjord, Morgan and Ait-Mlouk, Addi and Alawadi, Sadi and Åkesson, Mattias and Singh, Prashant and Spjuth, Ola and Toor, Salman and Hellander, Andreas},
+  booktitle     = {2022 22nd IEEE International Symposium on Cluster, Cloud and Internet Computing (CCGrid)},
+  title         = {Scalable federated machine learning with FEDn},
+  year          = {2022},
+  volume        = {},
+  developer     = {Scaleout},
+  month         = {may},
+  developerlogo = {data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA0MDAgMjM2Ij48c3R5bGU+LmF7ZmlsbDojMWIxYjFiO2ZpbGwtcnVsZTpldmVub2RkfTwvc3R5bGU+PHBhdGggY2xhc3M9ImEiIGQ9Ik0xMDMgODRjLTE0IDUtMjMgMTctMjUgMjktMyAyMiAxNiA0MiAzNCA0NSAxNiAyIDI4LTEwIDUyLTMzIDgxLTc3IDkxLTgzIDEwNC04NiAyOS02IDY5IDQgOTAgMzQgMjYgMzggNiA4MyA1IDg2LTIwIDMxLTUyIDQ4LTg0IDQ0LTI1LTMtNDEtMTctNDgtMjMtMyAzLTUgNi04IDEwIDMgMyA0MSAzNiA5MCAyNCA0Mi0xMSA2OC01MCA3MS04NiAxLTcgMy0zMS0xMi01Ni0yMS0zNS02NC01Mi05OS00Ni0yNiA0LTQ5IDI2LTk2IDcxLTM4IDM2LTUxIDUzLTY2IDQ5LTE0LTQtMjUtMjUtMTgtMzggNi0xMCAyNC0xNSA0Mi03IDItMiA0LTUgNi03LTEwLTEwLTI1LTE0LTM4LTEwbTMyIDgzYzQ2LTE3IDY0LTc4IDEzNC0xMTIgMjEtMTAgNTIgMSA3MCAyMCAxNSAxNiAxNyAzNiAxNyA0NCAxIDI1LTE1IDUyLTQyIDYzLTI0IDEwLTUyIDQtNzEtMTQgMy0zIDUtNiA3LTkgNSAzIDIyIDE2IDQ0IDEyIDMxLTUgNTUtNDAgNDgtNjctNi0yNC0zNy00NS02Mi0zOC00NiAxMy01NyA1OC0xMjYgMTA5LTE2IDEyLTI5IDE1LTQzIDE0LTMxLTMtNjQtMzktNjEtNzcgMC00IDMtMzAgMjYtNDYgMjQtMTcgNTktMTYgODcgNGwtMTAgMTFjLTI3LTIyLTY0LTE3LTgwIDQtMjEgMjctNCA3MSAyNCA4MyAxNSA3IDMxIDIgMzgtMW0xMzEtNzljNS0zIDE3LTkgMjktNiAxNiA0IDMzIDIwIDMxIDQxLTEgMTMtOSAyNS0yMiAzMS0xNCA2LTMxIDMtNDItOCAyLTIgNS01IDctOCAxIDEgMTMgMTEgMjcgNiAxMy01IDIxLTIwIDE2LTM3LTItNC02LTEwLTEzLTEyLTExLTQtMjMgMS0zMiA4LTQ1IDM0LTczIDkzLTEyOSAxMTAtNDEgMTMtMTAyLTIwLTExNi03M0M5IDk0IDQxIDM3IDkwIDI5YzUwLTkgODkgMTkgOTMgMjItMyA0LTcgNy0xMCAxMS0zOS0zMC05MC0yNy0xMTkgMi0yMCAyMC0yNyA1Mi0xOSA3OSAxMSAzNyA0OCA2MyA5MSA2MSA1NS04IDk1LTg3IDE0MC0xMTYiLz48L3N2Zz4=},
+  number        = {},
+  venue         = {CCGrid},
+  pages         = {555-564},
+  tags          = {resources, frameworks},
+  url           = {https://ieeexplore.ieee.org/abstract/document/9826069},
+  github        = {https://github.com/scaleoutsystems/fedn},
+  keywords      = {Training;Analytical models;Computational modeling;Scalability;Machine learning;Production;Collaborative work;Federated machine learning;artificial intelligence;privacy},
+  doi           = {10.1109/CCGrid54584.2022.00065}
 }
 
 
 @inproceedings{pmlr-v162-lai22a,
-  title     = {{F}ed{S}cale: Benchmarking Model and System Performance of Federated Learning at Scale},
-  author    = {Lai, Fan and Dai, Yinwei and Singapuram, Sanjay and Liu, Jiachen and Zhu, Xiangfeng and Madhyastha, Harsha and Chowdhury, Mosharaf},
-  booktitle = {Proceedings of the 39th International Conference on Machine Learning},
-  pages     = {11814--11827},
-  year      = {2022},
-  editor    = {Chaudhuri, Kamalika and Jegelka, Stefanie and Song, Le and Szepesvari, Csaba and Niu, Gang and Sabato, Sivan},
-  volume    = {162},
-  developer = {SymbioticLab},
-  developer logo = {data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA0MDAgNDAwIj48c3R5bGU+LmF7ZmlsbDojMjMxZjIwfS5ie2ZpbGw6I2YzNmMyMX0uYSwuYntmaWxsLXJ1bGU6ZXZlbm9kZH08L3N0eWxlPjxwYXRoIGNsYXNzPSJhIiBkPSJtMjIzIDE0NiA4NC0xMzUgMy00LTQ1IDEtNjAgMTA3TTIyOCAxNTZsMTggMzEgODUtMTQ3LTIyLTMwTTE1MiAyMDkgNjYgMzU2bDIyIDMyIDgzLTE0OE0xNzQgMjUyIDkyIDM4OWgyMTVsMjMtMzItMTgzIDYgNDUtODEiLz48cGF0aCBjbGFzcz0iYiIgZD0iTTI1NCA2IDg5IDcgNjYgNDBsMTczLTRNMjM0IDQ0IDY2IDQwbDE1NiAyNzRoMzhMMTI4IDc1bDg5LTIiLz48cGF0aCBjbGFzcz0iYiIgZD0ibTEzOCA4MyAxMzYgMjM3LTkxIDEtMTggMzAgMTY4IDNMMTc3IDg0Ii8+PC9zdmc+},
-  series    = {Proceedings of Machine Learning Research},
-  month     = {jul},
-  venue     = {ICML},
-  publisher = {PMLR},
-  tags      = {resources, frameworks},
-  github    = {https://github.com/SymbioticLab/FedScale},
-  pdf       = {https://proceedings.mlr.press/v162/lai22a/lai22a.pdf},
-  url       = {https://proceedings.mlr.press/v162/lai22a.html}
+  title         = {{F}ed{S}cale: Benchmarking Model and System Performance of Federated Learning at Scale},
+  author        = {Lai, Fan and Dai, Yinwei and Singapuram, Sanjay and Liu, Jiachen and Zhu, Xiangfeng and Madhyastha, Harsha and Chowdhury, Mosharaf},
+  booktitle     = {Proceedings of the 39th International Conference on Machine Learning},
+  pages         = {11814--11827},
+  year          = {2022},
+  editor        = {Chaudhuri, Kamalika and Jegelka, Stefanie and Song, Le and Szepesvari, Csaba and Niu, Gang and Sabato, Sivan},
+  volume        = {162},
+  developer     = {SymbioticLab},
+  developerlogo = {data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA0MDAgNDAwIj48c3R5bGU+LmF7ZmlsbDojMjMxZjIwfS5ie2ZpbGw6I2YzNmMyMX0uYSwuYntmaWxsLXJ1bGU6ZXZlbm9kZH08L3N0eWxlPjxwYXRoIGNsYXNzPSJhIiBkPSJtMjIzIDE0NiA4NC0xMzUgMy00LTQ1IDEtNjAgMTA3TTIyOCAxNTZsMTggMzEgODUtMTQ3LTIyLTMwTTE1MiAyMDkgNjYgMzU2bDIyIDMyIDgzLTE0OE0xNzQgMjUyIDkyIDM4OWgyMTVsMjMtMzItMTgzIDYgNDUtODEiLz48cGF0aCBjbGFzcz0iYiIgZD0iTTI1NCA2IDg5IDcgNjYgNDBsMTczLTRNMjM0IDQ0IDY2IDQwbDE1NiAyNzRoMzhMMTI4IDc1bDg5LTIiLz48cGF0aCBjbGFzcz0iYiIgZD0ibTEzOCA4MyAxMzYgMjM3LTkxIDEtMTggMzAgMTY4IDNMMTc3IDg0Ii8+PC9zdmc+},
+  series        = {Proceedings of Machine Learning Research},
+  month         = {jul},
+  venue         = {ICML},
+  publisher     = {PMLR},
+  tags          = {resources, frameworks},
+  github        = {https://github.com/SymbioticLab/FedScale},
+  pdf           = {https://proceedings.mlr.press/v162/lai22a/lai22a.pdf},
+  url           = {https://proceedings.mlr.press/v162/lai22a.html}
 }
 
 @article{JMLR:v24:22-0440,
-  author  = {Dun Zeng and Siqi Liang and Xiangjing Hu and Hui Wang and Zenglin Xu},
-  title   = {FedLab: A Flexible Federated Learning Framework},
-  journal = {Journal of Machine Learning Research},
-  year    = {2023},
-  volume  = {24},
-  venue   = {JMLR},
-  developer = {SMILELab},
-  developer logo = {data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA0MTAgNDEwIiBzdHlsZT0iZW5hYmxlLWJhY2tncm91bmQ6bmV3IDAgMCA0MTAgNDEwIiB4bWw6c3BhY2U9InByZXNlcnZlIj48c3R5bGU+LnN0MHtmaWxsOiNmZjUyMDd9LnN0MSwuc3Qye2ZpbGw6I2UwMTkxNDtmaWxsLXJ1bGU6ZXZlbm9kZDtjbGlwLXJ1bGU6ZXZlbm9kZH0uc3Qye2ZpbGw6IzEzODljNH08L3N0eWxlPjxyZWN0IHg9IjE2OSIgeT0iMTYxIiBjbGFzcz0ic3QwIiB3aWR0aD0iNTMiIGhlaWdodD0iNTEiLz48cGF0aCBjbGFzcz0ic3QxIiBkPSJNMzkxIDkwYy01IDIwLTQxIDE1My0xNTggMTk3LTE5IDctNzkgMzAtMTI5IDMtNzMtNDAtNzItMTU0LTgwLTE1M3MtOCAxMDcgNTggMTcyYzM1IDM0IDk2IDYxIDE0OCA0MyA4MS0yNyAxMTEtMTQ4IDE1My0xMzggMTIgMyAxNyAxNCAyMyAxMi01LTQ1LTEwLTkxLTE1LTEzNiIvPjxyZWN0IHg9IjgxIiB5PSI5NiIgY2xhc3M9InN0MiIgd2lkdGg9IjU0IiBoZWlnaHQ9IjU0Ii8+PHJlY3QgeD0iMjIyIiB5PSI4NyIgY2xhc3M9InN0MiIgd2lkdGg9Ijc0IiBoZWlnaHQ9Ijc0Ii8+PC9zdmc+},
-  github  = {https://github.com/SMILELab-FL/FedLab},
-  number  = {100},
-  tags    = {resources, frameworks},
-  pages   = {1--7},
-  url     = {http://jmlr.org/papers/v24/22-0440.html}
+  author        = {Dun Zeng and Siqi Liang and Xiangjing Hu and Hui Wang and Zenglin Xu},
+  title         = {FedLab: A Flexible Federated Learning Framework},
+  journal       = {Journal of Machine Learning Research},
+  year          = {2023},
+  month         = {jan},
+  volume        = {24},
+  venue         = {JMLR},
+  developer     = {SMILELab},
+  developerlogo = {data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA0MTAgNDEwIiBzdHlsZT0iZW5hYmxlLWJhY2tncm91bmQ6bmV3IDAgMCA0MTAgNDEwIiB4bWw6c3BhY2U9InByZXNlcnZlIj48c3R5bGU+LnN0MHtmaWxsOiNmZjUyMDd9LnN0MSwuc3Qye2ZpbGw6I2UwMTkxNDtmaWxsLXJ1bGU6ZXZlbm9kZDtjbGlwLXJ1bGU6ZXZlbm9kZH0uc3Qye2ZpbGw6IzEzODljNH08L3N0eWxlPjxyZWN0IHg9IjE2OSIgeT0iMTYxIiBjbGFzcz0ic3QwIiB3aWR0aD0iNTMiIGhlaWdodD0iNTEiLz48cGF0aCBjbGFzcz0ic3QxIiBkPSJNMzkxIDkwYy01IDIwLTQxIDE1My0xNTggMTk3LTE5IDctNzkgMzAtMTI5IDMtNzMtNDAtNzItMTU0LTgwLTE1M3MtOCAxMDcgNTggMTcyYzM1IDM0IDk2IDYxIDE0OCA0MyA4MS0yNyAxMTEtMTQ4IDE1My0xMzggMTIgMyAxNyAxNCAyMyAxMi01LTQ1LTEwLTkxLTE1LTEzNiIvPjxyZWN0IHg9IjgxIiB5PSI5NiIgY2xhc3M9InN0MiIgd2lkdGg9IjU0IiBoZWlnaHQ9IjU0Ii8+PHJlY3QgeD0iMjIyIiB5PSI4NyIgY2xhc3M9InN0MiIgd2lkdGg9Ijc0IiBoZWlnaHQ9Ijc0Ii8+PC9zdmc+},
+  github        = {https://github.com/SMILELab-FL/FedLab},
+  number        = {100},
+  tags          = {resources, frameworks},
+  pages         = {1--7},
+  url           = {http://jmlr.org/papers/v24/22-0440.html}
 }
 
 @article{federatedscope,
-  title     = {FederatedScope: A Flexible Federated Learning Platform for Heterogeneity},
-  author    = {Xie, Yuexiang and Wang, Zhen and Gao, Dawei and Chen, Daoyuan and Yao, Liuyi and Kuang, Weirui and Li, Yaliang and Ding, Bolin and Zhou, Jingren},
-  journal   = {Proceedings of the VLDB Endowment},
-  venue     = {VLDB},
-  github    = {https://github.com/alibaba/FederatedScope},
-  volume    = {16},
-  developer = {Alibaba},
-  developer logo = {alibabadotcom},
-  tags      = {resources, frameworks},
-  url       = {https://www.vldb.org/pvldb/vol16/p1059-li.pdf},
-  number    = {5},
-  pages     = {1059--1072},
-  year      = {2023}
+  title         = {FederatedScope: A Flexible Federated Learning Platform for Heterogeneity},
+  author        = {Xie, Yuexiang and Wang, Zhen and Gao, Dawei and Chen, Daoyuan and Yao, Liuyi and Kuang, Weirui and Li, Yaliang and Ding, Bolin and Zhou, Jingren},
+  journal       = {Proceedings of the VLDB Endowment},
+  venue         = {VLDB},
+  github        = {https://github.com/alibaba/FederatedScope},
+  volume        = {16},
+  month         = {sep},
+  developer     = {Alibaba},
+  developerlogo = {alibabadotcom},
+  tags          = {resources, frameworks},
+  url           = {https://www.vldb.org/pvldb/vol16/p1059-li.pdf},
+  number        = {5},
+  pages         = {1059--1072},
+  year          = {2023}
 }
 
 
 @article{JMLR:v22:20-815,
-  author    = {Yang Liu and Tao Fan and Tianjian Chen and Qian Xu and Qiang Yang},
-  title     = {FATE: An Industrial Grade Platform for Collaborative Learning With Data Protection},
-  journal   = {Journal of Machine Learning Research},
-  year      = {2021},
-  volume    = {22},
-  number    = {226},
-  pages     = {1--6},
-  tags      = {resources, frameworks},
-  github    = {https://github.com/FederatedAI/FATE},
-  venue     = {JMLR},
-  developer = {Webank},
-  developer logo = {data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA0MDAgNDgyIj48c3R5bGU+LmEsLmJ7ZmlsbC1ydWxlOmV2ZW5vZGR9LmF7ZmlsbDojMzYzNTM1fS5ie2ZpbGw6I2QwMzExZX08L3N0eWxlPjxwYXRoIGNsYXNzPSJhIiBkPSJNMjIzIDdjLTg3IDMtMTM2IDk0LTEzOSA5OS0yMyAwLTQxIDYtNDMgMTUtMyAxMCAxNiAyNyA0OCAzNy0yNSA0MC00OSA1Ny02MCA4M0M2IDI5MyAwIDMzNyA4IDM2M2M5IDMyIDM5IDQ2IDMyIDY1LTYgMTctMzIgMTYtMzMgMjMgMCAxNyAxNjQgMjEgMjYwIDIzIDM0IDEgNzkgMSA5MC0yMSAxMS0yMyAzLTQ4LTMtODEtMTktMTA3IDUxLTE0MyAzNS0yMjRDMzc1IDgxIDMwNiA0IDIyMyA3bS01NyAyNTZjLTMyIDg1IDE5IDE2NC01IDE3OC0yMCAxMi04Mi0zMy0xMDMtOTUtMzEtOTQgNTMtMTgxIDU2LTE4NSAyMi03MiA3Ny0xMDQgMTA2LTkzIDI0IDkgMzkgNTIgMzMgMTAwLTI4IDE2LTY5IDQ2LTg3IDk1Ii8+PHBhdGggY2xhc3M9ImEiIGQ9Ik0xODYgMTA2Yy04LTUtMTgtNC0yNSAxLTkgOC05IDIzLTEgMzEgOSA5IDI2IDYgMzItNSA1LTkgMi0yMS03LTI3Ii8+PHBhdGggY2xhc3M9ImIiIGQ9Ik0zOTAgMTQ4Yy0yNCA2LTQ5IDExLTc3IDE1LTkxIDEyLTE3MSA0LTIzMS05LTExIDIyLTI5IDQxLTQwIDYzIDY2IDE4IDEyOSAyOSAxNjkgMzMgODggOCAxNTAgMTMgMTc1LTIzIDE3LTIzIDExLTU2IDQtNzkiLz48L3N2Zz4=},
-  url       = {http://jmlr.org/papers/v22/20-815.html}
+  author        = {Yang Liu and Tao Fan and Tianjian Chen and Qian Xu and Qiang Yang},
+  title         = {FATE: An Industrial Grade Platform for Collaborative Learning With Data Protection},
+  journal       = {Journal of Machine Learning Research},
+  year          = {2021},
+  month         = {aug},
+  volume        = {22},
+  number        = {226},
+  pages         = {1--6},
+  tags          = {resources, frameworks},
+  github        = {https://github.com/FederatedAI/FATE},
+  venue         = {JMLR},
+  developer     = {Webank},
+  developerlogo = {data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA0MDAgNDgyIj48c3R5bGU+LmEsLmJ7ZmlsbC1ydWxlOmV2ZW5vZGR9LmF7ZmlsbDojMzYzNTM1fS5ie2ZpbGw6I2QwMzExZX08L3N0eWxlPjxwYXRoIGNsYXNzPSJhIiBkPSJNMjIzIDdjLTg3IDMtMTM2IDk0LTEzOSA5OS0yMyAwLTQxIDYtNDMgMTUtMyAxMCAxNiAyNyA0OCAzNy0yNSA0MC00OSA1Ny02MCA4M0M2IDI5MyAwIDMzNyA4IDM2M2M5IDMyIDM5IDQ2IDMyIDY1LTYgMTctMzIgMTYtMzMgMjMgMCAxNyAxNjQgMjEgMjYwIDIzIDM0IDEgNzkgMSA5MC0yMSAxMS0yMyAzLTQ4LTMtODEtMTktMTA3IDUxLTE0MyAzNS0yMjRDMzc1IDgxIDMwNiA0IDIyMyA3bS01NyAyNTZjLTMyIDg1IDE5IDE2NC01IDE3OC0yMCAxMi04Mi0zMy0xMDMtOTUtMzEtOTQgNTMtMTgxIDU2LTE4NSAyMi03MiA3Ny0xMDQgMTA2LTkzIDI0IDkgMzkgNTIgMzMgMTAwLTI4IDE2LTY5IDQ2LTg3IDk1Ii8+PHBhdGggY2xhc3M9ImEiIGQ9Ik0xODYgMTA2Yy04LTUtMTgtNC0yNSAxLTkgOC05IDIzLTEgMzEgOSA5IDI2IDYgMzItNSA1LTkgMi0yMS03LTI3Ii8+PHBhdGggY2xhc3M9ImIiIGQ9Ik0zOTAgMTQ4Yy0yNCA2LTQ5IDExLTc3IDE1LTkxIDEyLTE3MSA0LTIzMS05LTExIDIyLTI5IDQxLTQwIDYzIDY2IDE4IDEyOSAyOSAxNjkgMzMgODggOCAxNTAgMTMgMTc1LTIzIDE3LTIzIDExLTU2IDQtNzkiLz48L3N2Zz4=},
+  url           = {http://jmlr.org/papers/v22/20-815.html}
 }
 
 
+@article{ziller2021pysyft,
+  title         = {Pysyft: A library for easy federated learning},
+  author        = {Ziller, Alexander and Trask, Andrew and Lopardo, Antonio and Szymkow, Benjamin and Wagner, Bobby and Bluemke, Emma and Nounahon, Jean-Mickael and Passerat-Palmbach, Jonathan and Prakash, Kritika and Rose, Nick and others},
+  journal       = {Federated Learning Systems: Towards Next-Generation AI},
+  venue         = {FLS},
+  url           = {https://link.springer.com/chapter/10.1007/978-3-030-70604-3_5},
+  developer     = {OpenMined},
+  github        = {https://github.com/OpenMined/PySyft},
+  tags          = {resources, frameworks},
+  developerlogo = {OpenMined},
+  pages         = {111--139},
+  year          = {2021},
+  month         = {jun},
+  publisher     = {Springer}
+}
+
 @inproceedings{10.1145/3580305.3599825,
-  author={Wu, Feijie and Li, Zitao and Li, Yaliang and Ding, Bolin and Gao, Jing},
-  title={FedBiOT: LLM Local Fine-tuning in Federated Learning without Full Model},
+  author    = {Wu, Feijie and Li, Zitao and Li, Yaliang and Ding, Bolin and Gao, Jing},
+  title     = {FedBiOT: LLM Local Fine-tuning in Federated Learning without Full Model},
   year      = {2024},
   publisher = {Association for Computing Machinery},
   url       = {https://arxiv.org/abs/2406.17706},
-  github = {https://github.com/HarliWu/FedBiOT},
+  github    = {https://github.com/HarliWu/FedBiOT},
   doi       = {10.1145/3580305.3599825},
   booktitle = {Proceedings of the 30th ACM SIGKDD Conference on Knowledge Discovery and Data Mining},
   numpages  = {11},
-  series    = {KDD '24}
-  venue = {KDD},
-  month           = {aug},
-    tags      = {efficiency, LoRA, reparameterization-based},
+  venue     = {KDD},
+  month     = {aug},
+  tags      = {efficiency, LoRA, reparameterization-based}
 }

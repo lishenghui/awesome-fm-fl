@@ -191,7 +191,7 @@ def convert_entry(match, filter_tags=None) -> PaperInfo:
             except AttributeError:
                 developer = "-"
             try:
-                developer_logo = parse_feild("developer logo")
+                developer_logo = parse_feild("developerlogo")
             except AttributeError:
                 developer_logo = "-"
             paper_info = ResourcePaperInfo(

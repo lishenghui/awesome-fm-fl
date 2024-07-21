@@ -1,7 +1,7 @@
 
 
-Awesome-Foundation-Models-and-Federated-Learning
-=================================================
+😎Awesome Foundation Models and Federated Learning🧠➕🌍 
+=============================================================
 
 .. raw:: html
 
@@ -21,27 +21,31 @@ Awesome-Foundation-Models-and-Federated-Learning
    </div>
 
 
-This repository is primarily based on our survey paper:
+This repository is primarily based on our survey paper 📚🔍:
 
 
 .. raw:: html
 
    <div align="center">
-        <strong><a href="https://arxiv.org/abs/2406.12844">Synergizing Foundation Models and Federated Learning: A Survey</a></strong>
+        <strong><a href="https://arxiv.org/abs/2406.12844"> Synergizing Foundation Models and Federated Learning: A Survey </a></strong>
         <div>
-            <a href="https://lishenghui.github.io/">Shenghui Li</a>,
-            <a href="https://www.fanghuaye.xyz/">Fanghua Ye</a>,
-            <a href="https://mengf1.github.io/">Meng Fang</a>,
-            <a href="https://scholar.google.com/citations?user=ozQfDTkAAAAJ&hl=en">Jiaxu Zhao</a>,
-       </div>
-       <div>
-           <a href="https://scholar.google.com/citations?hl=en&user=9dJZ9RQAAAAJ">Yun-Hin Chan</a>,
-           <a href="https://www.eee.hku.hk/people/echngai/">Edith C.-H. Ngai</a>,
+            <a href="https://lishenghui.github.io/">Shenghui Li,</a>
+            <a href="https://www.fanghuaye.xyz/">Fanghua Ye,</a>
+            <a href="https://mengf1.github.io/">Meng Fang,</a>
+            <a href="https://scholar.google.com/citations?user=ozQfDTkAAAAJ&hl=en">Jiaxu Zhao,</a>
+           <a href="https://scholar.google.com/citations?hl=en&user=9dJZ9RQAAAAJ">Yun-Hin Chan,</a>
+           <a href="https://www.eee.hku.hk/people/echngai/">Edith C.-H. Ngai,</a>
            <a href="https://scholar.google.se/citations?user=xSXvpjEAAAAJ">Thiemo Voigt</a>
         </div>
-        <div style="margin-bottom: 20px;"></div>
+        <div align="left">
+            Unlike smaller models, Foundation Models (FMs) 🧠, such as LLMs and VLMs, are built upon vast amounts of training data 📊. While general FMs can use public data, domain-specific FMs require proprietary data for pre-training and fine-tuning, raising privacy concerns 🔒. Federated Learning (FL) 🤝💻, a compelling privacy-preserving approach, enables collaborative learning across distributed datasets while maintaining data privacy🛡️. Synergizing FM and FL 🧠➕🌍 offers a promising way to address data availability and privacy challenges in FM development, potentially revolutionizing large-scale machine learning in sensitive domains. 
+        </div>
+        <div style="margin-bottom: 10px;"></div>
     </div>
 
+
+
+---
 
 .. raw:: html
 
@@ -49,8 +53,10 @@ This repository is primarily based on our survey paper:
         <img src="https://github.com/lishenghui/awesome-fm-fl/blob/main/docs/images/fmfltaxonomy.png" width="1000" alt="Taxonomy">
    </p>
 
+---
+
 |
-If you find this survey useful for your research, please consider citing:
+🙏If you find this survey useful for your research, please consider citing:
 
 ::
 
@@ -62,27 +68,8 @@ If you find this survey useful for your research, please consider citing:
           archivePrefix={arXiv}
     }
 
-
 .. contents:: Table of Contents
-    :depth: 4
+    :depth: 3
     :local:
     :class: collapsible
 
-.. raw:: html
-
-    <script>
-    document.addEventListener("DOMContentLoaded", function() {
-        var coll = document.getElementsByClassName("collapsible");
-        for (var i = 0; i < coll.length; i++) {
-            coll[i].addEventListener("click", function() {
-                this.classList.toggle("active");
-                var content = this.nextElementSibling;
-                if (content.style.display === "block") {
-                    content.style.display = "none";
-                } else {
-                    content.style.display = "block";
-                }
-            });
-        }
-    });
-    </script>
