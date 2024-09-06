@@ -126,6 +126,12 @@ Table of Contents
 </ul></td>
 </tr>
 <tr class="odd">
+<td><strong><a href="https://arxiv.org/abs/2406.05233">Federated LoRA with Sparse Communication</a></strong> </td>
+<td>arXiv</td>
+<td>2024-06</td>
+<td><img src="https://img.shields.io/github/stars/imkevinkuo/flasc" alt="GitHub Repo stars" style="vertical-align: middle; width: auto; height: auto;"/></td>
+</tr>
+<tr class="even">
 <td><strong><a href="https://doi.org/10.1145/3589335.3651931">Only Send What You Need: Learning to Communicate Efficiently in Federated Multilingual Machine Translation</a></strong> </td>
 <td>WWW</td>
 <td>2024-05</td>
@@ -417,6 +423,12 @@ Table of Contents
 <td><img src="https://img.shields.io/github/stars/HarliWu/FedBiOT" alt="GitHub Repo stars" style="vertical-align: middle; width: auto; height: auto;"/></td>
 </tr>
 <tr class="odd">
+<td><strong><a href="https://arxiv.org/abs/2406.05233">Federated LoRA with Sparse Communication</a></strong> </td>
+<td>arXiv</td>
+<td>2024-06</td>
+<td><img src="https://img.shields.io/github/stars/imkevinkuo/flasc" alt="GitHub Repo stars" style="vertical-align: middle; width: auto; height: auto;"/></td>
+</tr>
+<tr class="even">
 <td><strong><a href="https://openreview.net/forum?id=NLPzL6HWNl">Improving LoRA in Privacy-preserving Federated Learning</a></strong> </td>
 <td>ICLR</td>
 <td>2024-05</td>
@@ -424,7 +436,7 @@ Table of Contents
 <li></li>
 </ul></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><strong><a href="https://openreview.net/forum?id=JDmAymuFFQ">FL-TAC: Enhanced Fine-Tuning in Federated Learning via Low-Rank, Task-Specific Adapter Clustering</a></strong> </td>
 <td>LLMAgents@ICLR</td>
 <td>2024-05</td>
@@ -432,7 +444,7 @@ Table of Contents
 <li></li>
 </ul></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><strong><a href="https://doi.org/10.1145/3589335.3651933">FedHLT: Efficient Federated Low-Rank Adaption with Hierarchical Language Tree for Multilingual Modeling</a></strong> </td>
 <td>WWW</td>
 <td>2024-05</td>
@@ -440,7 +452,7 @@ Table of Contents
 <li></li>
 </ul></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><strong><a href="https://arxiv.org/abs/2404.15182">FLoRA: Enhancing Vision-Language Models with Parameter-Efficient Federated Learning</a></strong> </td>
 <td>arXiv</td>
 <td>2024-04</td>
@@ -448,13 +460,13 @@ Table of Contents
 <li></li>
 </ul></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><strong><a href="https://ieeexplore.ieee.org/document/10447454">Towards Building The Federatedgpt: Federated Instruction Tuning</a></strong> </td>
 <td>ICASSP</td>
 <td>2024-03</td>
 <td><img src="https://img.shields.io/github/stars/JayZhang42/FederatedGPT-Shepherd" alt="GitHub Repo stars" style="vertical-align: middle; width: auto; height: auto;"/></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><strong><a href="https://ieeexplore.ieee.org/document/10447662">Communication-Efficient Personalized Federated Learning for Speech-to-Text Tasks</a></strong> </td>
 <td>ICASSP</td>
 <td>2024-03</td>
@@ -462,7 +474,7 @@ Table of Contents
 <li></li>
 </ul></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><strong><a href="https://arxiv.org/abs/2403.19211">Dual-Personalizing Adapter for Federated Foundation Models</a></strong> </td>
 <td>arXiv</td>
 <td>2024-03</td>
@@ -470,13 +482,13 @@ Table of Contents
 <li></li>
 </ul></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><strong><a href="https://arxiv.org/abs/2402.11505">Federated Fine-tuning of Large Language Models under Heterogeneous Language Tasks and Client Resources</a></strong> </td>
 <td>arXiv</td>
 <td>2024-02</td>
 <td><img src="https://img.shields.io/github/stars/alibaba/FederatedScope" alt="GitHub Repo stars" style="vertical-align: middle; width: auto; height: auto;"/></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><strong><a href="https://arxiv.org/abs/2401.06432">Heterogeneous LoRA for Federated Fine-tuning of On-Device Foundation Models</a></strong> </td>
 <td>arXiv</td>
 <td>2024-01</td>
@@ -484,7 +496,7 @@ Table of Contents
 <li></li>
 </ul></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><strong><a href="https://openreview.net/forum?id=06quMTmtRV">SLoRA: Federated Parameter Efficient Fine-Tuning of Language Models</a></strong> </td>
 <td>FL@FM-NeurIPS</td>
 <td>2023-12</td>
@@ -492,7 +504,7 @@ Table of Contents
 <li></li>
 </ul></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><strong><a href="https://arxiv.org/abs/2312.15926">FedMS: Federated Learning with Mixture of Sparsely Activated Foundations Models</a></strong> </td>
 <td>arXiv</td>
 <td>2023-12</td>
@@ -500,7 +512,7 @@ Table of Contents
 <li></li>
 </ul></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><strong><a href="https://arxiv.org/abs/2312.17493">Differentially Private Low-Rank Adaptation of Large Language Model Using Federated Learning</a></strong> </td>
 <td>arXiv</td>
 <td>2023-12</td>
@@ -508,7 +520,7 @@ Table of Contents
 <li></li>
 </ul></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><strong><a href="https://arxiv.org/abs/2310.13283">pFedLoRA: Model-Heterogeneous Personalized Federated Learning with LoRA Tuning</a></strong> </td>
 <td>arXiv</td>
 <td>2023-10</td>
@@ -516,7 +528,7 @@ Table of Contents
 <li></li>
 </ul></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><strong><a href="https://arxiv.org/abs/2307.13896">Low-Parameter Federated Learning with Large Language Models</a></strong> </td>
 <td>arXiv</td>
 <td>2023-07</td>
@@ -656,6 +668,12 @@ Table of Contents
 </thead>
 <tbody>
 <tr class="odd">
+<td><strong><a href="https://arxiv.org/abs/2406.05233">Federated LoRA with Sparse Communication</a></strong> </td>
+<td>arXiv</td>
+<td>2024-06</td>
+<td><img src="https://img.shields.io/github/stars/imkevinkuo/flasc" alt="GitHub Repo stars" style="vertical-align: middle; width: auto; height: auto;"/></td>
+</tr>
+<tr class="even">
 <td><strong><a href="https://openreview.net/forum?id=06quMTmtRV">SLoRA: Federated Parameter Efficient Fine-Tuning of Language Models</a></strong> </td>
 <td>FL@FM-NeurIPS</td>
 <td>2023-12</td>
