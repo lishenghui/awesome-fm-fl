@@ -532,6 +532,18 @@
 }
 
 
+@misc{wang2024saveallenablingparameter,
+      title={Save It All: Enabling Full Parameter Tuning for Federated Large Language Models via Cycle Block Gradient Descent}, 
+      author={Lin Wang and Zhichao Wang and Xiaoying Tang},
+      year={2024},
+      eprint={2406.11187},
+      archivePrefix={arXiv},
+      primaryClass={cs.LG},
+      tags          = {efficiency, sparsification},
+      url={https://arxiv.org/abs/2406.11187}, 
+      github = {https://github.com/L3030/FedCyBGD},
+}
+
 @inproceedings{chen2023on,
   title     = {On the Importance and Applicability of Pre-Training for Federated Learning},
   author    = {Hong-You Chen and Cheng-Hao Tu and Ziwei Li and Han Wei Shen and Wei-Lun Chao},
@@ -776,7 +788,6 @@
   url     = {https://openreview.net/forum?id=1ikK0kHjvj},
   note    = {Featured Certification, Outstanding Certification}
 }
-%author={Scott Reed and Konrad Zolna and Emilio Parisotto and Sergio G{\'o}mez Colmenarejo and Alexander Novikov and Gabriel Barth-maron and Mai Gim{\'e}nez and Yury Sulsky and Jackie Kay and Jost Tobias Springenberg and Tom Eccles and Jake Bruce and Ali Razavi and Ashley Edwards and Nicolas Heess and Yutian Chen and Raia Hadsell and Oriol Vinyals and Mahyar Bordbar and Nando de Freitas},
 
 
 @inproceedings{dosovitskiy2021an,
@@ -1079,7 +1090,6 @@
   volume   = {108},
   number   = {4},
   pages    = {485-532},
-  keywords = {Neural networks;Tensor decomposition;Data quantization;Acceleration;Program processors;Machine learning;Task analysis;Compact neural network;data quantization;neural network acceleration;neural network compression;sparse neural network;tensor decomposition},
   doi      = {10.1109/JPROC.2020.2976475}
 }
 
@@ -1697,31 +1707,41 @@
 }
 
 
-
-@article{xu2024fwdllm,
-  title         = {FwdLLM: Efficient FedLLM using Forward Gradient},
-  author        = {Mengwei Xu and Dongqi Cai and Yaozong Wu and Xiang Li and Shangguang Wang},
-  year          = {2024},
-  eprint        = {2308.13894},
-  archiveprefix = {arXiv},
-  primaryclass  = {cs.AI},
-  github        = {https://github.com/UbiquitousLearning/FwdLLM},
-  url           = {https://arxiv.org/abs/2308.13894},
+@inproceedings {xu2024fwdllm,
+author = {Mengwei Xu and Dongqi Cai and Yaozong Wu and Xiang Li and Shangguang Wang},
+title = {{FwdLLM}: Efficient Federated Finetuning of Large Language Models with Perturbed Inferences},
+booktitle = {2024 USENIX Annual Technical Conference (USENIX ATC 24)},
+year = {2024},
+isbn = {978-1-939133-41-0},
+address = {Santa Clara, CA},
+github = {https://github.com/UbiquitousLearning/FwdLLM},
+pages = {579--596},
   tags          = {efficiency, zeroth-order optimization},
-  journal       = {arXiv preprint arXiv:2308.13894}
+venue = {ATC},
+url = {https://www.usenix.org/conference/atc24/presentation/xu-mengwei},
+publisher = {USENIX Association},
+month = {jul}
 }
 
-@article{ling2024convergence,
-  title         = {On the Convergence of Zeroth-Order Federated Tuning in Large Language Models},
-  author        = {Zhenqing Ling and Daoyuan Chen and Liuyi Yao and Yaliang Li and Ying Shen},
-  year          = {2024},
-  eprint        = {2402.05926},
-  archiveprefix = {arXiv},
-  primaryclass  = {cs.LG},
+
+@inproceedings{ling2024convergence,
+author = {Ling, Zhenqing and Chen, Daoyuan and Yao, Liuyi and Li, Yaliang and Shen, Ying},
+title = {On the Convergence of Zeroth-Order Federated Tuning for Large Language Models},
+year = {2024},
+isbn = {9798400704901},
+publisher = {Association for Computing Machinery},
+address = {New York, NY, USA},
+url = {https://doi.org/10.1145/3637528.3671865},
+doi = {10.1145/3637528.3671865},
+booktitle = {Proceedings of the 30th ACM SIGKDD Conference on Knowledge Discovery and Data Mining},
+pages = {1827–1838},
+numpages = {12},
   tags          = {efficiency, zeroth-order optimization},
-  url           = {https://arxiv.org/abs/2402.05926},
-  journal       = {arXiv preprint arXiv:2402.05926},
-  github        = {https://github.com/alibaba/FederatedScope/tree/FedMeZO}
+  github        = {https://github.com/alibaba/FederatedScope/tree/FedMeZO},
+keywords = {convergence analysis, federated learning, large language models, zeroth-order optimization},
+location = {Barcelona, Spain},
+month = {aug},
+venue = {KDD}
 }
 
 @article{feng2023does,
@@ -1856,7 +1876,7 @@
   venue     = {NAACL},
   month     = {jun},
   tags      = {efficiency, additive tuning, prompt tuning, trustworthiness, ip protection, black-box tuning, textual prompt tuning, zeroth-order optimization},
-  url       = {https://openreview.net/pdf?id=bpUgtLeSAp}
+  url       = {https://aclanthology.org/2024.findings-naacl.286.pdf}
 }
 
 
@@ -2170,7 +2190,6 @@
   volume   = {34},
   number   = {9},
   pages    = {5937-5951},
-  keywords = {Training;Servers;Data models;Computational modeling;Artificial neural networks;Collaborative work;Standards;Communication efficiency;deep learning (DL);federated learning (FL);model compression;two-time-scale algorithms},
   doi      = {10.1109/TNNLS.2021.3131614}
 }
 
@@ -2270,16 +2289,24 @@
   journal       = {arXiv preprint arXiv:2402.19473}
 }
 
-@article{ye2024openfedllm,
-  title         = {OpenFedLLM: Training Large Language Models on Decentralized Private Data via Federated Learning},
-  author        = {Rui Ye and Wenhao Wang and Jingyi Chai and Dihan Li and Zexi Li and Yinda Xu and Yaxin Du and Yanfeng Wang and Siheng Chen},
-  year          = {2024},
-  eprint        = {2402.06954},
-  archiveprefix = {arXiv},
-  primaryclass  = {cs.LG},
-  url           = {https://arxiv.org/abs/2402.06954},
-  journal       = {arXiv preprint arXiv:2402.06954},
-  tags          = {resource, code, library}
+
+@inproceedings{ye2024openfedllm,
+author = {Ye, Rui and Wang, Wenhao and Chai, Jingyi and Li, Dihan and Li, Zexi and Xu, Yinda and Du, Yaxin and Wang, Yanfeng and Chen, Siheng},
+title = {OpenFedLLM: Training Large Language Models on Decentralized Private Data via Federated Learning},
+year = {2024},
+isbn = {9798400704901},
+publisher = {Association for Computing Machinery},
+address = {New York, NY, USA},
+url = {https://doi.org/10.1145/3637528.3671582},
+doi = {10.1145/3637528.3671582},
+booktitle = {Proceedings of the 30th ACM SIGKDD Conference on Knowledge Discovery and Data Mining},
+pages = {6137–6147},
+numpages = {11},
+  tags          = {resource, code, library},
+keywords = {federated learning, instruction tuning, large language models, value alignment},
+location = {Barcelona, Spain},
+month = {aug},
+venue = {KDD}
 }
 
 @article{kuang2023federatedscopellm,
@@ -2452,7 +2479,18 @@
   keywords  = {federated learning, machine translation},
   location  = {<conf-loc>, <city>Singapore</city>, <country>Singapore</country>, </conf-loc>},
   venue     = {WWW},
-  tags      = {Application, Machine Translation, Multilingualism, efficiency, selective tuning}
+  tags      = {Application, Machine Translation, Multilingualism, efficiency, selective tuning, sparsification}
+}
+
+@misc{zhu2024promotingdatamodelprivacy,
+      title={Promoting Data and Model Privacy in Federated Learning through Quantized LoRA},
+      author={JianHao Zhu and Changze Lv and Xiaohua Wang and Muling Wu and Wenhao Liu and Tianlong Li and Zixuan Ling and Cenyuan Zhang and Xiaoqing Zheng and Xuanjing Huang},
+      year={2024},
+      eprint={2406.10976},
+      archivePrefix={arXiv},
+      primaryClass={cs.LG},
+      tags      = {efficiency, sparsification, LoRA, reparameterization-based, trustworthiness, privacy preservation, privacy-preserving techniques},
+      url={https://arxiv.org/abs/2406.10976},
 }
 
 
@@ -3462,6 +3500,7 @@
   title     = {DBA: Distributed Backdoor Attacks against Federated Learning},
   author    = {Chulin Xie and Keli Huang and Pin-Yu Chen and Bo Li},
   booktitle = {International Conference on Learning Representations},
+  url = {https://openreview.net/forum?id=rkgyS0VFvr},
   year      = {2020}
 }
 
@@ -3485,12 +3524,17 @@
   organization = {PMLR}
 }
 
-@inproceedings{li2024blades,
-  title     = {Blades: A Unified Benchmark Suite for Byzantine Attacks and Defenses in Federated Learning},
-  author    = {Li, Shenghui and Ngai, Edith and Ye, Fanghua and Ju, Li and Zhang, Tianru and Voigt, Thiemo},
-  booktitle = {2024 IEEE/ACM Ninth International Conference on Internet-of-Things Design and Implementation (IoTDI)},
-  year      = {2024}
-}
+
+@INPROCEEDINGS{li2024blades,
+  author={Li, Shenghui and Ngai, Edith C.-H. and Ye, Fanghua and Ju, Li and Zhang, Tianru and Voigt, Thiemo},
+  booktitle={2024 IEEE/ACM Ninth International Conference on Internet-of-Things Design and Implementation (IoTDI)},
+  title={Blades: A Unified Benchmark Suite for Byzantine Attacks and Defenses in Federated Learning},
+  year={2024},
+  venue = {IoTDI},
+  url = {https://ieeexplore.ieee.org/document/10562176},
+  pages={158-169},
+  doi={10.1109/IoTDI61053.2024.00018}}
+
 
 @inproceedings{Shen_2021,
   series     = {CCS �21},
@@ -3642,14 +3686,13 @@
 }
 
 @inproceedings{mugunthan2019smpai,
-  title        = {Smpai: Secure multi-party computation for federated learning},
-  author       = {Mugunthan, Vaikkunth and Polychroniadou, Antigoni and Byrd, David and Balch, Tucker Hybinette},
-  booktitle    = {Proceedings of the NeurIPS 2019 Workshop on Robust AI in Financial Services},
+  title={SMPAI: Secure Multi-Party Computation for Federated Learning},
+  author={Vaikkunth Mugunthan and David Byrd and Tucker Hybinette Balch and J. P. Morgan and AI Research},
+  year={2019},
   volume       = {21},
-  year         = {2019},
-  organization = {MIT Press Cambridge, MA, USA}
+  booktitle    = {Proceedings of the NeurIPS 2019 Workshop on Robust AI in Financial Services},
+  url={https://api.semanticscholar.org/CorpusID:220598116}
 }
-
 
 @inproceedings{NEURIPS2023_a6278101,
   author    = {Malladi, Sadhika and Gao, Tianyu and Nichani, Eshaan and Damian, Alex and Lee, Jason D and Chen, Danqi and Arora, Sanjeev},
@@ -3739,6 +3782,29 @@
   tags      = {efficiency, knowledge distillation, selective tuning},
   url       = {https://doi.org/10.48550/arXiv.2404.11536}
 }
+
+@misc{fan2024fedmktfederatedmutualknowledge,
+      title={FedMKT: Federated Mutual Knowledge Transfer for Large and Small Language Models},
+      author={Tao Fan and Guoqiang Ma and Yan Kang and Hanlin Gu and Yuanfeng Song and Lixin Fan and Kai Chen and Qiang Yang},
+      year={2024},
+      eprint={2406.02224},
+      archivePrefix={arXiv},
+      primaryClass={cs.CL},
+        tags      = {efficiency, knowledge distillation},
+      url={https://arxiv.org/abs/2406.02224},
+}
+
+@misc{li2024federateddomainspecificknowledgetransfer,
+      title={Federated Domain-Specific Knowledge Transfer on Large Language Models Using Synthetic Data},
+      author={Haoran Li and Xinyuan Zhao and Dadi Guo and Hanlin Gu and Ziqian Zeng and Yuxing Han and Yangqiu Song and Lixin Fan and Qiang Yang},
+      year={2024},
+      eprint={2405.14212},
+      archivePrefix={arXiv},
+      tags      = {efficiency, knowledge distillation},
+      primaryClass={cs.CR},
+      url={https://arxiv.org/abs/2405.14212},
+}
+
 
 @inproceedings{zhang2024federated,
   title     = {Federated Adaptation for Foundation Model-based Recommendations},
