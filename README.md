@@ -1073,6 +1073,14 @@ Table of Contents
 </thead>
 <tbody>
 <tr class="odd">
+<td><strong><a href="https://arxiv.org/abs/2410.17573">Securing Federated Learning Against Novel and Classic Backdoor Threats During Foundation Model Integration</a></strong> </td>
+<td>arXiv</td>
+<td>2024-10</td>
+<td><ul>
+<li></li>
+</ul></td>
+</tr>
+<tr class="even">
 <td><strong><a href="https://arxiv.org/abs/2406.10630">Emerging Safety Attack and Defense in Federated Instruction Tuning of Large Language Models</a></strong> </td>
 <td>arXiv</td>
 <td>2024-06</td>
@@ -1080,13 +1088,13 @@ Table of Contents
 <li></li>
 </ul></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><strong><a href="https://link.springer.com/chapter/10.1007/978-981-97-2259-4_13">Unveiling Backdoor Risks Brought by Foundation Models in Heterogeneous Federated Learning</a></strong> </td>
 <td>PAKDD</td>
 <td>2024-04</td>
 <td><img src="https://img.shields.io/github/stars/lixi1994/backdoor_FM_hete_FL" alt="GitHub Repo stars" style="vertical-align: middle; width: auto; height: auto;"/></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><strong><a href="https://openreview.net/forum?id=BrcHuO2BVc">Backdoor Threats from Compromised Foundation Models to Federated Learning</a></strong> </td>
 <td>FL@FM-NeurIPS</td>
 <td>2023-10</td>
