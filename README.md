@@ -362,6 +362,14 @@ Table of Contents
 </thead>
 <tbody>
 <tr class="odd">
+<td><strong><a href="https://arxiv.org/abs/2410.10114">Mixture of Experts Made Personalized: Federated Prompt Learning for Vision-Language Models</a></strong> </td>
+<td>arXiv</td>
+<td>2024-10</td>
+<td><ul>
+<li></li>
+</ul></td>
+</tr>
+<tr class="even">
 <td><strong><a href="https://arxiv.org/abs/2403.08506">DiPrompT: Disentangled Prompt Tuning for Multiple Latent Domain Generalization in Federated Learning</a></strong> </td>
 <td>CVPR</td>
 <td>2024-06</td>
@@ -369,13 +377,13 @@ Table of Contents
 <li></li>
 </ul></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><strong><a href="https://arxiv.org/abs/2403.00041">Global and Local Prompts Cooperation via Optimal Transport for Federated Learning</a></strong> </td>
 <td>CVPR</td>
 <td>2024-06</td>
 <td><img src="https://img.shields.io/github/stars/HongxiaLee/FedOTP" alt="GitHub Repo stars" style="vertical-align: middle; width: auto; height: auto;"/></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><strong><a href="https://openreview.net/forum?id=NW31gAylIm">Federated Text-driven Prompt Generation for Vision-Language Models</a></strong> </td>
 <td>ICLR</td>
 <td>2024-05</td>
@@ -383,13 +391,13 @@ Table of Contents
 <li></li>
 </ul></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><strong><a href="https://ojs.aaai.org/index.php/AAAI/article/view/29434">Federated Adaptive Prompt Tuning for Multi-Domain Collaborative Learning</a></strong> </td>
 <td>AAAI</td>
 <td>2024-03</td>
 <td><img src="https://img.shields.io/github/stars/leondada/FedAPT" alt="GitHub Repo stars" style="vertical-align: middle; width: auto; height: auto;"/></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><strong><a href="https://arxiv.org/abs/2310.03103">Dual Prompt Tuning for Domain-Aware Federated Learning</a></strong> </td>
 <td>arXiv</td>
 <td>2023-10</td>
@@ -397,7 +405,7 @@ Table of Contents
 <li></li>
 </ul></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><strong><a href="https://ieeexplore.ieee.org/abstract/document/10210127">PromptFL: Let Federated Participants Cooperatively Learn Prompts Instead of Models - Federated Learning in Age of Foundation Model</a></strong> </td>
 <td>TMC</td>
 <td>2023-08</td>
@@ -427,7 +435,7 @@ Table of Contents
 </thead>
 <tbody>
 <tr class="odd">
-<td><strong><a href="https://aclanthology.org/2024.emnlp-main.717"">Heterogeneous LoRA for Federated Fine-tuning of On-Device Foundation Models"</a></strong> </td>
+<td><strong><a href="https://aclanthology.org/2024.emnlp-main.717">Heterogeneous LoRA for Federated Fine-tuning of On-Device Foundation Models</a></strong> </td>
 <td>EMNLP</td>
 <td>2024-11</td>
 <td><ul>
@@ -592,7 +600,7 @@ Table of Contents
 </thead>
 <tbody>
 <tr class="odd">
-<td><strong><a href="https://aclanthology.org/2024.emnlp-main.717"">Heterogeneous LoRA for Federated Fine-tuning of On-Device Foundation Models"</a></strong> </td>
+<td><strong><a href="https://aclanthology.org/2024.emnlp-main.717">Heterogeneous LoRA for Federated Fine-tuning of On-Device Foundation Models</a></strong> </td>
 <td>EMNLP</td>
 <td>2024-11</td>
 <td><ul>
@@ -714,7 +722,7 @@ Table of Contents
 <td><img src="https://img.shields.io/github/stars/imkevinkuo/flasc" alt="GitHub Repo stars" style="vertical-align: middle; width: auto; height: auto;"/></td>
 </tr>
 <tr class="even">
-<td><strong><a href="https://arxiv.org/abs/2406.11187}, ">Save It All: Enabling Full Parameter Tuning for Federated Large Language Models via Cycle Block Gradient Descent, </a></strong> </td>
+<td><strong><a href="https://arxiv.org/abs/2406.11187">Save It All: Enabling Full Parameter Tuning for Federated Large Language Models via Cycle Block Gradient Descent</a></strong> </td>
 <td>arXiv</td>
 <td>2024-06</td>
 <td><img src="https://img.shields.io/github/stars/L3030/FedCyBGD" alt="GitHub Repo stars" style="vertical-align: middle; width: auto; height: auto;"/></td>
@@ -985,12 +993,18 @@ Table of Contents
 </thead>
 <tbody>
 <tr class="odd">
+<td><strong><a href="https://icml.cc/virtual/2024/poster/35060">PrE-Text: training language models on private federated data in the age of LLMs</a></strong> </td>
+<td>ICML</td>
+<td>2024-07</td>
+<td><img src="https://img.shields.io/github/stars/houcharlie/PrE-Text" alt="GitHub Repo stars" style="vertical-align: middle; width: auto; height: auto;"/></td>
+</tr>
+<tr class="even">
 <td><strong><a href="https://proceedings.mlr.press/v238/vu24a.html"> Analysis of Privacy Leakage in Federated Large Language Models </a></strong> </td>
 <td>AISTATS</td>
 <td>2024-05</td>
 <td><img src="https://img.shields.io/github/stars/vunhatminh/FL_Attacks" alt="GitHub Repo stars" style="vertical-align: middle; width: auto; height: auto;"/></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><strong><a href="https://proceedings.neurips.cc/paper_files/paper/2022/file/35b5c175e139bff5f22a5361270fce87-Paper-Conference.pdf">Recovering Private Text in Federated Learning of Language Models</a></strong> </td>
 <td>NeurIPS</td>
 <td>2022-11</td>
@@ -1072,6 +1086,22 @@ Table of Contents
 </tr>
 </thead>
 <tbody>
+<tr class="odd">
+<td><strong><a href="https://ieeexplore.ieee.org/abstract/document/10818586">Data Reconstruction and Protection in Federated Learning for Fine-Tuning Large Language Models, </a></strong> </td>
+<td>IEEE TBD</td>
+<td>2024-12</td>
+<td><ul>
+<li></li>
+</ul></td>
+</tr>
+<tr class="even">
+<td><strong><a href="https://arxiv.org/abs/2411.19335">PEFT-as-an-Attack! Jailbreaking Language Models during Federated Parameter-Efficient Fine-Tuning</a></strong> </td>
+<td>arXiv</td>
+<td>2024-11</td>
+<td><ul>
+<li></li>
+</ul></td>
+</tr>
 <tr class="odd">
 <td><strong><a href="https://arxiv.org/abs/2410.17573">Securing Federated Learning Against Novel and Classic Backdoor Threats During Foundation Model Integration</a></strong> </td>
 <td>arXiv</td>
@@ -1406,9 +1436,25 @@ Table of Contents
 </thead>
 <tbody>
 <tr class="odd">
+<td><strong><a href="https://ieeexplore.ieee.org/abstract/document/10759678">Towards Federated Large Language Models: Motivations, Methods, and Future Directions</a></strong> </td>
+<td>IEEE Commun.</td>
+<td>2024-10</td>
+<td><ul>
+<li></li>
+</ul></td>
+</tr>
+<tr class="even">
 <td><strong><a href="https://doi.org/10.48550/arXiv.2401.04472">A Survey on Efficient Federated Learning Methods for Foundation Model Training</a></strong> </td>
 <td>IJCAI</td>
 <td>2024-08</td>
+<td><ul>
+<li></li>
+</ul></td>
+</tr>
+<tr class="odd">
+<td><strong><a href="https://arxiv.org/abs/2406.12844">Synergizing Foundation Models and Federated Learning: A Survey</a></strong> </td>
+<td>arXiv</td>
+<td>2024-06</td>
 <td><ul>
 <li></li>
 </ul></td>
