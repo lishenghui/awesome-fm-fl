@@ -34,7 +34,7 @@ This repository is primarily based on our survey paper 📚🔍:
             <a href="https://mengf1.github.io/">Meng Fang,</a>
             <a href="https://scholar.google.com/citations?user=ozQfDTkAAAAJ&hl=en">Jiaxu Zhao,</a>
            <a href="https://scholar.google.com/citations?hl=en&user=9dJZ9RQAAAAJ">Yun-Hin Chan,</a>
-           <a href="https://www.eee.hku.hk/people/echngai/">Edith C.-H. Ngai,</a>
+           <a href="https://www.eee.hku.hk/people/echngai/">Edith C. H. Ngai,</a>
            <a href="https://scholar.google.se/citations?user=xSXvpjEAAAAJ">Thiemo Voigt</a>
         </div>
         <div align="left">
