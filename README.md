@@ -427,7 +427,7 @@ Table of Contents
 </thead>
 <tbody>
 <tr class="odd">
-<td><strong><a href="https://aclanthology.org/2024.emnlp-main.717"">Heterogeneous LoRA for Federated Fine-tuning of On-Device Foundation Models"</a></strong> </td>
+<td><strong><a href="https://aclanthology.org/2024.emnlp-main.717">Heterogeneous LoRA for Federated Fine-tuning of On-Device Foundation Models</a></strong> </td>
 <td>EMNLP</td>
 <td>2024-11</td>
 <td><ul>
@@ -592,7 +592,7 @@ Table of Contents
 </thead>
 <tbody>
 <tr class="odd">
-<td><strong><a href="https://aclanthology.org/2024.emnlp-main.717"">Heterogeneous LoRA for Federated Fine-tuning of On-Device Foundation Models"</a></strong> </td>
+<td><strong><a href="https://aclanthology.org/2024.emnlp-main.717">Heterogeneous LoRA for Federated Fine-tuning of On-Device Foundation Models</a></strong> </td>
 <td>EMNLP</td>
 <td>2024-11</td>
 <td><ul>
@@ -714,7 +714,7 @@ Table of Contents
 <td><img src="https://img.shields.io/github/stars/imkevinkuo/flasc" alt="GitHub Repo stars" style="vertical-align: middle; width: auto; height: auto;"/></td>
 </tr>
 <tr class="even">
-<td><strong><a href="https://arxiv.org/abs/2406.11187}, ">Save It All: Enabling Full Parameter Tuning for Federated Large Language Models via Cycle Block Gradient Descent, </a></strong> </td>
+<td><strong><a href="https://arxiv.org/abs/2406.11187">Save It All: Enabling Full Parameter Tuning for Federated Large Language Models via Cycle Block Gradient Descent</a></strong> </td>
 <td>arXiv</td>
 <td>2024-06</td>
 <td><img src="https://img.shields.io/github/stars/L3030/FedCyBGD" alt="GitHub Repo stars" style="vertical-align: middle; width: auto; height: auto;"/></td>
@@ -1073,6 +1073,14 @@ Table of Contents
 </thead>
 <tbody>
 <tr class="odd">
+<td><strong><a href="https://arxiv.org/abs/2411.19335">PEFT-as-an-Attack! Jailbreaking Language Models during Federated Parameter-Efficient Fine-Tuning</a></strong> </td>
+<td>arXiv</td>
+<td>2024-11</td>
+<td><ul>
+<li></li>
+</ul></td>
+</tr>
+<tr class="even">
 <td><strong><a href="https://arxiv.org/abs/2410.17573">Securing Federated Learning Against Novel and Classic Backdoor Threats During Foundation Model Integration</a></strong> </td>
 <td>arXiv</td>
 <td>2024-10</td>
@@ -1080,7 +1088,7 @@ Table of Contents
 <li></li>
 </ul></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><strong><a href="https://arxiv.org/abs/2406.10630">Emerging Safety Attack and Defense in Federated Instruction Tuning of Large Language Models</a></strong> </td>
 <td>arXiv</td>
 <td>2024-06</td>
@@ -1088,13 +1096,13 @@ Table of Contents
 <li></li>
 </ul></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><strong><a href="https://link.springer.com/chapter/10.1007/978-981-97-2259-4_13">Unveiling Backdoor Risks Brought by Foundation Models in Heterogeneous Federated Learning</a></strong> </td>
 <td>PAKDD</td>
 <td>2024-04</td>
 <td><img src="https://img.shields.io/github/stars/lixi1994/backdoor_FM_hete_FL" alt="GitHub Repo stars" style="vertical-align: middle; width: auto; height: auto;"/></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><strong><a href="https://openreview.net/forum?id=BrcHuO2BVc">Backdoor Threats from Compromised Foundation Models to Federated Learning</a></strong> </td>
 <td>FL@FM-NeurIPS</td>
 <td>2023-10</td>
@@ -1406,9 +1414,25 @@ Table of Contents
 </thead>
 <tbody>
 <tr class="odd">
+<td><strong><a href="https://ieeexplore.ieee.org/abstract/document/10759678">Towards Federated Large Language Models: Motivations, Methods, and Future Directions</a></strong> </td>
+<td>IEEE Commun.</td>
+<td>2024-10</td>
+<td><ul>
+<li></li>
+</ul></td>
+</tr>
+<tr class="even">
 <td><strong><a href="https://doi.org/10.48550/arXiv.2401.04472">A Survey on Efficient Federated Learning Methods for Foundation Model Training</a></strong> </td>
 <td>IJCAI</td>
 <td>2024-08</td>
+<td><ul>
+<li></li>
+</ul></td>
+</tr>
+<tr class="odd">
+<td><strong><a href="https://arxiv.org/abs/2406.12844">Synergizing Foundation Models and Federated Learning: A Survey</a></strong> </td>
+<td>arXiv</td>
+<td>2024-06</td>
 <td><ul>
 <li></li>
 </ul></td>
