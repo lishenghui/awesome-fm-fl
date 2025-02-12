@@ -1546,9 +1546,25 @@ Table of Contents
 </thead>
 <tbody>
 <tr>
+<td><strong><a href="https://arxiv.org/abs/2404.15381">Advances and Open Challenges in Federated Learning with Foundation Models</a></strong> </td>
+<td>IEEE COMST</td>
+<td>2025-01</td>
+<td><ul>
+<li></li>
+</ul></td>
+</tr>
+<tr>
 <td><strong><a href="https://ieeexplore.ieee.org/abstract/document/10759678">Towards Federated Large Language Models: Motivations, Methods, and Future Directions</a></strong> </td>
-<td>IEEE Commun.</td>
+<td>IEEE COMST</td>
 <td>2024-10</td>
+<td><ul>
+<li></li>
+</ul></td>
+</tr>
+<tr>
+<td><strong><a href="https://arxiv.org/abs/2409.15723">Federated Large Language Models: Current Progress and Future Directions</a></strong> </td>
+<td>arXiv</td>
+<td>2024-09</td>
 <td><ul>
 <li></li>
 </ul></td>
@@ -1573,14 +1589,6 @@ Table of Contents
 <td><strong><a href="https://aclanthology.org/2024.lrec-main.630">Federated Foundation Models: Privacy-Preserving and Collaborative Learning for Large Models</a></strong> </td>
 <td>LREC-COLING</td>
 <td>2024-05</td>
-<td><ul>
-<li></li>
-</ul></td>
-</tr>
-<tr>
-<td><strong><a href="https://arxiv.org/abs/2404.15381">Advances and Open Challenges in Federated Learning with Foundation Models</a></strong> </td>
-<td>arXiv</td>
-<td>2024-04</td>
 <td><ul>
 <li></li>
 </ul></td>
