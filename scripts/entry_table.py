@@ -100,7 +100,7 @@ class PaperTable:
         self.papers.sort(
             key=lambda x: (x.year, x.month if x.month else "01"), reverse=True
         )
-        papers_str = f"{self.category} \n{header * len(self.category)} \n\n"
+        papers_str = f"{self.category} ({len(self.papers)}) \n{header * (len(self.category) + 5)} \n\n"
         papers_str += self.get_table_head()
         for paper in self.papers:
             papers_str += paper.to_rst_row()
