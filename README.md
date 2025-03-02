@@ -1132,7 +1132,7 @@ Table of Contents
 
 ### Privacy Preservation
 
-#### Privacy Attack (5)
+#### Privacy Attack (6)
 
 <table>
 <colgroup>
@@ -1179,6 +1179,14 @@ Table of Contents
 <td><img src="https://img.shields.io/github/stars/vunhatminh/FL_Attacks" alt="GitHub Repo stars" style="vertical-align: middle; width: auto; height: auto;"/></td>
 </tr>
 <tr class="odd">
+<td><strong><a href="https://openreview.net/forum?id=A9WQaxYsfx">Panning for Gold in Federated Learning: Targeted Text Extraction under Arbitrarily Large-Scale Aggregation</a></strong> </td>
+<td>ICLR</td>
+<td>2023-03</td>
+<td><ul>
+<li></li>
+</ul></td>
+</tr>
+<tr class="even">
 <td><strong><a href="https://proceedings.neurips.cc/paper_files/paper/2022/file/35b5c175e139bff5f22a5361270fce87-Paper-Conference.pdf">Recovering Private Text in Federated Learning of Language Models</a></strong> </td>
 <td>NeurIPS</td>
 <td>2022-11</td>
