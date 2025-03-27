@@ -19,7 +19,10 @@ adaptability:
 #    - domain-centric adaptation
     - domain-centric adaptation:
         - multi-domain adaptation
-    - client-centric adaptation
+    - client-centric adaptation:
+        - preference-aware adaptation
+        - personalization
+        - clustering
 #    - user adaptability
 
 trustworthiness:

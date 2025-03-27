@@ -406,47 +406,12 @@
   month     = {mar},
   pages     = {52--66},
   year      = {2023},
-  tags      = {efficiency, additive tuning, adapter tuning, adaptability, client-centric adaptation},
+  tags      = {efficiency, additive tuning, adapter tuning, adaptability, client-centric adaptation, personalization},
   url       = {http://sites.computer.org/debull/A23mar/p52.pdf},
   timestamp = {Tue, 13 Jun 2023 16:59:20 +0200},
   biburl    = {https://dblp.org/rec/journals/debu/LuH0023.bib},
   github    = {https://github.com/microsoft/PersonalizedFL},
   bibsource = {dblp computer science bibliography, https://dblp.org}
-}
-
-
-@misc{wu2024clientpreferencellmfinetuning,
-  title         = {On the Client Preference of LLM Fine-tuning in Federated Learning},
-  author        = {Feijie Wu and Xiaoze Liu and Haoyu Wang and Xingchen Wang and Jing Gao},
-  year          = {2024},
-  eprint        = {2407.03038},
-  archiveprefix = {arXiv},
-  primaryclass  = {cs.CL},
-  tags          = {adaptability, client-centric adaptation},
-  url           = {https://arxiv.org/abs/2407.03038}
-}
-
-@inproceedings{anonymous2025towards,
-  title     = {Towards Federated {RLHF} with Aggregated Client Preference for {LLM}s},
-  author    = {Feijie Wu and Xiaoze Liu and Haoyu Wang and Xingchen Wang and Jing Gao},
-  booktitle = {The Thirteenth International Conference on Learning Representations},
-  year      = {2025},
-  tags      = {adaptability, client-centric adaptation},
-  venue     = {ICLR},
-  month     = {apr},
-  url       = {https://openreview.net/forum?id=mqNKiEB6pd}
-}
-
-
-@inproceedings{fan2024fedrlhfconvergenceguaranteedfederatedframework,
-  title     = {FedRLHF: A Convergence-Guaranteed Federated Framework for Privacy-Preserving and Personalized RLHF},
-  author    = {Flint Xiaofeng Fan and Cheston Tan and Yew-Soon Ong and Roger Wattenhofer and Wei-Tsang Ooi},
-  booktitle = {The Thirteenth International Conference on Learning Representations},
-  year      = {2025},
-  tags      = {adaptability, client-centric adaptation},
-  venue     = {AAMAS},
-  month     = {may},
-  url       = {https://arxiv.org/abs/2412.15538}
 }
 
 
@@ -485,31 +450,6 @@
   doi     = {https://doi.org/10.48550/arXiv.2210.01708},
   year    = {2022}
 }
-
-
-@article{yi2023fedlora,
-  title         = {pFedLoRA: Model-Heterogeneous Personalized Federated Learning with LoRA Tuning},
-  author        = {Liping Yi and Han Yu and Gang Wang and Xiaoguang Liu and Xiaoxiao Li},
-  year          = {2024},
-  eprint        = {2310.13283},
-  archiveprefix = {arXiv},
-  primaryclass  = {cs.LG},
-  tags          = {efficiency, reparameterization-based, LoRA, heterogeneous resource, personalization},
-  url           = {https://arxiv.org/abs/2310.13283},
-  journal       = {arXiv preprint arXiv:2310.13283}
-}
-
-@inproceedings{anonymous2025federated,
-  title     = {Federated Residual Low-Rank Adaption of Large Language Models},
-  author    = {Anonymous},
-  booktitle = {The Thirteenth International Conference on Learning Representations},
-  year      = {2025},
-  venue     = {ICLR},
-  tags      = {efficiency, reparameterization-based, LoRA},
-  month     = {apri},
-  url       = {https://openreview.net/forum?id=e0rQRMUhs7}
-}
-
 
 @article{ding2023parameter,
   title     = {Parameter-efficient fine-tuning of large-scale pre-trained language models},
@@ -562,8 +502,22 @@
   year      = {2024},
   venue     = {CVPR},
   month     = {jun},
-  tags      = {efficiency, selective tuning, adaptability, client-centric adaptation},
+  tags      = {efficiency, selective tuning, adaptability, client-centric adaptation, personalization},
   url       = {https://openreview.net/forum?id=TXtRWPZIZ0}
+}
+
+pdf] [supp] [bibtex]
+@InProceedings{Saha_2025_CVPR,
+    author    = {Saha, Pramit and Wagner, Felix and Mishra, Divyanshu and Peng, Can and Thakur, Anshul and Clifton, David A. and Kamnitsas, Konstantinos and Noble, J. Alison},
+    title     = {F{\textasciicircum}3OCUS - Federated Finetuning of Vision-Language Foundation Models with Optimal Client Layer Updating Strategy via Multi-objective Meta-Heuristics},
+    booktitle = {Proceedings of the Computer Vision and Pattern Recognition Conference (CVPR)},
+    month     = {June},
+    venue = {CVPR},
+    month = {jun},
+    year      = {2025},
+    url = {https://arxiv.org/abs/2411.11912},
+    tags      = {efficiency, selective tuning, adaptability},
+    pages     = {20006-20017}
 }
 
 
@@ -579,6 +533,16 @@
   url           = {https://arxiv.org/abs/2406.05233}
 }
 
+@misc{wang2025efficientfederatedfinetuninglarge,
+  title         = {Efficient Federated Fine-Tuning of Large Language Models with Layer Dropout},
+  author        = {Shilong Wang and Jianchun Liu and Hongli Xu and Jiaming Yan and Xianjun Gao},
+  year          = {2025},
+  eprint        = {2503.10217},
+  archiveprefix = {arXiv},
+  tags          = {efficiency, selective tuning},
+  primaryclass  = {cs.LG},
+  url           = {https://arxiv.org/abs/2503.10217}
+}
 
 @misc{wang2024saveallenablingparameter,
   title         = {Save It All: Enabling Full Parameter Tuning for Federated Large Language Models via Cycle Block Gradient Descent},
@@ -2288,7 +2252,6 @@
   publisher = {Association for Computing Machinery},
   address   = {New York, NY, USA},
   issn      = {2158-656X},
-  url       = {https://doi.org/10.1145/3682068},
   doi       = {10.1145/3682068},
   journal   = {ACM Trans. Manage. Inf. Syst.},
   month     = aug,
@@ -2880,26 +2843,6 @@
   journal       = {arXiv preprint arXiv:2305.07001}
 }
 
-@inproceedings{10.1145/3485447.3511988,
-  author    = {Wang, Haoyu and Zhao, Handong and Wang, Yaqing and Yu, Tong and Gu, Jiuxiang and Gao, Jing},
-  title     = {FedKC: Federated Knowledge Composition for Multilingual Natural Language Understanding},
-  year      = {2022},
-  month     = {apr},
-  isbn      = {9781450390965},
-  publisher = {Association for Computing Machinery},
-  address   = {New York, NY, USA},
-  url       = {https://doi.org/10.1145/3485447.3511988},
-  doi       = {10.1145/3485447.3511988},
-  booktitle = {Proceedings of the ACM Web Conference 2022},
-  pages     = {1839--1850},
-  numpages  = {12},
-  keywords  = {Federated learning, Multilingual natural language understanding},
-  location  = {<conf-loc>, <city>Virtual Event, Lyon</city>, <country>France</country>, </conf-loc>},
-  tags      = {Application, Multilingualism},
-  series    = {WWW '22},
-  venue     = {WWW}
-}
-
 @inproceedings{10.1145/3580305.3599825,
   author    = {Feng, Tiantian and Bose, Digbalay and Zhang, Tuo and Hebbar, Rajat and Ramakrishna, Anil and Gupta, Rahul and Zhang, Mi and Avestimehr, Salman and Narayanan, Shrikanth},
   title     = {FedMultimodal: A Benchmark for Multimodal Federated Learning},
@@ -3105,25 +3048,6 @@
   pages     = {1413--1421}
 }
 
-
-@inproceedings{guo-etal-2024-fedlfc,
-  title     = {{F}ed{LFC}: Towards Efficient Federated Multilingual Modeling with {L}o{RA}-based Language Family Clustering},
-  author    = {Guo, Zhihan  and
-               Zhang, Yifei  and
-               Zhang, Zhuo  and
-               Xu, Zenglin  and
-               King, Irwin},
-  editor    = {Duh, Kevin  and
-               Gomez, Helena  and
-               Bethard, Steven},
-  booktitle = {Findings of the Association for Computational Linguistics: NAACL 2024},
-  month     = jun,
-  year      = {2024},
-  address   = {Mexico City, Mexico},
-  publisher = {Association for Computational Linguistics},
-  url       = {https://aclanthology.org/2024.findings-naacl.98},
-  pages     = {1519--1528}
-}
 
 
 
@@ -3403,17 +3327,6 @@
 }
 
 
-@inproceedings{ping2024fltac,
-  title     = {{FL}-{TAC}: Enhanced Fine-Tuning in Federated Learning via Low-Rank, Task-Specific Adapter Clustering},
-  author    = {Siqi Ping and Yuzhu Mao and Yang Liu and Xiao-Ping Zhang and Wenbo Ding},
-  booktitle = {ICLR 2024 Workshop on Large Language Model (LLM) Agents},
-  year      = {2024},
-  month     = {may},
-  venue     = {LLMAgents\@ICLR},
-  tags      = {efficiency, LoRA, reparameterization-based},
-  url       = {https://openreview.net/forum?id=JDmAymuFFQ}
-}
-
 @article{nguyen2024flora,
   title         = {FLoRA: Enhancing Vision-Language Models with Parameter-Efficient Federated Learning},
   author        = {Duy Phuong Nguyen and J. Pablo Munoz and Ali Jannesari},
@@ -3539,6 +3452,17 @@
   github        = {https://github.com/FDU-INC/SplitFM},
   primaryclass  = {cs.LG},
   url           = {https://arxiv.org/abs/2407.00952}
+}
+
+@misc{zhang2025splitfinetuninglargelanguage,
+  title         = {Split Fine-Tuning for Large Language Models in Wireless Networks},
+  author        = {Songge Zhang and Guoliang Cheng and Xinyu Huang and Zuguang Li and Wen Wu and Lingyang Song and Xuemin Shen},
+  year          = {2025},
+  eprint        = {2501.09237},
+  archiveprefix = {arXiv},
+  tags          = {efficiency, split learning, heterogeneous resource},
+  primaryclass  = {cs.DC},
+  url           = {https://arxiv.org/abs/2501.09237}
 }
 
 
@@ -4517,18 +4441,18 @@
   publisher     = {Springer}
 }
 
-@inproceedings{10.1145/3580305.3599825,
+@inproceedings{10.1145/3637528.3671897,
   author    = {Wu, Feijie and Li, Zitao and Li, Yaliang and Ding, Bolin and Gao, Jing},
   title     = {FedBiOT: LLM Local Fine-tuning in Federated Learning without Full Model},
   year      = {2024},
   publisher = {Association for Computing Machinery},
-  url       = {https://arxiv.org/abs/2406.17706},
+  url       = {https://dl.acm.org/doi/abs/10.1145/3637528.3671897},
   github    = {https://github.com/HarliWu/FedBiOT},
-  doi       = {10.1145/3580305.3599825},
+  doi       = {10.1145/3637528.3671897},
   booktitle = {Proceedings of the 30th ACM SIGKDD Conference on Knowledge Discovery and Data Mining},
   numpages  = {11},
   venue     = {KDD},
-  month     = {aug},
+  month     = aug,
   tags      = {efficiency, LoRA, reparameterization-based}
 }
 
@@ -4626,4 +4550,111 @@
   venue     = {ICLR},
   month     = apr,
   url       = {https://openreview.net/forum?id=AJBGSVSTT2}
+}
+
+@inproceedings{wu2025towards,
+  title     = {Towards Federated {RLHF} with Aggregated Client Preference for {LLMs}},
+  author    = {Wu, Feijie and Liu, Xiaoze and Wang, Haoyu and Wang, Xingchen and Su, Lu and Gao, Jing},
+  booktitle = {The Thirteenth International Conference on Learning Representations},
+  venue     = {ICLR},
+  github    = {https://github.com/HarliWu/FedBiscuit},
+  month     = {apr},
+  tags      = {adaptability, client-centric adaptation, preference-aware adaptation},
+  url       = {https://openreview.net/forum?id=mqNKiEB6pd},
+  year      = {2025}
+}
+
+@misc{spadea2025federatedfinetuninglargelanguage,
+  title         = {Federated Fine-Tuning of Large Language Models: Kahneman-Tversky vs. Direct Preference Optimization},
+  author        = {Fernando Spadea and Oshani Seneviratne},
+  year          = {2025},
+  eprint        = {2502.14187},
+  archiveprefix = {arXiv},
+  tags          = {adaptability, client-centric adaptation, preference-aware adaptation},
+  primaryclass  = {cs.LG},
+  url           = {https://arxiv.org/abs/2502.14187}
+}
+
+
+@inproceedings{fan2024fedrlhfconvergenceguaranteedfederatedframework,
+  title     = {FedRLHF: A Convergence-Guaranteed Federated Framework for Privacy-Preserving and Personalized RLHF},
+  author    = {Flint Xiaofeng Fan and Cheston Tan and Yew-Soon Ong and Roger Wattenhofer and Wei-Tsang Ooi},
+  booktitle = {The Thirteenth International Conference on Learning Representations},
+  year      = {2025},
+  tags      = {adaptability, client-centric adaptation, personalization, preference-aware adaptation},
+  venue     = {AAMAS},
+  month     = {may},
+  url       = {https://arxiv.org/abs/2412.15538}
+}
+
+@article{yi2023fedlora,
+  title         = {pFedLoRA: Model-Heterogeneous Personalized Federated Learning with LoRA Tuning},
+  author        = {Liping Yi and Han Yu and Gang Wang and Xiaoguang Liu and Xiaoxiao Li},
+  year          = {2024},
+  eprint        = {2310.13283},
+  archiveprefix = {arXiv},
+  primaryclass  = {cs.LG},
+  tags          = {efficiency, reparameterization-based, LoRA, heterogeneous resource, adaptability, client-centric adaptation, personalization},
+  url           = {https://arxiv.org/abs/2310.13283},
+  journal       = {arXiv preprint arXiv:2310.13283}
+}
+
+
+@inproceedings{guo-etal-2024-fedlfc,
+  title     = {{F}ed{LFC}: Towards Efficient Federated Multilingual Modeling with {L}o{RA}-based Language Family Clustering},
+  author    = {Guo, Zhihan  and Zhang, Yifei  and Zhang, Zhuo  and Xu, Zenglin  and King, Irwin},
+  booktitle = {Findings of the Association for Computational Linguistics: NAACL 2024},
+  tags      = {efficiency, reparameterization-based, LoRA, heterogeneous resource, adaptability, client-centric adaptation, clustering},
+  month     = jun,
+  year      = {2024},
+  venue     = {NAACL},
+  address   = {Mexico City, Mexico},
+  publisher = {Association for Computational Linguistics},
+  url       = {https://aclanthology.org/2024.findings-naacl.98},
+  pages     = {1519--1528}
+}
+
+@inproceedings{yan2025federated,
+  title     = {Federated Residual Low-Rank Adaption of Large Language Models},
+  author    = {Yunlu Yan and Chun-Mei Feng and Wangmeng Zuo and Lei Zhu and Rick Siow Mong Goh and Yong Liu},
+  booktitle = {The Thirteenth International Conference on Learning Representations},
+  year      = {2025},
+  venue     = {ICLR},
+  month     = apr,
+  tags      = {efficiency, reparameterization-based, LoRA},
+  github    = {https://github.com/IAMJackYan/FRLoRA},
+  url       = {https://openreview.net/forum?id=e0rQRMUhs7}
+}
+
+
+@inproceedings{ping2024fltac,
+  title     = {{FL}-{TAC}: Enhanced Fine-Tuning in Federated Learning via Low-Rank, Task-Specific Adapter Clustering},
+  author    = {Siqi Ping and Yuzhu Mao and Yang Liu and Xiao-Ping Zhang and Wenbo Ding},
+  booktitle = {ICLR 2024 Workshop on Large Language Model (LLM) Agents},
+  year      = {2024},
+  month     = {may},
+  venue     = {LLMAgents\@ICLR},
+  tags      = {efficiency, LoRA, reparameterization-based, adaptability, client-centric adaptation, clustering},
+  url       = {https://openreview.net/forum?id=JDmAymuFFQ}
+}
+
+
+@inproceedings{10.1145/3485447.3511988,
+  author    = {Wang, Haoyu and Zhao, Handong and Wang, Yaqing and Yu, Tong and Gu, Jiuxiang and Gao, Jing},
+  title     = {FedKC: Federated Knowledge Composition for Multilingual Natural Language Understanding},
+  year      = {2022},
+  month     = {apr},
+  isbn      = {9781450390965},
+  publisher = {Association for Computing Machinery},
+  address   = {New York, NY, USA},
+  url       = {https://doi.org/10.1145/3485447.3511988},
+  doi       = {10.1145/3485447.3511988},
+  booktitle = {Proceedings of the ACM Web Conference 2022},
+  pages     = {1839--1850},
+  numpages  = {12},
+  keywords  = {Federated learning, Multilingual natural language understanding},
+  location  = {<conf-loc>, <city>Virtual Event, Lyon</city>, <country>France</country>, </conf-loc>},
+  tags      = {Application, Multilingualism, adaptability, client-centric adaptation, clustering},
+  series    = {WWW '22},
+  venue     = {WWW}
 }
