@@ -192,7 +192,7 @@ Table of Contents
 
 ### Additive Tuning
 
-#### Adapter Tuning (9)
+#### Adapter Tuning (10)
 
 <table>
 <colgroup>
@@ -211,6 +211,14 @@ Table of Contents
 </thead>
 <tbody>
 <tr class="odd">
+<td><strong><a href="https://aclanthology.org/2025.findings-acl.1241/">Communication-Efficient and Tensorized Federated Fine-Tuning of Large Language Models</a></strong> </td>
+<td>ACL</td>
+<td>2025-07</td>
+<td><ul>
+<li></li>
+</ul></td>
+</tr>
+<tr class="even">
 <td><strong><a href="https://openreview.net/forum?id=3wEGdrV5Cb">Enhancing Federated Domain Adaptation with Multi-Domain Prototype-Based Federated Fine-Tuning</a></strong> </td>
 <td>ICLR</td>
 <td>2025-04</td>
@@ -218,19 +226,19 @@ Table of Contents
 <li></li>
 </ul></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><strong><a href="https://proceedings.neurips.cc/paper_files/paper/2024/file/9be9407431b7ff8cc04cae5460fcb7ab-Paper-Conference.pdf">DoFIT: Domain-aware Federated Instruction Tuning with Alleviated Catastrophic Forgetting</a></strong> </td>
 <td>NeurIPS</td>
 <td>2024-09</td>
 <td><img src="https://img.shields.io/github/stars/1xbq1/DoFIT" alt="GitHub Repo stars" style="vertical-align: middle; width: auto; height: auto;"/></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><strong><a href="https://doi.org/10.48550/arXiv.2404.11536">Federated Adaptation for Foundation Model-based Recommendations</a></strong> </td>
 <td>IJCAI</td>
 <td>2024-08</td>
 <td><img src="https://img.shields.io/github/stars/Zhangcx19/IJCAI-24-FedPA" alt="GitHub Repo stars" style="vertical-align: middle; width: auto; height: auto;"/></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><strong><a href="https://ieeexplore.ieee.org/document/10557150">Adapter-based Selective Knowledge Distillation for Federated Multi-domain Meeting Summarization</a></strong> </td>
 <td>TASLP</td>
 <td>2024-06</td>
@@ -238,7 +246,7 @@ Table of Contents
 <li></li>
 </ul></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><strong><a href="https://danni9594.github.io/publications/CAI24_FedCAF.pdf">Learning Task-Specific Initialization for Effective Federated Continual Fine-Tuning of Foundation Model Adapters</a></strong> </td>
 <td>IEEE CAI</td>
 <td>2024-06</td>
@@ -246,13 +254,13 @@ Table of Contents
 <li></li>
 </ul></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><strong><a href="https://ojs.aaai.org/index.php/AAAI/article/view/29007">FedDAT: An Approach for Foundation Model Finetuning in Multi-Modal Heterogeneous Federated Learning</a></strong> </td>
 <td>AAAI</td>
 <td>2024-03</td>
 <td><img src="https://img.shields.io/github/stars/HaokunChen245/FedDAT" alt="GitHub Repo stars" style="vertical-align: middle; width: auto; height: auto;"/></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><strong><a href="https://ieeexplore.ieee.org/document/10389738">Joint Federated Learning and Personalization for on-Device ASR</a></strong> </td>
 <td>ASRU</td>
 <td>2023-12</td>
@@ -260,13 +268,13 @@ Table of Contents
 <li></li>
 </ul></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><strong><a href="https://aclanthology.org/2023.findings-acl.327">Communication Efficient Federated Learning for Multilingual Neural Machine Translation with Adapter</a></strong> </td>
 <td>ACL</td>
 <td>2023-07</td>
 <td><img src="https://img.shields.io/github/stars/lancopku/FedMNMT" alt="GitHub Repo stars" style="vertical-align: middle; width: auto; height: auto;"/></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><strong><a href="http://sites.computer.org/debull/A23mar/p52.pdf">FedCLIP: Fast Generalization and Personalization for CLIP in Federated Learning</a></strong> </td>
 <td>IEEE DEB</td>
 <td>2023-03</td>
