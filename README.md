@@ -1371,6 +1371,12 @@ Table of Contents
 </tr>
 </thead>
 <tbody>
+<tr class="even">
+<td><strong><a href="https://icml.cc/virtual/2025/poster/46080">Clients Collaborate: Flexible Differentially Private Federated Learning with Guaranteed Improvement of Utility-Privacy Trade-off</a></strong> </td>
+<td>ICML</td>
+<td>2025-05</td>
+<td><img src="https://img.shields.io/github/stars/6lyc/FedCEO_Collaborate-with-Each-Other" alt="GitHub Repo stars" style="vertical-align: middle; width: auto; height: auto;"/></td>
+</tr>
 <tr class="odd">
 <td><strong><a href="https://openreview.net/forum?id=Equ277PBN0">Privacy-Preserving Personalized Federated Prompt Learning for Multimodal Large Language Models</a></strong> </td>
 <td>ICLR</td>
