@@ -1,50 +1,46 @@
 efficiency:
-    - knowledge_distillation
-    - selective_tuning
-    - additive_tuning:
-        - adapter tuning
-        - prompt_tuning:
-           - textual_prompt_tuning
-           - visual_prompt_tuning
-           - textual-visual_prompt_tuning
-    - reparameterization-based
-    - heterogeneous_resource:
-        - LoRA
-        - split_learning
-    - sparsification
-    - zeroth-order optimization
+  - parameter-efficient fine-tuning:
+      - selective_tuning
+      - additive_tuning:
+          - adapter tuning
+          - prompt_tuning:
+              - textual_prompt_tuning
+              - visual_prompt_tuning
+              - textual-visual_prompt_tuning
+      - reparameterization-based
+  - model_compression:
+      - knowledge_distillation
+      - sparsification
+      - quantization
+  - heterogeneous_resource:
+      - LoRA
+      - split_learning
+  - zeroth-order optimization
 
 adaptability:
-#    - data_level
-#    - domain-centric adaptation
-    - domain-centric adaptation:
-        - multi-domain adaptation
-    - client-centric adaptation:
-        - preference-aware adaptation
-        - personalization
-        - clustering
-#    - user adaptability
+  - domain-centric adaptation:
+      - multi-domain adaptation
+  - client-centric adaptation:
+      - preference-aware adaptation
+      - personalization
+      - clustering
+  # - user adaptability
 
 trustworthiness:
-#    - robustness
-#    - fairness
-#    - explainability
-#    - privacy
-     - IP protection:
-         - black-box_tuning
-     - privacy preservation:
-         - privacy attack
-         - privacy-preserving techniques
-     - attack_robustness:
-         - poisoning attack
+  - IP protection:
+      - black-box_tuning
+  - privacy preservation:
+      - privacy attack
+      - privacy-preserving techniques
+  - attack_robustness:
+      - poisoning attack
 
 application:
-    - multilingualism
-    - speech
-    - recommendation_systems
-    - domain_specific
-
+  - multilingualism
+  - speech
+  - recommendation_systems
+  - domain_specific
 
 resources:
-    - surveys
-    - frameworks
+  - surveys
+  - frameworks
