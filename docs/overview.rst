@@ -1,6 +1,6 @@
 
 
-😎Awesome Foundation Models and Federated Learning🧠➕🌍 
+😎Awesome Foundation Models and Federated Learning
 =============================================================
 
 .. raw:: html
@@ -38,7 +38,7 @@ This repository is primarily based on our survey paper 📚🔍:
            <a href="https://scholar.google.se/citations?user=xSXvpjEAAAAJ">Thiemo Voigt</a>
         </div>
         <div align="left">
-            Unlike smaller models, Foundation Models (FMs) 🧠, such as LLMs and VLMs, are built upon vast amounts of training data 📊. While general FMs can use public data, domain-specific FMs require proprietary data for pre-training and fine-tuning, raising privacy concerns 🔒. Federated Learning (FL) 🤝💻, a compelling privacy-preserving approach, enables collaborative learning across distributed datasets while maintaining data privacy🛡️. Synergizing FM and FL 🧠➕🌍 offers a promising way to address data availability and privacy challenges in FM development, potentially revolutionizing large-scale machine learning in sensitive domains. 
+            Unlike smaller models, Foundation Models (FMs), such as LLMs and VLMs, are built upon vast amounts of training data 📊. While general FMs can use public data, domain-specific FMs require proprietary data for pre-training and fine-tuning, raising privacy concerns 🔒. Federated Learning (FL) 🤝💻, a compelling privacy-preserving approach, enables collaborative learning across distributed datasets while maintaining data privacy🛡️. Synergizing FM and FL offers a promising way to address data availability and privacy challenges in FM development, potentially revolutionizing large-scale machine learning in sensitive domains. 
         </div>
         <div style="margin-bottom: 10px;"></div>
     </div>
