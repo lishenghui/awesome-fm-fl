@@ -101,7 +101,7 @@ This repository is primarily based on our survey paper 📚🔍:
 <li><a href="#multilingualism-9">Multilingualism (9)</a></li>
 <li><a href="#speech-4">Speech (4)</a></li>
 <li><a href="#recommendation-systems-7">Recommendation Systems (7)</a></li>
-<li><a href="#domain-specific-10">Domain Specific (10)</a></li>
+<li><a href="#domain-specific-11">Domain Specific (11)</a></li>
 </ul></details></li>
 <li><details open><summary><a href="#resources">Resources</a></summary><ul>
 <li><a href="#surveys-9">Surveys (9)</a></li>
@@ -2043,7 +2043,7 @@ This repository is primarily based on our survey paper 📚🔍:
 </tbody>
 </table>
 
-### Domain Specific (10)
+### Domain Specific (11)
 
 <table>
 <colgroup>
@@ -2084,12 +2084,20 @@ This repository is primarily based on our survey paper 📚🔍:
 </ul></td>
 </tr>
 <tr class="even">
+<td><strong><a href="https://ieeexplore.ieee.org/abstract/document/10445933">Prompt-Based Personalized Federated Learning for Medical Visual Question Answering</a></strong> </td>
+<td>ICASSP</td>
+<td>2024-04</td>
+<td><ul>
+<li></li>
+</ul></td>
+</tr>
+<tr class="odd">
 <td><strong><a href="https://arxiv.org/abs/2403.05408">FedFMS: Exploring Federated Foundation Models for Medical Image Segmentation</a></strong> </td>
 <td>MICCAI</td>
 <td>2024</td>
 <td><img src="https://img.shields.io/github/stars/LIU-YUXI/FedFMS" alt="GitHub Repo stars" style="vertical-align: middle; width: auto; height: auto;"/></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><strong><a href="https://doi.org/10.24963/ijcai.2023/393">Prompt Federated Learning for Weather Forecasting: Toward Foundation Models on Meteorological Data</a></strong> </td>
 <td>IJCAI</td>
 <td>2023-8</td>
@@ -2097,7 +2105,7 @@ This repository is primarily based on our survey paper 📚🔍:
 <li></li>
 </ul></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><strong><a href="https://aclanthology.org/2023.emnlp-main.734">FedTherapist: Mental Health Monitoring with User-Generated Linguistic Expressions on Smartphones via Federated Learning</a></strong> </td>
 <td>EMNLP</td>
 <td>2023-12</td>
@@ -2105,25 +2113,25 @@ This repository is primarily based on our survey paper 📚🔍:
 <li></li>
 </ul></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><strong><a href="https://doi.org/10.48550/arXiv.2309.08173">FedJudge: Federated Legal Large Language Model</a></strong> </td>
 <td>arXiv</td>
 <td>2023-09</td>
 <td><img src="https://img.shields.io/github/stars/yuelinan/FedJudge" alt="GitHub Repo stars" style="vertical-align: middle; width: auto; height: auto;"/></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><strong><a href="https://aclanthology.org/2023.acl-long.193">FEDLEGAL: The First Real-World Federated Learning Benchmark for Legal NLP</a></strong> </td>
 <td>ACL</td>
 <td>2023-07</td>
 <td><img src="https://img.shields.io/github/stars/SMILELab-FL/FedLegal" alt="GitHub Repo stars" style="vertical-align: middle; width: auto; height: auto;"/></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><strong><a href="https://ieeexplore.ieee.org/document/10205077">Learning Federated Visual Prompt in Null Space for MRI Reconstruction</a></strong> </td>
 <td>CVPR</td>
 <td>2023-06</td>
 <td><img src="https://img.shields.io/github/stars/chunmeifeng/FedPR" alt="GitHub Repo stars" style="vertical-align: middle; width: auto; height: auto;"/></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><strong><a href="https://proceedings.mlr.press/v209/manoel23a.html">Federated Multilingual Models for Medical Transcript Analysis</a></strong> </td>
 <td>CHIL</td>
 <td>2023-06</td>
