@@ -65,7 +65,7 @@ This repository is primarily based on our survey paper 📚🔍:
 <li><a href="#reparameterization-based-32">Reparameterization-Based (32)</a></li>
 </ul></details></li>
 <li><details><summary><a href="#model-compression">Model Compression</a></summary><ul>
-<li><a href="#knowledge-distillation-9">Knowledge Distillation (9)</a></li>
+<li><a href="#knowledge-distillation-10">Knowledge Distillation (10)</a></li>
 <li><a href="#sparsification-14">Sparsification (14)</a></li>
 <li><a href="#quantization-3">Quantization (3)</a></li>
 </ul></details></li>
@@ -702,7 +702,7 @@ This repository is primarily based on our survey paper 📚🔍:
 
 ### Model Compression
 
-#### Knowledge Distillation (9)
+#### Knowledge Distillation (10)
 
 <table>
 <colgroup>
@@ -749,18 +749,26 @@ This repository is primarily based on our survey paper 📚🔍:
 </ul></td>
 </tr>
 <tr class="odd">
+<td><strong><a href="https://doi.org/10.1145/3742788">Grounding Foundation Models through Federated Transfer Learning: A General Framework</a></strong> </td>
+<td>ACM TIST</td>
+<td>2025-08</td>
+<td><ul>
+<li></li>
+</ul></td>
+</tr>
+<tr class="even">
 <td><strong><a href="https://aclanthology.org/2025.coling-main.17.pdf">FedMKT: Federated Mutual Knowledge Transfer for Large and Small Language Models</a></strong> </td>
 <td>ACL</td>
 <td>2025-01</td>
 <td><img src="https://img.shields.io/github/stars/FederatedAI/FATE-LLM" alt="GitHub Repo stars" style="vertical-align: middle; width: auto; height: auto;"/></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><strong><a href="https://doi.org/10.48550/arXiv.2404.11536">FedPFT: Federated Proxy Fine-Tuning of Foundation Models</a></strong> </td>
 <td>IJCAI</td>
 <td>2024-08</td>
 <td><img src="https://img.shields.io/github/stars/pzp-dzd/FedPFT" alt="GitHub Repo stars" style="vertical-align: middle; width: auto; height: auto;"/></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><strong><a href="https://ieeexplore.ieee.org/document/10557150">Adapter-based Selective Knowledge Distillation for Federated Multi-domain Meeting Summarization</a></strong> </td>
 <td>TASLP</td>
 <td>2024-06</td>
@@ -768,7 +776,7 @@ This repository is primarily based on our survey paper 📚🔍:
 <li></li>
 </ul></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><strong><a href="https://arxiv.org/abs/2405.14212">Federated Domain-Specific Knowledge Transfer on Large Language Models Using Synthetic Data</a></strong> </td>
 <td>arXiv</td>
 <td>2024-05</td>
@@ -776,7 +784,7 @@ This repository is primarily based on our survey paper 📚🔍:
 <li></li>
 </ul></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><strong><a href="https://ojs.aaai.org/index.php/AAAI/article/view/29007">FedDAT: An Approach for Foundation Model Finetuning in Multi-Modal Heterogeneous Federated Learning</a></strong> </td>
 <td>AAAI</td>
 <td>2024-03</td>
