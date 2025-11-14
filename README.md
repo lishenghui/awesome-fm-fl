@@ -66,7 +66,7 @@ This repository is primarily based on our survey paper 📚🔍:
 </ul></details></li>
 <li><details><summary><a href="#model-compression">Model Compression</a></summary><ul>
 <li><a href="#knowledge-distillation-10">Knowledge Distillation (10)</a></li>
-<li><a href="#sparsification-14">Sparsification (14)</a></li>
+<li><a href="#sparsification-15">Sparsification (15)</a></li>
 <li><a href="#quantization-3">Quantization (3)</a></li>
 </ul></details></li>
 <li><details><summary><a href="#heterogeneous-resource">Heterogeneous Resource</a></summary><ul>
@@ -793,7 +793,7 @@ This repository is primarily based on our survey paper 📚🔍:
 </tbody>
 </table>
 
-#### Sparsification (14)
+#### Sparsification (15)
 
 <table>
 <colgroup>
@@ -834,6 +834,14 @@ This repository is primarily based on our survey paper 📚🔍:
 </ul></td>
 </tr>
 <tr class="even">
+<td><strong><a href="https://openaccess.thecvf.com/content/ICCV2025/html/Miao_FedVLA_Federated_Vision-Language-Action_Learning_with_Dual_Gating_Mixture-of-Experts_for_Robotic_ICCV_2025_paper.html">FedVLA: Federated Vision-Language-Action Learning with Dual Gating Mixture-of-Experts for Robotic Manipulation</a></strong> </td>
+<td>ICCV</td>
+<td>2025-10</td>
+<td><ul>
+<li></li>
+</ul></td>
+</tr>
+<tr class="odd">
 <td><strong><a href="https://arxiv.org/abs/2508.17209">Memory-Efficient Federated Fine-Tuning of Large Language Models via Layer Pruning</a></strong> </td>
 <td>arXiv</td>
 <td>2025-08</td>
@@ -841,13 +849,13 @@ This repository is primarily based on our survey paper 📚🔍:
 <li></li>
 </ul></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><strong><a href="https://arxiv.org/abs/2504.16023">PointLoRA: Low-Rank Adaptation with Token Selection for Point Cloud Learning</a></strong> </td>
 <td>CVPR</td>
 <td>2025-06</td>
 <td><img src="https://img.shields.io/github/stars/songw-zju/PointLoRA" alt="GitHub Repo stars" style="vertical-align: middle; width: auto; height: auto;"/></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><strong><a href="https://ieeexplore.ieee.org/abstract/document/11044514">FLM-TopK: Expediting Federated Large Language Model Tuning by Sparsifying Intervalized Gradients</a></strong> </td>
 <td>INFOCOM</td>
 <td>2025-06</td>
@@ -855,13 +863,13 @@ This repository is primarily based on our survey paper 📚🔍:
 <li></li>
 </ul></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><strong><a href="https://aclanthology.org/2025.naacl-long.424/">FedSpaLLM: Federated Pruning of Large Language Models</a></strong> </td>
 <td>NAACL</td>
 <td>2025-04</td>
 <td><img src="https://img.shields.io/github/stars/BaiTheBest/FedSpaLLM" alt="GitHub Repo stars" style="vertical-align: middle; width: auto; height: auto;"/></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><strong><a href="https://ieeexplore.ieee.org/abstract/document/10666083">FedFMSL: Federated Learning of Foundation Models With Sparsely Activated LoRA</a></strong> </td>
 <td>IEEE TMC</td>
 <td>2024-12</td>
@@ -869,7 +877,7 @@ This repository is primarily based on our survey paper 📚🔍:
 <li></li>
 </ul></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><strong><a href="https://ieeexplore.ieee.org/abstract/document/10818586">Data Reconstruction and Protection in Federated Learning for Fine-Tuning Large Language Models</a></strong> </td>
 <td>IEEE TBD</td>
 <td>2024-12</td>
@@ -877,7 +885,7 @@ This repository is primarily based on our survey paper 📚🔍:
 <li></li>
 </ul></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><strong><a href="https://aclanthology.org/2024.findings-emnlp.615/">Promoting Data and Model Privacy in Federated Learning through Quantized LoRA</a></strong> </td>
 <td>EMNLP</td>
 <td>2024-11</td>
@@ -885,19 +893,19 @@ This repository is primarily based on our survey paper 📚🔍:
 <li></li>
 </ul></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><strong><a href="https://arxiv.org/abs/2406.05233">Federated LoRA with Sparse Communication</a></strong> </td>
 <td>arXiv</td>
 <td>2024-06</td>
 <td><img src="https://img.shields.io/github/stars/imkevinkuo/flasc" alt="GitHub Repo stars" style="vertical-align: middle; width: auto; height: auto;"/></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><strong><a href="https://arxiv.org/abs/2406.11187">Save It All: Enabling Full Parameter Tuning for Federated Large Language Models via Cycle Block Gradient Descent</a></strong> </td>
 <td>arXiv</td>
 <td>2024-06</td>
 <td><img src="https://img.shields.io/github/stars/L3030/FedCyBGD" alt="GitHub Repo stars" style="vertical-align: middle; width: auto; height: auto;"/></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><strong><a href="https://doi.org/10.1145/3589335.3651931">Only Send What You Need: Learning to Communicate Efficiently in Federated Multilingual Machine Translation</a></strong> </td>
 <td>WWW</td>
 <td>2024-05</td>
@@ -905,7 +913,7 @@ This repository is primarily based on our survey paper 📚🔍:
 <li></li>
 </ul></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><strong><a href="https://openreview.net/forum?id=06quMTmtRV">SLoRA: Federated Parameter Efficient Fine-Tuning of Language Models</a></strong> </td>
 <td>FL@FM-NeurIPS</td>
 <td>2023-12</td>
