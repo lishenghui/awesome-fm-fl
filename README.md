@@ -104,7 +104,7 @@ This repository is primarily based on our survey paper 📚🔍:
 <li><a href="#domain-specific-11">Domain Specific (11)</a></li>
 </ul></details></li>
 <li><details open><summary><a href="#resources">Resources</a></summary><ul>
-<li><a href="#surveys-11">Surveys (11)</a></li>
+<li><a href="#surveys-12">Surveys (12)</a></li>
 <li><a href="#frameworks-11">Frameworks (11)</a></li>
 </ul></details></li>
 </ul>
@@ -2378,7 +2378,7 @@ This repository is primarily based on our survey paper 📚🔍:
 
 ## Resources
 
-### Surveys (11)
+### Surveys (12)
 
 <table>
 <colgroup>
@@ -2419,6 +2419,14 @@ This repository is primarily based on our survey paper 📚🔍:
 </ul></td>
 </tr>
 <tr class="even">
+<td><strong><a href="https://ieeexplore.ieee.org/abstract/document/10944288">Ten Challenging Problems in Federated Foundation Models</a></strong> </td>
+<td>TKDE</td>
+<td>2025-03</td>
+<td><ul>
+<li></li>
+</ul></td>
+</tr>
+<tr class="odd">
 <td><strong><a href="https://ieeexplore.ieee.org/abstract/document/10759678">Towards Federated Large Language Models: Motivations, Methods, and Future Directions</a></strong> </td>
 <td>IEEE COMST</td>
 <td>2024-10</td>
@@ -2426,7 +2434,7 @@ This repository is primarily based on our survey paper 📚🔍:
 <li></li>
 </ul></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><strong><a href="https://ieeexplore.ieee.org/abstract/document/10733964">Federated Large Language Model: Solutions, Challenges and Future Directions</a></strong> </td>
 <td>IEEE WC</td>
 <td>2024-10</td>
@@ -2434,7 +2442,7 @@ This repository is primarily based on our survey paper 📚🔍:
 <li></li>
 </ul></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><strong><a href="https://arxiv.org/abs/2409.15723">Federated Large Language Models: Current Progress and Future Directions</a></strong> </td>
 <td>arXiv</td>
 <td>2024-09</td>
@@ -2442,7 +2450,7 @@ This repository is primarily based on our survey paper 📚🔍:
 <li></li>
 </ul></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><strong><a href="https://www.ijcai.org/proceedings/2024/0919.pdf">A Survey on Efficient Federated Learning Methods for Foundation Model Training</a></strong> </td>
 <td>IJCAI</td>
 <td>2024-08</td>
@@ -2450,7 +2458,7 @@ This repository is primarily based on our survey paper 📚🔍:
 <li></li>
 </ul></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><strong><a href="https://arxiv.org/abs/2406.12844">Synergizing Foundation Models and Federated Learning: A Survey</a></strong> </td>
 <td>arXiv</td>
 <td>2024-06</td>
@@ -2458,7 +2466,7 @@ This repository is primarily based on our survey paper 📚🔍:
 <li></li>
 </ul></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><strong><a href="https://aclanthology.org/2024.lrec-main.630">Federated Foundation Models: Privacy-Preserving and Collaborative Learning for Large Models</a></strong> </td>
 <td>LREC-COLING</td>
 <td>2024-05</td>
@@ -2466,7 +2474,7 @@ This repository is primarily based on our survey paper 📚🔍:
 <li></li>
 </ul></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><strong><a href="https://ieeexplore.ieee.org/abstract/document/10558823">The Role of Federated Learning in a Wireless World with Foundation Models</a></strong> </td>
 <td>IEEE WC</td>
 <td>2024</td>
@@ -2474,7 +2482,7 @@ This repository is primarily based on our survey paper 📚🔍:
 <li></li>
 </ul></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><strong><a href="https://doi.org/10.48550/arXiv.2306.15546">When foundation model meets federated learning: Motivations, challenges, and future directions</a></strong> </td>
 <td>arXiv</td>
 <td>2023-06</td>
